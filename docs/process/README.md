@@ -30,7 +30,7 @@ Establish explicit, grounded intent.
 
 ---
 
-## Phase 2 — Invariant Extraction
+## [Phase 2 — Invariant Extraction](Phase-02.md)
 
 ### Objective
 Convert intent into irreducible truths.
