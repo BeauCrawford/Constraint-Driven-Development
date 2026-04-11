@@ -11,7 +11,7 @@ Requirements → Invariants → Constraints → Tests → Code
 
 ---
 
-## Phase 1 — Requirement Formation
+## [Phase 1 — Requirement Formation](./Phase-01.md)
 
 ### Objective
 Establish explicit, grounded intent.
