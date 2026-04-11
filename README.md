@@ -37,6 +37,8 @@ See [Constraint-Driven Development Invariants](/docs/invariants/README.md) for t
 
 See [Constraint-Driven Development Glossary](/docs/theory/glossary/README.md) for the canonical vocabulary that stabilizes CDD terms, maps disallowed synonyms, and keeps requirements, invariants, constraints, tests, and code semantically aligned.
 
+See [Constraint-Driven Development Process](/docs/process/README.md) for the phase-by-phase flow that moves CDD from requirement formation through invariant extraction, semantic closure, constraint derivation, proof, and code generation.
+
 ---
 
 ## **What This Changes**
