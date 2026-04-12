@@ -113,17 +113,17 @@ They:
 
 *Tagline: Make meaning explicit before anything becomes executable.*
 
-#### **1. [Requirement Formation](./docs/process/Phase-01.md)**
+#### **1. [Requirement Formation](./docs/process/Phase-01/README.md)**
 - Define glossary-grounded requirements  
 - Assign unique IDs  
 - Declare scope, assumptions, and conflicts  
 
-#### **2. [Invariant Extraction](./docs/process/Phase-02.md)**
+#### **2. [Invariant Extraction](./docs/process/Phase-02/README.md)**
 - Convert intent into irreducible truths  
 - Remove redundancy and implementation bias  
 - Capture forbidden states  
 
-#### **3. [Semantic Closure Validation](./docs/process/Phase-03.md)**
+#### **3. [Semantic Closure Validation](./docs/process/Phase-03/README.md)**
 - Ensure invariants fully cover requirements  
 - Detect gaps, overlap, drift, or unauthorized additions  
 - Record closure evidence  
@@ -132,17 +132,17 @@ They:
 
 *Tagline: Compile closed meaning into rules, contracts, and deterministic proof.*
 
-#### **4. [Constraint Derivation](./docs/process/Phase-04.md)**
+#### **4. [Constraint Derivation](./docs/process/Phase-04/README.md)**
 - Derive executable rules from invariants  
 - Assign **unique CONSTRAINT_IDs**  
 - Define positive, negative, boundary, and failure semantics  
 
-#### **5. [Contract & Boundary Definition](./docs/process/Phase-05.md)**
+#### **5. [Contract & Boundary Definition](./docs/process/Phase-05/README.md)**
 - Define isolated interface and contract packages  
 - Align interaction rules with constraints  
 - Eliminate side-channel behavior  
 
-#### **6. [Test Generation (Proof Construction)](./docs/process/Phase-06.md)**
+#### **6. [Test Generation (Proof Construction)](./docs/process/Phase-06/README.md)**
 - Generate deterministic tests from constraints  
 - Map tests to CONSTRAINT_IDs  
 - Cover positive, negative, boundary, and failure cases  
@@ -151,12 +151,12 @@ They:
 
 *Tagline: Prove the boundary first, then allow code to exist.*
 
-#### **7. [Simulation & Boundary Validation](./docs/process/Phase-07.md)**
+#### **7. [Simulation & Boundary Validation](./docs/process/Phase-07/README.md)**
 - Generate test doubles from contracts  
 - Prove boundary behavior in isolation  
 - Validate interactions and failure modes  
 
-#### **8. [Code Generation / Implementation](./docs/process/Phase-08.md)**
+#### **8. [Code Generation / Implementation](./docs/process/Phase-08/README.md)**
 - Generate or implement code to satisfy tests  
 - Bind implementation to contracts  
 - Avoid unproven behavior  
@@ -165,22 +165,22 @@ They:
 
 *Tagline: Preserve lineage, closure, and authority as the system changes.*
 
-#### **9. [Traceability Verification](./docs/process/Phase-09.md)**
+#### **9. [Traceability Verification](./docs/process/Phase-09/README.md)**
 - Validate Requirement → Invariant → Constraint → Test → Code lineage  
 - Ensure stable IDs  
 - Verify reverse navigation  
 
-#### **10. [Coverage & Closure Revalidation](./docs/process/Phase-10.md)**
+#### **10. [Coverage & Closure Revalidation](./docs/process/Phase-10/README.md)**
 - Measure semantic coverage  
 - Revalidate closure across all layers  
 - Detect gaps and drift  
 
-#### **11. [Change & Recompilation](./docs/process/Phase-11.md)**
+#### **11. [Change & Recompilation](./docs/process/Phase-11/README.md)**
 - Apply changes at the requirement or invariant level  
 - Recompute downstream artifacts  
 - Regenerate constraints, tests, and code  
 
-#### **12. [Governance & Enforcement](./docs/process/Phase-12.md)**
+#### **12. [Governance & Enforcement](./docs/process/Phase-12/README.md)**
 - Enforce entry and exit gates  
 - Require proof for authority  
 - Track and reconcile exceptions  
