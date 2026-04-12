@@ -1,0 +1,205 @@
+# Phase 08 — Code Generation / Implementation
+
+## Overview
+
+This phase realizes proven behavior as code.
+Implementation is admitted only as the residual output of constraints, contracts, and passing proof.
+
+No code may introduce behavior outside the constraint system.
+
+---
+
+## Objective
+
+Generate or implement code that satisfies the proven test suite, binds to explicit contracts, and avoids unproven behavior.
+
+---
+
+## Inputs
+
+- Passing simulation validation report (Phase 07)
+- Test suite mapped to CONSTRAINT_IDs (Phase 06)
+- Contract set (Phase 05)
+- Constraint set (Phase 04)
+
+---
+
+## Outputs
+
+- Implementation code
+- Contract bindings
+- Passing test results against real implementation
+- Implementation-to-test mappings
+
+---
+
+## Mermaid Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant TS as Test Suite
+    participant CT as Contracts
+    participant IM as Implementation Layer
+    participant EX as Execution Engine
+    participant RV as Review Gate
+    participant CO as Code Artifact
+
+    TS->>IM: 1. Provide proof suite
+    CT->>IM: 2. Provide contract boundaries
+    IM->>IM: 3. Generate or implement minimal code
+    IM->>IM: 4. Bind implementation to contracts
+    IM->>EX: 5. Run tests against real implementation
+    EX->>EX: 6. Evaluate positive, negative, boundary, and failure behavior
+    EX->>IM: 7. Report failures
+    IM->>IM: 8. Reconform implementation if needed
+    EX->>RV: 9. Submit passing proof evidence
+    RV->>EX: Validate no unproven behavior
+    IM-->>CO: 10. Publish implementation artifact
+```
+
+---
+
+## Step Summary Table
+
+| # | Step | What is happening |
+|---:|---|---|
+| 1 | Provide proof suite | Use tests as the implementation target |
+| 2 | Provide contracts | Bind implementation to explicit boundaries |
+| 3 | Generate code | Create minimal code that satisfies proof |
+| 4 | Bind contracts | Connect implementation to governed interfaces |
+| 5 | Run tests | Execute proof suite against real implementation |
+| 6 | Evaluate behavior | Confirm all defined behavior still holds |
+| 7 | Report failures | Surface any mismatch against proof |
+| 8 | Reconform code | Adjust implementation back to constraints |
+| 9 | Review gate | Validate authority and absence of invention |
+| 10 | Publish code | Release implementation artifact |
+
+---
+
+## Step Sequence
+
+### STEP 01 — Provide Proof Suite
+**Tagline:** Establish implementation target
+
+**Description:**  
+Use the constraint-derived test suite as the source of executable requirements.
+
+**Associated Invariants:**  
+CDD_TEST_DERIVED_FROM_CONSTRAINTS, CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
+
+---
+
+### STEP 02 — Provide Contracts
+**Tagline:** Preserve boundary authority
+
+**Description:**  
+Supply the contract set that implementation must obey.
+
+**Associated Invariants:**  
+CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_CONTRACT_SEMANTIC_CARRIER
+
+---
+
+### STEP 03 — Generate or Implement Minimal Code
+**Tagline:** Realize only proven behavior
+
+**Description:**  
+Create the smallest implementation that satisfies the proof suite and constraints.
+
+**Associated Invariants:**  
+CDD_CODEGEN_CONSTRAINT_BOUND, CDD_CODEGEN_MINIMAL_FREEDOM
+
+---
+
+### STEP 04 — Bind Implementation to Contracts
+**Tagline:** Attach code to boundaries
+
+**Description:**  
+Connect implementation to explicit interfaces without bypass paths.
+
+**Associated Invariants:**  
+CDD_ARCH_NO_HIDDEN_COUPLING, CDD_CONTRACT_NO_SIDE_CHANNELS
+
+---
+
+### STEP 05 — Run Tests Against Real Implementation
+**Tagline:** Prove the real artifact
+
+**Description:**  
+Execute the full deterministic test suite against the implementation.
+
+**Associated Invariants:**  
+CDD_CODEGEN_GREEN_STATE_REQUIRED, CDD_TEST_DETERMINISTIC_EXECUTION
+
+---
+
+### STEP 06 — Evaluate Defined Behavior
+**Tagline:** Confirm proof preservation
+
+**Description:**  
+Validate positive, negative, boundary, and failure behavior against the real artifact.
+
+**Associated Invariants:**  
+CDD_TEST_POSITIVE_PROOF, CDD_TEST_NEGATIVE_PROOF, CDD_TEST_BOUNDARY_PROOF, CDD_TEST_FAILURE_PROOF
+
+---
+
+### STEP 07 — Report Failures
+**Tagline:** Surface non-conformance
+
+**Description:**  
+Expose any mismatch between implementation and proof.
+
+**Associated Invariants:**  
+CDD_TRACEABILITY_REVERSE_NAVIGATION
+
+---
+
+### STEP 08 — Reconform Implementation
+**Tagline:** Return code to proof
+
+**Description:**  
+Adjust implementation until it conforms without adding unauthorized behavior.
+
+**Associated Invariants:**  
+CDD_CHANGE_IMPLEMENTATION_RECONFORMANCE, CDD_CODEGEN_NO_UNPROVEN_BEHAVIOR
+
+---
+
+### STEP 09 — Review Gate
+**Tagline:** Enforce code authority
+
+**Description:**  
+Validate that implementation authority comes only from passing proof.
+
+**Associated Invariants:**  
+CDD_GOVERNANCE_ENTRY_EXIT_GATES, CDD_FOUNDATION_EXECUTION_AUTHORITY_EMERGENCE
+
+---
+
+### STEP 10 — Publish Implementation Artifact
+**Tagline:** Release residual code
+
+**Description:**  
+Publish the implementation as the residual output of satisfied constraints and proof.
+
+**Associated Invariants:**  
+CDD_FOUNDATION_CODE_AS_RESIDUE, CDD_CODEGEN_REPLACEABILITY
+
+---
+
+## Exit Criteria
+
+- All tests pass against real implementation  
+- Code binds only through defined contracts  
+- No behavior exists outside the constraint system  
+- Implementation remains traceable to proof  
+- Ready for traceability verification  
+
+---
+
+## Final Compression
+
+This phase turns proof into implementation,
+ensuring code exists only as the constrained residue of closed upstream intent.

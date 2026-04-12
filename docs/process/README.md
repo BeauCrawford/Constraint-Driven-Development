@@ -138,7 +138,7 @@ Prove behavior in isolation.
 
 ---
 
-## Phase 8 — Code Generation / Implementation
+## [Phase 8 — Code Generation / Implementation](Phase-08.md)
 
 ### Objective
 Realize behavior as code.
@@ -154,7 +154,7 @@ Realize behavior as code.
 
 ---
 
-## Phase 9 — Traceability Verification
+## [Phase 9 — Traceability Verification](Phase-09.md)
 
 ### Objective
 Ensure full lineage integrity.
@@ -172,7 +172,7 @@ Ensure full lineage integrity.
 
 ---
 
-## Phase 10 — Coverage & Closure Revalidation
+## [Phase 10 — Coverage & Closure Revalidation](Phase-10.md)
 
 ### Objective
 Confirm completeness and integrity.
@@ -189,7 +189,7 @@ Confirm completeness and integrity.
 
 ---
 
-## Phase 11 — Change & Recompilation
+## [Phase 11 — Change & Recompilation](Phase-11.md)
 
 ### Objective
 Maintain integrity under evolution.
@@ -207,7 +207,7 @@ Maintain integrity under evolution.
 
 ---
 
-## Phase 12 — Governance & Enforcement
+## [Phase 12 — Governance & Enforcement](Phase-12.md)
 
 ### Objective
 Ensure process integrity.
