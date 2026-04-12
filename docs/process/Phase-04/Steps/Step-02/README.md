@@ -1,4 +1,4 @@
-﻿# Step 02 - Resolve Terminology
+# Step 02 - Resolve Terminology
 
 ---
 

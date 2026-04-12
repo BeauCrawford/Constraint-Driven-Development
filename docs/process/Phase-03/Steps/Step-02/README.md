@@ -1,4 +1,4 @@
-﻿# Step 02 - Load Invariants
+# Step 02 - Load Invariants
 
 ---
 

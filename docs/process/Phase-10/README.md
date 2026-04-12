@@ -69,22 +69,22 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Load Traceability Matrix](./Steps/Step-01/) | Use lineage to scope validation |
-| 🟥 | 2 | [Load Test Results](./Steps/Step-02/) | Use proof outcomes as evidence |
-| 🟥 | 3 | [Load Constraints](./Steps/Step-03/) | Measure coverage against rules |
-| 🟥 | 4 | [Load Invariants](./Steps/Step-04/) | Revalidate truth preservation |
-| 🟥 | 5 | [Load Requirements](./Steps/Step-05/) | Revalidate source intent coverage |
-| 🟥 | 6 | [Measure Constraint Coverage](./Steps/Step-06/) | Confirm constraints are proven |
-| 🟥 | 7 | [Revalidate Semantic Closure](./Steps/Step-07/) | Confirm layers still contain parent meaning |
-| 🟥 | 8 | [Detect Coverage Gaps](./Steps/Step-08/) | Identify uncovered semantics |
-| 🟥 | 9 | [Detect Drift](./Steps/Step-09/) | Identify containment loss |
-| 🟦 | 10 | [Publish Revalidation Report](./Steps/Step-10/) | Record coverage and closure status |
+| 🟥 | 1 | [Load Traceability Matrix](./Steps/Step-01/README.md) | Use lineage to scope validation |
+| 🟥 | 2 | [Load Test Results](./Steps/Step-02/README.md) | Use proof outcomes as evidence |
+| 🟥 | 3 | [Load Constraints](./Steps/Step-03/README.md) | Measure coverage against rules |
+| 🟥 | 4 | [Load Invariants](./Steps/Step-04/README.md) | Revalidate truth preservation |
+| 🟥 | 5 | [Load Requirements](./Steps/Step-05/README.md) | Revalidate source intent coverage |
+| 🟥 | 6 | [Measure Constraint Coverage](./Steps/Step-06/README.md) | Confirm constraints are proven |
+| 🟥 | 7 | [Revalidate Semantic Closure](./Steps/Step-07/README.md) | Confirm layers still contain parent meaning |
+| 🟥 | 8 | [Detect Coverage Gaps](./Steps/Step-08/README.md) | Identify uncovered semantics |
+| 🟥 | 9 | [Detect Drift](./Steps/Step-09/README.md) | Identify containment loss |
+| 🟦 | 10 | [Publish Revalidation Report](./Steps/Step-10/README.md) | Record coverage and closure status |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Traceability Matrix](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Traceability Matrix](./Steps/Step-01/README.md)
 **Tagline:** Establish validation map
 
 **Actions**
@@ -100,7 +100,7 @@ CDD_TRACEABILITY_END_TO_END
 
 ---
 
-### 🟥 [STEP 02 — Load Test Results](./Steps/Step-02/)
+### 🟥 [STEP 02 — Load Test Results](./Steps/Step-02/README.md)
 **Tagline:** Gather proof evidence
 
 **Actions**
@@ -116,7 +116,7 @@ CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 ---
 
-### 🟥 [STEP 03 — Load Constraints](./Steps/Step-03/)
+### 🟥 [STEP 03 — Load Constraints](./Steps/Step-03/README.md)
 **Tagline:** Establish coverage target
 
 **Actions**
@@ -132,7 +132,7 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE
 
 ---
 
-### 🟥 [STEP 04 — Load Invariants](./Steps/Step-04/)
+### 🟥 [STEP 04 — Load Invariants](./Steps/Step-04/README.md)
 **Tagline:** Establish semantic target
 
 **Actions**
@@ -148,7 +148,7 @@ CDD_INVARIANT_PARENT_FIDELITY
 
 ---
 
-### 🟥 [STEP 05 — Load Requirements](./Steps/Step-05/)
+### 🟥 [STEP 05 — Load Requirements](./Steps/Step-05/README.md)
 **Tagline:** Preserve source intent
 
 **Actions**
@@ -164,7 +164,7 @@ CDD_REQUIREMENT_SOURCE_AUTHORITY
 
 ---
 
-### 🟥 [STEP 06 — Measure Constraint Coverage](./Steps/Step-06/)
+### 🟥 [STEP 06 — Measure Constraint Coverage](./Steps/Step-06/README.md)
 **Tagline:** Prove all rules
 
 **Actions**
@@ -180,7 +180,7 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE, CDD_COVERAGE_ID_LINKED
 
 ---
 
-### 🟥 [STEP 07 — Revalidate Semantic Closure](./Steps/Step-07/)
+### 🟥 [STEP 07 — Revalidate Semantic Closure](./Steps/Step-07/README.md)
 **Tagline:** Confirm containment
 
 **Actions**
@@ -196,7 +196,7 @@ CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_CLOSURE_PARENT_CHILD_COVERAGE
 
 ---
 
-### 🟥 [STEP 08 — Detect Coverage Gaps](./Steps/Step-08/)
+### 🟥 [STEP 08 — Detect Coverage Gaps](./Steps/Step-08/README.md)
 **Tagline:** Expose missing proof
 
 **Actions**
@@ -212,7 +212,7 @@ CDD_COVERAGE_GAP_VISIBILITY
 
 ---
 
-### 🟥 [STEP 09 — Detect Drift](./Steps/Step-09/)
+### 🟥 [STEP 09 — Detect Drift](./Steps/Step-09/README.md)
 **Tagline:** Expose containment loss
 
 **Actions**
@@ -228,7 +228,7 @@ CDD_CLOSURE_DRIFT_DEFINITION, CDD_CHANGE_DRIFT_DETECTION
 
 ---
 
-### 🟦 [STEP 10 — Publish Revalidation Report](./Steps/Step-10/)
+### 🟦 [STEP 10 — Publish Revalidation Report](./Steps/Step-10/README.md)
 **Tagline:** Record system integrity
 
 **Actions**

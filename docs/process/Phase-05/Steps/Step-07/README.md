@@ -1,4 +1,4 @@
-﻿# Step 07 - Eliminate Side Channels
+# Step 07 - Eliminate Side Channels
 
 ---
 

@@ -1,4 +1,4 @@
-﻿# Step 07 - Assign CONSTRAINT_IDs
+# Step 07 - Assign CONSTRAINT_IDs
 
 ---
 

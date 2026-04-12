@@ -1,4 +1,4 @@
-﻿# Step 09 - Publish Contract Set
+# Step 09 - Publish Contract Set
 
 ---
 

@@ -9,7 +9,7 @@ No release or authority decision may stand without governed evidence, visible ow
 
 ---
 
-## [Step 01 - Submit Process Artifacts](./Steps/Step-01/)
+## [Step 01 - Submit Process Artifacts](./Steps/Step-01/README.md)
 **CDD_P12_PROCESS_ARTIFACT_SUBMISSION_REQUIRED**
 Governance must receive process artifacts from all applicable CDD phases.
 
@@ -27,7 +27,7 @@ Missing or incomplete artifacts must be recorded as governance gaps.
 
 ---
 
-## [Step 02 - Submit Proof Evidence](./Steps/Step-02/)
+## [Step 02 - Submit Proof Evidence](./Steps/Step-02/README.md)
 **CDD_P12_EVIDENCE_SUBMISSION_REQUIRED**
 Closure, coverage, traceability, proof, validation, implementation, and change evidence must be submitted where applicable.
 
@@ -45,7 +45,7 @@ Missing evidence must be recorded and classified as blocking, non-blocking, or e
 
 ---
 
-## [Step 03 - Submit Exceptions](./Steps/Step-03/)
+## [Step 03 - Submit Exceptions](./Steps/Step-03/README.md)
 **CDD_P12_EXCEPTION_SUBMISSION_REQUIRED**
 All exceptions, bypasses, unresolved gaps, and accepted risks must be submitted.
 
@@ -63,7 +63,7 @@ Hidden bypasses or undocumented deviations cannot grant authority.
 
 ---
 
-## [Step 04 - Confirm Ownership](./Steps/Step-04/)
+## [Step 04 - Confirm Ownership](./Steps/Step-04/README.md)
 **CDD_P12_OWNERSHIP_CONFIRMATION_REQUIRED**
 Ownership must be confirmed for each layer, artifact class, evidence set, and exception.
 
@@ -78,7 +78,7 @@ Missing ownership for authority-bearing artifacts or exceptions blocks release a
 
 ---
 
-## [Step 05 - Validate Entry and Exit Gates](./Steps/Step-05/)
+## [Step 05 - Validate Entry and Exit Gates](./Steps/Step-05/README.md)
 **CDD_P12_GATE_VALIDATION_REQUIRED**
 Entry and exit gates for applicable phases must be validated.
 
@@ -96,7 +96,7 @@ Gate decisions must link to affected artifacts, evidence, owners, and exceptions
 
 ---
 
-## [Step 06 - Validate Evidence Completeness](./Steps/Step-06/)
+## [Step 06 - Validate Evidence Completeness](./Steps/Step-06/README.md)
 **CDD_P12_EVIDENCE_COMPLETENESS_VALIDATION_REQUIRED**
 Governance must validate evidence completeness before authority is granted.
 
@@ -114,7 +114,7 @@ Stale evidence must be detected when artifact baselines change.
 
 ---
 
-## [Step 07 - Review Exceptions](./Steps/Step-07/)
+## [Step 07 - Review Exceptions](./Steps/Step-07/README.md)
 **CDD_P12_EXCEPTION_REVIEW_REQUIRED**
 Governance must review all submitted exceptions.
 
@@ -132,7 +132,7 @@ Exception decisions must link to artifacts, evidence, owners, and reconciliation
 
 ---
 
-## [Step 08 - Enforce Release Decision](./Steps/Step-08/)
+## [Step 08 - Enforce Release Decision](./Steps/Step-08/README.md)
 **CDD_P12_RELEASE_DECISION_REQUIRED**
 Governance must explicitly approve, reject, or require rework.
 
@@ -150,7 +150,7 @@ Rejected or rework decisions must identify the phase or artifact requiring corre
 
 ---
 
-## [Step 09 - Publish Governance Record](./Steps/Step-09/)
+## [Step 09 - Publish Governance Record](./Steps/Step-09/README.md)
 **CDD_P12_PUBLICATION_REQUIRED**
 An authoritative governance record must be published.
 

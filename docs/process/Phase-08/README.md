@@ -68,22 +68,22 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | [Provide Proof Suite](./Steps/Step-01/) | Use tests as the implementation target |
-| 🟦 | 2 | [Provide Contracts](./Steps/Step-02/) | Bind implementation to explicit boundaries |
-| 🟥 | 3 | [Generate or Implement Minimal Code](./Steps/Step-03/) | Create minimal code that satisfies proof |
-| 🟥 | 4 | [Bind Implementation to Contracts](./Steps/Step-04/) | Connect implementation to governed interfaces |
-| 🟥 | 5 | [Run Tests Against Real Implementation](./Steps/Step-05/) | Execute proof suite against real implementation |
-| 🟥 | 6 | [Evaluate Defined Behavior](./Steps/Step-06/) | Confirm all defined behavior still holds |
-| 🟥 | 7 | [Report Failures](./Steps/Step-07/) | Surface any mismatch against proof |
-| 🟥 | 8 | [Reconform Implementation](./Steps/Step-08/) | Adjust implementation back to constraints |
-| 🟦 | 9 | [Review Gate](./Steps/Step-09/) | Validate authority and absence of invention |
-| 🟦 | 10 | [Publish Implementation Artifact](./Steps/Step-10/) | Release implementation artifact |
+| 🟦 | 1 | [Provide Proof Suite](./Steps/Step-01/README.md) | Use tests as the implementation target |
+| 🟦 | 2 | [Provide Contracts](./Steps/Step-02/README.md) | Bind implementation to explicit boundaries |
+| 🟥 | 3 | [Generate or Implement Minimal Code](./Steps/Step-03/README.md) | Create minimal code that satisfies proof |
+| 🟥 | 4 | [Bind Implementation to Contracts](./Steps/Step-04/README.md) | Connect implementation to governed interfaces |
+| 🟥 | 5 | [Run Tests Against Real Implementation](./Steps/Step-05/README.md) | Execute proof suite against real implementation |
+| 🟥 | 6 | [Evaluate Defined Behavior](./Steps/Step-06/README.md) | Confirm all defined behavior still holds |
+| 🟥 | 7 | [Report Failures](./Steps/Step-07/README.md) | Surface any mismatch against proof |
+| 🟥 | 8 | [Reconform Implementation](./Steps/Step-08/README.md) | Adjust implementation back to constraints |
+| 🟦 | 9 | [Review Gate](./Steps/Step-09/README.md) | Validate authority and absence of invention |
+| 🟦 | 10 | [Publish Implementation Artifact](./Steps/Step-10/README.md) | Release implementation artifact |
 
 ---
 
 ## Step Sequence
 
-### 🟦 [STEP 01 — Provide Proof Suite](./Steps/Step-01/)
+### 🟦 [STEP 01 — Provide Proof Suite](./Steps/Step-01/README.md)
 **Tagline:** Establish implementation target
 
 **Actions**
@@ -99,7 +99,7 @@ CDD_TEST_DERIVED_FROM_CONSTRAINTS, CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 ---
 
-### 🟦 [STEP 02 — Provide Contracts](./Steps/Step-02/)
+### 🟦 [STEP 02 — Provide Contracts](./Steps/Step-02/README.md)
 **Tagline:** Preserve boundary authority
 
 **Actions**
@@ -115,7 +115,7 @@ CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_CONTRACT_SEMANTIC_CARRIER
 
 ---
 
-### 🟥 [STEP 03 — Generate or Implement Minimal Code](./Steps/Step-03/)
+### 🟥 [STEP 03 — Generate or Implement Minimal Code](./Steps/Step-03/README.md)
 **Tagline:** Realize only proven behavior
 
 **Actions**
@@ -131,7 +131,7 @@ CDD_CODEGEN_CONSTRAINT_BOUND, CDD_CODEGEN_MINIMAL_FREEDOM
 
 ---
 
-### 🟥 [STEP 04 — Bind Implementation to Contracts](./Steps/Step-04/)
+### 🟥 [STEP 04 — Bind Implementation to Contracts](./Steps/Step-04/README.md)
 **Tagline:** Attach code to boundaries
 
 **Actions**
@@ -147,7 +147,7 @@ CDD_ARCH_NO_HIDDEN_COUPLING, CDD_CONTRACT_NO_SIDE_CHANNELS
 
 ---
 
-### 🟥 [STEP 05 — Run Tests Against Real Implementation](./Steps/Step-05/)
+### 🟥 [STEP 05 — Run Tests Against Real Implementation](./Steps/Step-05/README.md)
 **Tagline:** Prove the real artifact
 
 **Actions**
@@ -163,7 +163,7 @@ CDD_CODEGEN_GREEN_STATE_REQUIRED, CDD_TEST_DETERMINISTIC_EXECUTION
 
 ---
 
-### 🟥 [STEP 06 — Evaluate Defined Behavior](./Steps/Step-06/)
+### 🟥 [STEP 06 — Evaluate Defined Behavior](./Steps/Step-06/README.md)
 **Tagline:** Confirm proof preservation
 
 **Actions**
@@ -179,7 +179,7 @@ CDD_TEST_POSITIVE_PROOF, CDD_TEST_NEGATIVE_PROOF, CDD_TEST_BOUNDARY_PROOF, CDD_T
 
 ---
 
-### 🟥 [STEP 07 — Report Failures](./Steps/Step-07/)
+### 🟥 [STEP 07 — Report Failures](./Steps/Step-07/README.md)
 **Tagline:** Surface non-conformance
 
 **Actions**
@@ -195,7 +195,7 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### 🟥 [STEP 08 — Reconform Implementation](./Steps/Step-08/)
+### 🟥 [STEP 08 — Reconform Implementation](./Steps/Step-08/README.md)
 **Tagline:** Return code to proof
 
 **Actions**
@@ -211,7 +211,7 @@ CDD_CHANGE_IMPLEMENTATION_RECONFORMANCE, CDD_CODEGEN_NO_UNPROVEN_BEHAVIOR
 
 ---
 
-### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/)
+### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/README.md)
 **Tagline:** Enforce code authority
 
 **Actions**
@@ -227,7 +227,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES, CDD_FOUNDATION_EXECUTION_AUTHORITY_EMERGENCE
 
 ---
 
-### 🟦 [STEP 10 — Publish Implementation Artifact](./Steps/Step-10/)
+### 🟦 [STEP 10 — Publish Implementation Artifact](./Steps/Step-10/README.md)
 **Tagline:** Release residual code
 
 **Actions**

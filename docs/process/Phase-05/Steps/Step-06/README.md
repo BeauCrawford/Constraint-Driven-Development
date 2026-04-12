@@ -1,4 +1,4 @@
-﻿# Step 06 - Encode Edge and Failure Behavior
+# Step 06 - Encode Edge and Failure Behavior
 
 ---
 

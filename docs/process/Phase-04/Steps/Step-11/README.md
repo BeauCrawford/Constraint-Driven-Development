@@ -1,4 +1,4 @@
-﻿# Step 11 - Publish Constraint Set
+# Step 11 - Publish Constraint Set
 
 ---
 

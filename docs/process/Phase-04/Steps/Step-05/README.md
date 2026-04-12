@@ -1,4 +1,4 @@
-﻿# Step 05 - Define Positive / Negative / Boundary Cases
+# Step 05 - Define Positive / Negative / Boundary Cases
 
 ---
 

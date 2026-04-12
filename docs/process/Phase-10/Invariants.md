@@ -9,7 +9,7 @@ No system may be treated as complete while coverage gaps or closure drift remain
 
 ---
 
-## [Step 01 - Load Traceability Matrix](./Steps/Step-01/)
+## [Step 01 - Load Traceability Matrix](./Steps/Step-01/README.md)
 **CDD_P10_TRACEABILITY_INPUT_REQUIRED**
 Phase 10 must load the published Phase 09 traceability report.
 
@@ -24,7 +24,7 @@ Traceability gaps discovered during revalidation must be escalated to Phase 09.
 
 ---
 
-## [Step 02 - Load Test Results](./Steps/Step-02/)
+## [Step 02 - Load Test Results](./Steps/Step-02/README.md)
 **CDD_P10_TEST_RESULTS_REQUIRED**
 Implementation proof results from Phase 08 must be loaded.
 
@@ -39,7 +39,7 @@ Failures, skips, flakes, and governed exceptions must be visible.
 
 ---
 
-## [Step 03 - Load Constraints](./Steps/Step-03/)
+## [Step 03 - Load Constraints](./Steps/Step-03/README.md)
 **CDD_P10_CONSTRAINT_INPUT_REQUIRED**
 The published constraint set must be loaded as the primary coverage target.
 
@@ -54,7 +54,7 @@ The constraint baseline version, publication identity, or revision state must be
 
 ---
 
-## [Step 04 - Load Invariants](./Steps/Step-04/)
+## [Step 04 - Load Invariants](./Steps/Step-04/README.md)
 **CDD_P10_INVARIANT_INPUT_REQUIRED**
 The published invariant set must be loaded as the semantic truth target.
 
@@ -69,7 +69,7 @@ The invariant baseline version, publication identity, or revision state must be 
 
 ---
 
-## [Step 05 - Load Requirements](./Steps/Step-05/)
+## [Step 05 - Load Requirements](./Steps/Step-05/README.md)
 **CDD_P10_REQUIREMENT_INPUT_REQUIRED**
 The published requirement set must be loaded as source intent.
 
@@ -84,7 +84,7 @@ The requirement baseline version, publication identity, or revision state must b
 
 ---
 
-## [Step 06 - Measure Constraint Coverage](./Steps/Step-06/)
+## [Step 06 - Measure Constraint Coverage](./Steps/Step-06/README.md)
 **CDD_P10_COVERAGE_MEASUREMENT_REQUIRED**
 Constraint-level semantic coverage must be measured after implementation proof.
 
@@ -105,7 +105,7 @@ Coverage conclusions must be reproducible from traceability and test evidence.
 
 ---
 
-## [Step 07 - Revalidate Semantic Closure](./Steps/Step-07/)
+## [Step 07 - Revalidate Semantic Closure](./Steps/Step-07/README.md)
 **CDD_P10_CLOSURE_REVALIDATION_REQUIRED**
 Closure must be revalidated across requirement, invariant, constraint, test, and code layers.
 
@@ -126,7 +126,7 @@ Closure conclusions must be backed by reviewable evidence.
 
 ---
 
-## [Step 08 - Detect Coverage Gaps](./Steps/Step-08/)
+## [Step 08 - Detect Coverage Gaps](./Steps/Step-08/README.md)
 **CDD_P10_GAP_DETECTION_REQUIRED**
 Phase 10 must detect uncovered constraints and semantic areas.
 
@@ -144,7 +144,7 @@ Each gap must identify the phase or artifact requiring correction.
 
 ---
 
-## [Step 09 - Detect Drift](./Steps/Step-09/)
+## [Step 09 - Detect Drift](./Steps/Step-09/README.md)
 **CDD_P10_DRIFT_DETECTION_REQUIRED**
 Phase 10 must detect semantic drift across all layers.
 
@@ -162,7 +162,7 @@ Unresolved drift blocks completion.
 
 ---
 
-## [Step 10 - Publish Revalidation Report](./Steps/Step-10/)
+## [Step 10 - Publish Revalidation Report](./Steps/Step-10/README.md)
 **CDD_P10_PUBLICATION_REQUIRED**
 An authoritative coverage and closure revalidation report must be published.
 

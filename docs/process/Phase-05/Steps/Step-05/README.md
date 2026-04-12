@@ -1,4 +1,4 @@
-﻿# Step 05 - Map Constraints to Interactions
+# Step 05 - Map Constraints to Interactions
 
 ---
 

@@ -72,23 +72,23 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | [Capture intent surface](./Steps/Step-01/) | Raw stakeholder intent is collected without transformation to preserve full semantic signal. |
-| 🟥 | 2 | [Normalize language](./Steps/Step-02/) | Ambiguity and narrative phrasing are removed to create structured statements. |
-| 🟥 | 3 | [Resolve terms against glossary](./Steps/Step-03/) | All terms are aligned to canonical definitions to eliminate semantic drift. |
-| 🟥 | 4 | [Assign requirement IDs](./Steps/Step-04/) | Each requirement becomes addressable and traceable. |
-| 🟥 | 5 | [Declare scope boundaries](./Steps/Step-05/) | Defines what is in and out of system scope. |
-| 🟥 | 6 | [Surface assumptions](./Steps/Step-06/) | Hidden meaning is made explicit. |
-| 🟥 | 7 | [Detect conflicts](./Steps/Step-07/) | Contradictions are resolved before propagation. |
-| 🟥 | 8 | [Validate completeness](./Steps/Step-08/) | Missing intent and gaps are identified. |
-| 🟦 | 9 | [Governance review](./Steps/Step-09/) | Ensures readiness and enforcement. |
-| 🟥 | 10 | [Stabilize requirements](./Steps/Step-10/) | Freezes requirement set for downstream use. |
-| 🟦 | 11 | [Publish requirements](./Steps/Step-11/) | Produces authoritative input for invariant extraction. |
+| 🟦 | 1 | [Capture intent surface](./Steps/Step-01/README.md) | Raw stakeholder intent is collected without transformation to preserve full semantic signal. |
+| 🟥 | 2 | [Normalize language](./Steps/Step-02/README.md) | Ambiguity and narrative phrasing are removed to create structured statements. |
+| 🟥 | 3 | [Resolve terms against glossary](./Steps/Step-03/README.md) | All terms are aligned to canonical definitions to eliminate semantic drift. |
+| 🟥 | 4 | [Assign requirement IDs](./Steps/Step-04/README.md) | Each requirement becomes addressable and traceable. |
+| 🟥 | 5 | [Declare scope boundaries](./Steps/Step-05/README.md) | Defines what is in and out of system scope. |
+| 🟥 | 6 | [Surface assumptions](./Steps/Step-06/README.md) | Hidden meaning is made explicit. |
+| 🟥 | 7 | [Detect conflicts](./Steps/Step-07/README.md) | Contradictions are resolved before propagation. |
+| 🟥 | 8 | [Validate completeness](./Steps/Step-08/README.md) | Missing intent and gaps are identified. |
+| 🟦 | 9 | [Governance review](./Steps/Step-09/README.md) | Ensures readiness and enforcement. |
+| 🟥 | 10 | [Stabilize requirements](./Steps/Step-10/README.md) | Freezes requirement set for downstream use. |
+| 🟦 | 11 | [Publish requirements](./Steps/Step-11/README.md) | Produces authoritative input for invariant extraction. |
 
 ---
 
 ## Step Sequence
 
-### 🟦 [STEP 01 — Capture Intent Surface](./Steps/Step-01/)  
+### 🟦 [STEP 01 — Capture Intent Surface](./Steps/Step-01/README.md)  
 **Tagline:** Bring all intended behavior into visibility  
 
 **Actions**
@@ -107,7 +107,7 @@ CDD_REQUIREMENT_SOURCE_AUTHORITY, CDD_REQUIREMENT_COMPLETENESS_PRESSURE
 
 ---
 
-### 🟥 [STEP 02 — Normalize Language](./Steps/Step-02/)  
+### 🟥 [STEP 02 — Normalize Language](./Steps/Step-02/README.md)  
 **Tagline:** Remove ambiguity and narrative drift  
 
 **Actions**
@@ -126,7 +126,7 @@ CDD_REQUIREMENT_EXPLICITNESS, CDD_REQUIREMENT_NORMALIZABILITY
 
 ---
 
-### 🟥 [STEP 03 — Apply Glossary Grounding](./Steps/Step-03/)  
+### 🟥 [STEP 03 — Apply Glossary Grounding](./Steps/Step-03/README.md)  
 **Tagline:** Anchor meaning to canonical terms  
 
 **Actions**
@@ -145,7 +145,7 @@ CDD_GLOSSARY_CANONICAL_VOCABULARY, CDD_GLOSSARY_UNDEFINED_TERM_PROHIBITION
 
 ---
 
-### 🟥 [STEP 04 — Assign Requirement IDs](./Steps/Step-04/)  
+### 🟥 [STEP 04 — Assign Requirement IDs](./Steps/Step-04/README.md)  
 **Tagline:** Make intent addressable  
 
 **Actions**
@@ -164,7 +164,7 @@ CDD_REQUIREMENT_ADDRESSABILITY, CDD_TRACEABILITY_STABLE_IDS
 
 ---
 
-### 🟥 [STEP 05 — Declare Scope Boundaries](./Steps/Step-05/)  
+### 🟥 [STEP 05 — Declare Scope Boundaries](./Steps/Step-05/README.md)  
 **Tagline:** Define system limits  
 
 **Actions**
@@ -180,7 +180,7 @@ CDD_REQUIREMENT_SCOPE_BOUNDARY
 
 ---
 
-### 🟥 [STEP 06 — Surface Assumptions](./Steps/Step-06/)  
+### 🟥 [STEP 06 — Surface Assumptions](./Steps/Step-06/README.md)  
 **Tagline:** Make implicit meaning explicit  
 
 **Actions**
@@ -196,7 +196,7 @@ CDD_REQUIREMENT_ASSUMPTION_VISIBILITY
 
 ---
 
-### 🟥 [STEP 07 — Detect Conflicts](./Steps/Step-07/)  
+### 🟥 [STEP 07 — Detect Conflicts](./Steps/Step-07/README.md)  
 **Tagline:** Eliminate contradictions  
 
 **Actions**
@@ -212,7 +212,7 @@ CDD_REQUIREMENT_CONFLICT_RESOLUTION
 
 ---
 
-### 🟥 [STEP 08 — Validate Completeness](./Steps/Step-08/)  
+### 🟥 [STEP 08 — Validate Completeness](./Steps/Step-08/README.md)  
 **Tagline:** Ensure full intent coverage  
 
 **Actions**
@@ -228,7 +228,7 @@ CDD_REQUIREMENT_COMPLETENESS_PRESSURE
 
 ---
 
-### 🟦 [STEP 09 — Governance Review](./Steps/Step-09/)  
+### 🟦 [STEP 09 — Governance Review](./Steps/Step-09/README.md)  
 **Tagline:** Enforce readiness  
 
 **Actions**
@@ -244,7 +244,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟥 [STEP 10 — Stabilize Requirements](./Steps/Step-10/)  
+### 🟥 [STEP 10 — Stabilize Requirements](./Steps/Step-10/README.md)  
 **Tagline:** Freeze semantic baseline  
 
 **Actions**
@@ -260,7 +260,7 @@ CDD_REQUIREMENT_STABILITY_GATE
 
 ---
 
-### 🟦 [STEP 11 — Publish Requirements](./Steps/Step-11/)  
+### 🟦 [STEP 11 — Publish Requirements](./Steps/Step-11/README.md)  
 **Tagline:** Establish authoritative source  
 
 **Actions**
@@ -290,6 +290,3 @@ CDD_FOUNDATION_INTENT_PRECEDENCE
 ## Final Compression
 
 This phase transforms undefined intent into a bounded, addressable semantic surface upon which all downstream truth depends.
-
-
-

@@ -1,4 +1,4 @@
-﻿# Phase 03 - Semantic Closure Validation Invariants
+# Phase 03 - Semantic Closure Validation Invariants
 
 ## Overview
 
@@ -9,7 +9,7 @@ No constraint derivation may begin until this invariant set is satisfied or an e
 
 ---
 
-## [Step 01 - Load Requirements](./Steps/Step-01/)
+## [Step 01 - Load Requirements](./Steps/Step-01/README.md)
 
 **CDD_P03_REQUIREMENT_SOURCE_REQUIRED**
 Phase 03 must load the stabilized Phase 01 requirement baseline as the parent semantic authority.
@@ -31,7 +31,7 @@ Defects discovered in the requirement baseline must be recorded as upstream gaps
 
 ---
 
-## [Step 02 - Load Invariants](./Steps/Step-02/)
+## [Step 02 - Load Invariants](./Steps/Step-02/README.md)
 
 **CDD_P03_INVARIANT_SET_REQUIRED**
 Phase 03 must load the finalized Phase 02 invariant set as the candidate child representation.
@@ -53,7 +53,7 @@ Missing lineage, unresolved conflicts, or incomplete invariant records must be r
 
 ---
 
-## [Step 03 - Align Terminology](./Steps/Step-03/)
+## [Step 03 - Align Terminology](./Steps/Step-03/README.md)
 
 **CDD_P03_GLOSSARY_ALIGNMENT_REQUIRED**
 Requirements and invariants must be aligned through the canonical glossary before comparison.
@@ -75,7 +75,7 @@ Term alignment must preserve scoped definitions, exclusions, and domain boundari
 
 ---
 
-## [Step 04 - Measure Coverage](./Steps/Step-04/)
+## [Step 04 - Measure Coverage](./Steps/Step-04/README.md)
 
 **CDD_P03_COVERAGE_MEASUREMENT_REQUIRED**
 Semantic coverage must be measured between the requirement baseline and invariant set.
@@ -100,7 +100,7 @@ Potential coverage gaps must be visible even before they are classified as block
 
 ---
 
-## [Step 05 - Detect Gaps](./Steps/Step-05/)
+## [Step 05 - Detect Gaps](./Steps/Step-05/README.md)
 
 **CDD_P03_GAP_DETECTION_REQUIRED**
 Phase 03 must detect requirement meaning not represented in the invariant set.
@@ -122,7 +122,7 @@ Gap records must remain traceable after invariant refinement or upstream correct
 
 ---
 
-## [Step 06 - Detect Unauthorized Additions](./Steps/Step-06/)
+## [Step 06 - Detect Unauthorized Additions](./Steps/Step-06/README.md)
 
 **CDD_P03_ADDITION_DETECTION_REQUIRED**
 Phase 03 must detect invariant meaning not authorized by parent requirements.
@@ -144,7 +144,7 @@ Unresolved unauthorized additions block closure approval.
 
 ---
 
-## [Step 07 - Detect Drift](./Steps/Step-07/)
+## [Step 07 - Detect Drift](./Steps/Step-07/README.md)
 
 **CDD_P03_DRIFT_DETECTION_REQUIRED**
 Phase 03 must detect distorted, weakened, strengthened, or shifted meaning between requirements and invariants.
@@ -166,7 +166,7 @@ Unresolved drift blocks closure approval.
 
 ---
 
-## [Step 08 - Score Closure](./Steps/Step-08/)
+## [Step 08 - Score Closure](./Steps/Step-08/README.md)
 
 **CDD_P03_CLOSURE_SCORE_REQUIRED**
 Closure validation must produce a measurable closure score or threshold result.
@@ -188,7 +188,7 @@ Closure scoring must be reproducible from the published inputs and recorded evid
 
 ---
 
-## [Step 09 - Review Gate](./Steps/Step-09/)
+## [Step 09 - Review Gate](./Steps/Step-09/README.md)
 
 **CDD_P03_REVIEW_GATE_REQUIRED**
 The closure report must pass a review gate before invariant refinement is finalized or downstream authority is granted.
@@ -210,7 +210,7 @@ Review findings must link to affected requirements, invariants, glossary terms, 
 
 ---
 
-## [Step 10 - Refine Invariants](./Steps/Step-10/)
+## [Step 10 - Refine Invariants](./Steps/Step-10/README.md)
 
 **CDD_P03_REFINEMENT_ONLY**
 Invariant refinement must repair closure issues without adding unauthorized meaning.
@@ -232,7 +232,7 @@ Refined invariants must not gain authority until closure evidence and review are
 
 ---
 
-## [Step 11 - Publish Closure Report](./Steps/Step-11/)
+## [Step 11 - Publish Closure Report](./Steps/Step-11/README.md)
 
 **CDD_P03_PUBLICATION_REQUIRED**
 An authoritative closure report must be published before downstream constraint derivation.
@@ -282,4 +282,3 @@ No downstream artifact may claim authority from Phase 03 unless the Phase 03 gat
 ## Final Compression
 
 Phase 03 requires that invariants be proven as a complete, contained, drift-free, and evidence-backed representation of requirement intent before any executable constraint authority is derived.
-

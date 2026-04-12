@@ -9,7 +9,7 @@ No simulation or implementation work may rely on a test suite until this invaria
 
 ---
 
-## [Step 01 - Load Constraints](./Steps/Step-01/)
+## [Step 01 - Load Constraints](./Steps/Step-01/README.md)
 **CDD_P06_CONSTRAINT_SOURCE_REQUIRED**
 Phase 06 must load the published Phase 04 constraint set as the proof authority.
 
@@ -30,7 +30,7 @@ Missing IDs, missing failure semantics, contradictions, or incomplete mappings m
 
 ---
 
-## [Step 02 - Align Terminology](./Steps/Step-02/)
+## [Step 02 - Align Terminology](./Steps/Step-02/README.md)
 **CDD_P06_GLOSSARY_ALIGNMENT_REQUIRED**
 Test names, fixtures, cases, and assertions must align with canonical glossary terms.
 
@@ -48,7 +48,7 @@ Any term meaning shift between constraints, contracts, and tests must be recorde
 
 ---
 
-## [Step 03 - Bind to Contracts](./Steps/Step-03/)
+## [Step 03 - Bind to Contracts](./Steps/Step-03/README.md)
 **CDD_P06_CONTRACT_BINDING_REQUIRED**
 Boundary-relevant tests must bind to the published contract set.
 
@@ -69,7 +69,7 @@ Constraints that cannot be bound to required contracts must be recorded as gaps.
 
 ---
 
-## [Step 04 - Generate Positive Tests](./Steps/Step-04/)
+## [Step 04 - Generate Positive Tests](./Steps/Step-04/README.md)
 **CDD_P06_POSITIVE_TEST_REQUIRED**
 Constraints with required or allowed behavior must have positive proof tests.
 
@@ -90,7 +90,7 @@ Missing positive proof must be recorded as a coverage gap.
 
 ---
 
-## [Step 05 - Generate Negative Tests](./Steps/Step-05/)
+## [Step 05 - Generate Negative Tests](./Steps/Step-05/README.md)
 **CDD_P06_NEGATIVE_TEST_REQUIRED**
 Constraints with forbidden behavior must have negative proof tests.
 
@@ -111,7 +111,7 @@ Missing negative proof must be recorded as a coverage gap.
 
 ---
 
-## [Step 06 - Generate Boundary Tests](./Steps/Step-06/)
+## [Step 06 - Generate Boundary Tests](./Steps/Step-06/README.md)
 **CDD_P06_BOUNDARY_TEST_REQUIRED**
 Constraints with edge conditions must have boundary proof tests.
 
@@ -132,7 +132,7 @@ Missing boundary proof must be recorded as a coverage gap.
 
 ---
 
-## [Step 07 - Generate Failure-Path Tests](./Steps/Step-07/)
+## [Step 07 - Generate Failure-Path Tests](./Steps/Step-07/README.md)
 **CDD_P06_FAILURE_TEST_REQUIRED**
 Constraints with failure semantics must have failure-path proof tests.
 
@@ -153,7 +153,7 @@ Missing failure proof must be recorded as a coverage gap.
 
 ---
 
-## [Step 08 - Map Tests to CONSTRAINT_IDs](./Steps/Step-08/)
+## [Step 08 - Map Tests to CONSTRAINT_IDs](./Steps/Step-08/README.md)
 **CDD_P06_TEST_MAPPING_REQUIRED**
 Every authoritative test must map to one or more CONSTRAINT_IDs.
 
@@ -174,7 +174,7 @@ Unmapped tests and untested constraints must be recorded as gaps.
 
 ---
 
-## [Step 09 - Enforce Determinism](./Steps/Step-09/)
+## [Step 09 - Enforce Determinism](./Steps/Step-09/README.md)
 **CDD_P06_TEST_DETERMINISM_REQUIRED**
 Generated tests must execute deterministically.
 
@@ -195,7 +195,7 @@ Known nondeterminism or flaky behavior blocks authoritative publication.
 
 ---
 
-## [Step 10 - Compute Coverage](./Steps/Step-10/)
+## [Step 10 - Compute Coverage](./Steps/Step-10/README.md)
 **CDD_P06_COVERAGE_COMPUTATION_REQUIRED**
 Constraint-level coverage must be computed before review.
 
@@ -216,7 +216,7 @@ Coverage gaps must be recorded with affected CONSTRAINT_IDs.
 
 ---
 
-## [Step 11 - Review Gate](./Steps/Step-11/)
+## [Step 11 - Review Gate](./Steps/Step-11/README.md)
 **CDD_P06_REVIEW_GATE_REQUIRED**
 The generated test suite must pass a review gate before publication.
 
@@ -240,7 +240,7 @@ Review approval without proof evidence does not grant downstream authority.
 
 ---
 
-## [Step 12 - Publish Test Suite](./Steps/Step-12/)
+## [Step 12 - Publish Test Suite](./Steps/Step-12/README.md)
 **CDD_P06_PUBLICATION_REQUIRED**
 The authoritative test suite must be published before simulation or implementation uses it as proof.
 

@@ -1,4 +1,4 @@
-﻿# Step 09 - Ensure Completeness vs Invariants
+# Step 09 - Ensure Completeness vs Invariants
 
 ---
 

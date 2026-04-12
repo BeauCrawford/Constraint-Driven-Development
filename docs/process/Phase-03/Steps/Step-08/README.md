@@ -1,4 +1,4 @@
-﻿# Step 08 - Score Closure
+# Step 08 - Score Closure
 
 ---
 

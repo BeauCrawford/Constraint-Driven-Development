@@ -1,4 +1,4 @@
-﻿# Step 07 - Detect Drift
+# Step 07 - Detect Drift
 
 ---
 

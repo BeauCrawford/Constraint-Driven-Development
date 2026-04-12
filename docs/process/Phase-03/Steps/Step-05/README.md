@@ -1,4 +1,4 @@
-﻿# Step 05 - Detect Gaps
+# Step 05 - Detect Gaps
 
 ---
 

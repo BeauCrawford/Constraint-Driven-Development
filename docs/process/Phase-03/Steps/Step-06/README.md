@@ -1,4 +1,4 @@
-﻿# Step 06 - Detect Unauthorized Additions
+# Step 06 - Detect Unauthorized Additions
 
 ---
 

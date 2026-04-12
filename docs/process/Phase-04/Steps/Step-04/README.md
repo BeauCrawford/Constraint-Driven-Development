@@ -1,4 +1,4 @@
-﻿# Step 04 - Derive Constraint Candidates
+# Step 04 - Derive Constraint Candidates
 
 ---
 

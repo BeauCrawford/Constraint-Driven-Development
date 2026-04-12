@@ -1,4 +1,4 @@
-﻿# Step 01 - Load Validated Invariants
+# Step 01 - Load Validated Invariants
 
 ---
 

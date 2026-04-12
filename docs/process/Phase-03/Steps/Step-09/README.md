@@ -1,4 +1,4 @@
-﻿# Step 09 - Review Gate
+# Step 09 - Review Gate
 
 ---
 

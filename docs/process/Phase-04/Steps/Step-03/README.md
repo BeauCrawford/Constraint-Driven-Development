@@ -1,4 +1,4 @@
-﻿# Step 03 - Partition Invariants
+# Step 03 - Partition Invariants
 
 ---
 

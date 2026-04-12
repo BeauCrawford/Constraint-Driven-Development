@@ -1,4 +1,4 @@
-﻿# Step 04 - Define Contract Interfaces
+# Step 04 - Define Contract Interfaces
 
 ---
 

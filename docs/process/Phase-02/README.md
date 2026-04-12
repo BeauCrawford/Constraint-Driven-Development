@@ -67,23 +67,23 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Load requirements](./Steps/Step-01/) | Bring in stable, normalized requirements from Phase 01 |
-| 🟥 | 2 | [Resolve terminology](./Steps/Step-02/) | Ensure all semantics align with glossary |
-| 🟥 | 3 | [Decompose requirements](./Steps/Step-03/) | Break into atomic semantic units |
-| 🟥 | 4 | [Extract invariants](./Steps/Step-04/) | Convert units into irreducible truths |
-| 🟥 | 5 | [Remove redundancy](./Steps/Step-05/) | Eliminate duplicate or overlapping invariants |
-| 🟥 | 6 | [Validate minimality](./Steps/Step-06/) | Ensure each invariant is necessary and sufficient |
-| 🟥 | 7 | [Define negative space](./Steps/Step-07/) | Capture forbidden or invalid states |
-| 🟥 | 8 | [Resolve conflicts](./Steps/Step-08/) | Eliminate contradictions |
-| 🟦 | 9 | [Review gate](./Steps/Step-09/) | Validate completeness and correctness |
-| 🟥 | 10 | [Finalize invariants](./Steps/Step-10/) | Lock invariant set |
-| 🟦 | 11 | [Publish invariants](./Steps/Step-11/) | Output authoritative invariant layer |
+| 🟥 | 1 | [Load requirements](./Steps/Step-01/README.md) | Bring in stable, normalized requirements from Phase 01 |
+| 🟥 | 2 | [Resolve terminology](./Steps/Step-02/README.md) | Ensure all semantics align with glossary |
+| 🟥 | 3 | [Decompose requirements](./Steps/Step-03/README.md) | Break into atomic semantic units |
+| 🟥 | 4 | [Extract invariants](./Steps/Step-04/README.md) | Convert units into irreducible truths |
+| 🟥 | 5 | [Remove redundancy](./Steps/Step-05/README.md) | Eliminate duplicate or overlapping invariants |
+| 🟥 | 6 | [Validate minimality](./Steps/Step-06/README.md) | Ensure each invariant is necessary and sufficient |
+| 🟥 | 7 | [Define negative space](./Steps/Step-07/README.md) | Capture forbidden or invalid states |
+| 🟥 | 8 | [Resolve conflicts](./Steps/Step-08/README.md) | Eliminate contradictions |
+| 🟦 | 9 | [Review gate](./Steps/Step-09/README.md) | Validate completeness and correctness |
+| 🟥 | 10 | [Finalize invariants](./Steps/Step-10/README.md) | Lock invariant set |
+| 🟦 | 11 | [Publish invariants](./Steps/Step-11/README.md) | Output authoritative invariant layer |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Requirements](./Steps/Step-01/)  
+### 🟥 [STEP 01 — Load Requirements](./Steps/Step-01/README.md)  
 **Tagline:** Establish semantic input  
 
 **Actions**
@@ -99,7 +99,7 @@ CDD_TRACEABILITY_REQUIREMENT_TO_INVARIANT
 
 ---
 
-### 🟥 [STEP 02 — Resolve Terminology](./Steps/Step-02/)  
+### 🟥 [STEP 02 — Resolve Terminology](./Steps/Step-02/README.md)  
 **Tagline:** Align semantic language  
 
 **Actions**
@@ -115,7 +115,7 @@ CDD_GLOSSARY_CANONICAL_VOCABULARY
 
 ---
 
-### 🟥 [STEP 03 — Decompose Requirements](./Steps/Step-03/)  
+### 🟥 [STEP 03 — Decompose Requirements](./Steps/Step-03/README.md)  
 **Tagline:** Break intent into atomic meaning  
 
 **Actions**
@@ -131,7 +131,7 @@ CDD_REQUIREMENT_GRANULARITY_FIT
 
 ---
 
-### 🟥 [STEP 04 — Extract Invariants](./Steps/Step-04/)  
+### 🟥 [STEP 04 — Extract Invariants](./Steps/Step-04/README.md)  
 **Tagline:** Capture irreducible truths  
 
 **Actions**
@@ -147,7 +147,7 @@ CDD_INVARIANT_IRREDUCIBLE_TRUTH, CDD_INVARIANT_DERIVATION_REQUIRED
 
 ---
 
-### 🟥 [STEP 05 — Remove Redundancy](./Steps/Step-05/)  
+### 🟥 [STEP 05 — Remove Redundancy](./Steps/Step-05/README.md)  
 **Tagline:** Eliminate duplication  
 
 **Actions**
@@ -163,7 +163,7 @@ CDD_INVARIANT_NON_REDUNDANCY
 
 ---
 
-### 🟥 [STEP 06 — Validate Minimality](./Steps/Step-06/)  
+### 🟥 [STEP 06 — Validate Minimality](./Steps/Step-06/README.md)  
 **Tagline:** Ensure necessity  
 
 **Actions**
@@ -179,7 +179,7 @@ CDD_INVARIANT_MINIMALITY, CDD_INVARIANT_NECESSITY
 
 ---
 
-### 🟥 [STEP 07 — Define Negative Space](./Steps/Step-07/)  
+### 🟥 [STEP 07 — Define Negative Space](./Steps/Step-07/README.md)  
 **Tagline:** Capture what must not exist  
 
 **Actions**
@@ -195,7 +195,7 @@ CDD_INVARIANT_NEGATIVE_SPACE
 
 ---
 
-### 🟥 [STEP 08 — Resolve Conflicts](./Steps/Step-08/)  
+### 🟥 [STEP 08 — Resolve Conflicts](./Steps/Step-08/README.md)  
 **Tagline:** Remove contradictions  
 
 **Actions**
@@ -211,7 +211,7 @@ CDD_INVARIANT_CONFLICT_RESOLUTION
 
 ---
 
-### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/)  
+### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/README.md)  
 **Tagline:** Validate integrity  
 
 **Actions**
@@ -227,7 +227,7 @@ CDD_CLOSURE_PARENT_CHILD_COVERAGE
 
 ---
 
-### 🟥 [STEP 10 — Finalize Invariants](./Steps/Step-10/)  
+### 🟥 [STEP 10 — Finalize Invariants](./Steps/Step-10/README.md)  
 **Tagline:** Lock semantic truth  
 
 **Actions**
@@ -243,7 +243,7 @@ CDD_CLOSURE_BEFORE_AUTHORITY
 
 ---
 
-### 🟦 [STEP 11 — Publish Invariants](./Steps/Step-11/)  
+### 🟦 [STEP 11 — Publish Invariants](./Steps/Step-11/README.md)  
 **Tagline:** Enable constraint derivation  
 
 **Actions**
@@ -272,6 +272,3 @@ CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 ## Final Compression
 
 This phase transforms structured intent into irreducible semantic truth that governs all downstream behavior.
-
-
-

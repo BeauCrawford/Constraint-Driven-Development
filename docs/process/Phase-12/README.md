@@ -66,21 +66,21 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | [Submit Process Artifacts](./Steps/Step-01/) | Gather outputs from all phases |
-| 🟦 | 2 | [Submit Proof Evidence](./Steps/Step-02/) | Gather proof and validation records |
-| 🟦 | 3 | [Submit Exceptions](./Steps/Step-03/) | Make deviations visible |
-| 🟦 | 4 | [Confirm Ownership](./Steps/Step-04/) | Identify responsible parties |
-| 🟥 | 5 | [Validate Entry and Exit Gates](./Steps/Step-05/) | Check entry and exit criteria |
-| 🟥 | 6 | [Validate Evidence Completeness](./Steps/Step-06/) | Confirm proof exists |
-| 🟥 | 7 | [Review Exceptions](./Steps/Step-07/) | Govern unresolved risks |
-| 🟦 | 8 | [Enforce Release Decision](./Steps/Step-08/) | Approve, reject, or require rework |
-| 🟦 | 9 | [Publish Governance Record](./Steps/Step-09/) | Preserve governance outcome |
+| 🟦 | 1 | [Submit Process Artifacts](./Steps/Step-01/README.md) | Gather outputs from all phases |
+| 🟦 | 2 | [Submit Proof Evidence](./Steps/Step-02/README.md) | Gather proof and validation records |
+| 🟦 | 3 | [Submit Exceptions](./Steps/Step-03/README.md) | Make deviations visible |
+| 🟦 | 4 | [Confirm Ownership](./Steps/Step-04/README.md) | Identify responsible parties |
+| 🟥 | 5 | [Validate Entry and Exit Gates](./Steps/Step-05/README.md) | Check entry and exit criteria |
+| 🟥 | 6 | [Validate Evidence Completeness](./Steps/Step-06/README.md) | Confirm proof exists |
+| 🟥 | 7 | [Review Exceptions](./Steps/Step-07/README.md) | Govern unresolved risks |
+| 🟦 | 8 | [Enforce Release Decision](./Steps/Step-08/README.md) | Approve, reject, or require rework |
+| 🟦 | 9 | [Publish Governance Record](./Steps/Step-09/README.md) | Preserve governance outcome |
 
 ---
 
 ## Step Sequence
 
-### 🟦 [STEP 01 — Submit Process Artifacts](./Steps/Step-01/)
+### 🟦 [STEP 01 — Submit Process Artifacts](./Steps/Step-01/README.md)
 **Tagline:** Gather governed outputs
 
 **Actions**
@@ -96,7 +96,7 @@ CDD_GOVERNANCE_PROCESS_AUTHORITY
 
 ---
 
-### 🟦 [STEP 02 — Submit Proof Evidence](./Steps/Step-02/)
+### 🟦 [STEP 02 — Submit Proof Evidence](./Steps/Step-02/README.md)
 **Tagline:** Require evidence
 
 **Actions**
@@ -112,7 +112,7 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 ---
 
-### 🟦 [STEP 03 — Submit Exceptions](./Steps/Step-03/)
+### 🟦 [STEP 03 — Submit Exceptions](./Steps/Step-03/README.md)
 **Tagline:** Make deviation visible
 
 **Actions**
@@ -128,7 +128,7 @@ CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 
 ---
 
-### 🟦 [STEP 04 — Confirm Ownership](./Steps/Step-04/)
+### 🟦 [STEP 04 — Confirm Ownership](./Steps/Step-04/README.md)
 **Tagline:** Assign responsibility
 
 **Actions**
@@ -144,7 +144,7 @@ CDD_GOVERNANCE_OWNERSHIP_CLARITY
 
 ---
 
-### 🟥 [STEP 05 — Validate Entry and Exit Gates](./Steps/Step-05/)
+### 🟥 [STEP 05 — Validate Entry and Exit Gates](./Steps/Step-05/README.md)
 **Tagline:** Enforce progression
 
 **Actions**
@@ -160,7 +160,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟥 [STEP 06 — Validate Evidence Completeness](./Steps/Step-06/)
+### 🟥 [STEP 06 — Validate Evidence Completeness](./Steps/Step-06/README.md)
 **Tagline:** Reject unsupported claims
 
 **Actions**
@@ -176,7 +176,7 @@ CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 ---
 
-### 🟥 [STEP 07 — Review Exceptions](./Steps/Step-07/)
+### 🟥 [STEP 07 — Review Exceptions](./Steps/Step-07/README.md)
 **Tagline:** Govern risk
 
 **Actions**
@@ -192,7 +192,7 @@ CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 
 ---
 
-### 🟦 [STEP 08 — Enforce Release Decision](./Steps/Step-08/)
+### 🟦 [STEP 08 — Enforce Release Decision](./Steps/Step-08/README.md)
 **Tagline:** Grant or deny authority
 
 **Actions**
@@ -208,7 +208,7 @@ CDD_FOUNDATION_EXECUTION_AUTHORITY_EMERGENCE, CDD_GOVERNANCE_NO_RITUALIZATION
 
 ---
 
-### 🟦 [STEP 09 — Publish Governance Record](./Steps/Step-09/)
+### 🟦 [STEP 09 — Publish Governance Record](./Steps/Step-09/README.md)
 **Tagline:** Preserve accountability
 
 **Actions**

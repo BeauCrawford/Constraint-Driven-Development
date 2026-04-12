@@ -1,4 +1,4 @@
-﻿# Step 01 - Load Constraints
+# Step 01 - Load Constraints
 
 ---
 

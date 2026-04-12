@@ -69,23 +69,23 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Provide requirements](./Steps/Step-01/) | Requirements are loaded as the semantic source of truth |
-| 🟥 | 2 | [Provide invariants](./Steps/Step-02/) | Invariants are loaded as candidate representations |
-| 🟥 | 3 | [Align terminology](./Steps/Step-03/) | Glossary ensures consistent semantic comparison |
-| 🟥 | 4 | [Compare coverage](./Steps/Step-04/) | Evaluate how well invariants represent requirements |
-| 🟥 | 5 | [Detect gaps](./Steps/Step-05/) | Identify missing intent not captured in invariants |
-| 🟥 | 6 | [Detect additions](./Steps/Step-06/) | Identify invented semantics not in requirements |
-| 🟥 | 7 | [Detect drift](./Steps/Step-07/) | Identify misaligned or distorted meaning |
-| 🟥 | 8 | [Score closure](./Steps/Step-08/) | Quantify semantic containment |
-| 🟦 | 9 | [Review gate](./Steps/Step-09/) | Validate closure thresholds |
-| 🟥 | 10 | [Refine invariants](./Steps/Step-10/) | Iterate until closure is acceptable |
-| 🟦 | 11 | [Publish report](./Steps/Step-11/) | Output closure validation results |
+| 🟥 | 1 | [Provide requirements](./Steps/Step-01/README.md) | Requirements are loaded as the semantic source of truth |
+| 🟥 | 2 | [Provide invariants](./Steps/Step-02/README.md) | Invariants are loaded as candidate representations |
+| 🟥 | 3 | [Align terminology](./Steps/Step-03/README.md) | Glossary ensures consistent semantic comparison |
+| 🟥 | 4 | [Compare coverage](./Steps/Step-04/README.md) | Evaluate how well invariants represent requirements |
+| 🟥 | 5 | [Detect gaps](./Steps/Step-05/README.md) | Identify missing intent not captured in invariants |
+| 🟥 | 6 | [Detect additions](./Steps/Step-06/README.md) | Identify invented semantics not in requirements |
+| 🟥 | 7 | [Detect drift](./Steps/Step-07/README.md) | Identify misaligned or distorted meaning |
+| 🟥 | 8 | [Score closure](./Steps/Step-08/README.md) | Quantify semantic containment |
+| 🟦 | 9 | [Review gate](./Steps/Step-09/README.md) | Validate closure thresholds |
+| 🟥 | 10 | [Refine invariants](./Steps/Step-10/README.md) | Iterate until closure is acceptable |
+| 🟦 | 11 | [Publish report](./Steps/Step-11/README.md) | Output closure validation results |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Requirements](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Requirements](./Steps/Step-01/README.md)
 **Tagline:** Establish source truth  
 
 **Actions**
@@ -101,7 +101,7 @@ CDD_REQUIREMENT_SOURCE_AUTHORITY
 
 ---
 
-### 🟥 [STEP 02 — Load Invariants](./Steps/Step-02/)
+### 🟥 [STEP 02 — Load Invariants](./Steps/Step-02/README.md)
 **Tagline:** Establish candidate truth  
 
 **Actions**
@@ -117,7 +117,7 @@ CDD_INVARIANT_PARENT_FIDELITY
 
 ---
 
-### 🟥 [STEP 03 — Align Terminology](./Steps/Step-03/)
+### 🟥 [STEP 03 — Align Terminology](./Steps/Step-03/README.md)
 **Tagline:** Normalize comparison space  
 
 **Actions**
@@ -133,7 +133,7 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### 🟥 [STEP 04 — Measure Coverage](./Steps/Step-04/)
+### 🟥 [STEP 04 — Measure Coverage](./Steps/Step-04/README.md)
 **Tagline:** Check containment  
 
 **Actions**
@@ -149,7 +149,7 @@ CDD_CLOSURE_PARENT_CHILD_COVERAGE
 
 ---
 
-### 🟥 [STEP 05 — Detect Gaps](./Steps/Step-05/)
+### 🟥 [STEP 05 — Detect Gaps](./Steps/Step-05/README.md)
 **Tagline:** Find missing meaning  
 
 **Actions**
@@ -165,7 +165,7 @@ CDD_CLOSURE_NO_SILENT_LOSS
 
 ---
 
-### 🟥 [STEP 06 — Detect Unauthorized Additions](./Steps/Step-06/)
+### 🟥 [STEP 06 — Detect Unauthorized Additions](./Steps/Step-06/README.md)
 **Tagline:** Prevent invention  
 
 **Actions**
@@ -181,7 +181,7 @@ CDD_CLOSURE_NO_UNAUTHORIZED_ADDITION
 
 ---
 
-### 🟥 [STEP 07 — Detect Drift](./Steps/Step-07/)
+### 🟥 [STEP 07 — Detect Drift](./Steps/Step-07/README.md)
 **Tagline:** Identify distortion  
 
 **Actions**
@@ -197,7 +197,7 @@ CDD_CLOSURE_DRIFT_DEFINITION
 
 ---
 
-### 🟥 [STEP 08 — Score Closure](./Steps/Step-08/)
+### 🟥 [STEP 08 — Score Closure](./Steps/Step-08/README.md)
 **Tagline:** Quantify containment  
 
 **Actions**
@@ -213,7 +213,7 @@ CDD_CLOSURE_PRIMARY_METRIC
 
 ---
 
-### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/)
+### 🟦 [STEP 09 — Review Gate](./Steps/Step-09/README.md)
 **Tagline:** Enforce thresholds  
 
 **Actions**
@@ -229,7 +229,7 @@ CDD_CLOSURE_THRESHOLD_ENFORCEMENT
 
 ---
 
-### 🟥 [STEP 10 — Refine Invariants](./Steps/Step-10/)
+### 🟥 [STEP 10 — Refine Invariants](./Steps/Step-10/README.md)
 **Tagline:** Repair gaps  
 
 **Actions**
@@ -245,7 +245,7 @@ CDD_CLOSURE_REVALIDATION_REQUIRED
 
 ---
 
-### 🟦 [STEP 11 — Publish Closure Report](./Steps/Step-11/)
+### 🟦 [STEP 11 — Publish Closure Report](./Steps/Step-11/README.md)
 **Tagline:** Record semantic integrity  
 
 **Actions**
@@ -274,7 +274,3 @@ CDD_CLOSURE_GAP_VISIBILITY
 ## Final Compression
 
 This phase ensures that invariants are not just derived from requirements—but are a complete, lossless, and faithful semantic representation of them.
-
-
-
-

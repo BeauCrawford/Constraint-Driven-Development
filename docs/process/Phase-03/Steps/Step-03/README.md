@@ -1,4 +1,4 @@
-﻿# Step 03 - Align Terminology
+# Step 03 - Align Terminology
 
 ---
 

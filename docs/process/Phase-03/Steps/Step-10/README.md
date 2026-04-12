@@ -1,4 +1,4 @@
-﻿# Step 10 - Refine Invariants
+# Step 10 - Refine Invariants
 
 ---
 

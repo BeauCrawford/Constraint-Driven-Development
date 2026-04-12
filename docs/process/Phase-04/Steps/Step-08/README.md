@@ -1,4 +1,4 @@
-﻿# Step 08 - Check Non-Contradiction & Satisfiability
+# Step 08 - Check Non-Contradiction & Satisfiability
 
 ---
 

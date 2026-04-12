@@ -65,21 +65,21 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Load constraints](./Steps/Step-01/) | Use constraints as the interaction authority |
-| 🟥 | 2 | [Align terminology](./Steps/Step-02/) | Ensure contract language matches glossary |
-| 🟥 | 3 | [Identify boundaries](./Steps/Step-03/) | Determine all system interaction points |
-| 🟥 | 4 | [Define interfaces](./Steps/Step-04/) | Create explicit contract definitions |
-| 🟥 | 5 | [Map constraints](./Steps/Step-05/) | Ensure interactions enforce constraints |
-| 🟥 | 6 | [Encode edge/failure](./Steps/Step-06/) | Define boundary edge and failure behavior |
-| 🟥 | 7 | [Eliminate side channels](./Steps/Step-07/) | Remove hidden or implicit interactions |
-| 🟦 | 8 | [Review gate](./Steps/Step-08/) | Validate correctness and completeness |
-| 🟦 | 9 | [Publish contracts](./Steps/Step-09/) | Produce authoritative boundary definitions |
+| 🟥 | 1 | [Load constraints](./Steps/Step-01/README.md) | Use constraints as the interaction authority |
+| 🟥 | 2 | [Align terminology](./Steps/Step-02/README.md) | Ensure contract language matches glossary |
+| 🟥 | 3 | [Identify boundaries](./Steps/Step-03/README.md) | Determine all system interaction points |
+| 🟥 | 4 | [Define interfaces](./Steps/Step-04/README.md) | Create explicit contract definitions |
+| 🟥 | 5 | [Map constraints](./Steps/Step-05/README.md) | Ensure interactions enforce constraints |
+| 🟥 | 6 | [Encode edge/failure](./Steps/Step-06/README.md) | Define boundary edge and failure behavior |
+| 🟥 | 7 | [Eliminate side channels](./Steps/Step-07/README.md) | Remove hidden or implicit interactions |
+| 🟦 | 8 | [Review gate](./Steps/Step-08/README.md) | Validate correctness and completeness |
+| 🟦 | 9 | [Publish contracts](./Steps/Step-09/README.md) | Produce authoritative boundary definitions |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Constraints](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Constraints](./Steps/Step-01/README.md)
 **Tagline:** Establish interaction authority
 
 **Actions**
@@ -95,7 +95,7 @@ CDD_CONSTRAINT_DERIVED_FROM_INVARIANTS, CDD_FOUNDATION_CONSTRAINT_PRIMACY
 
 ---
 
-### 🟥 [STEP 02 — Align Terminology](./Steps/Step-02/)
+### 🟥 [STEP 02 — Align Terminology](./Steps/Step-02/README.md)
 **Tagline:** Maintain semantic consistency
 
 **Actions**
@@ -111,7 +111,7 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### 🟥 [STEP 03 — Identify Boundaries](./Steps/Step-03/)
+### 🟥 [STEP 03 — Identify Boundaries](./Steps/Step-03/README.md)
 **Tagline:** Locate interaction surfaces
 
 **Actions**
@@ -127,7 +127,7 @@ CDD_ARCH_BOUNDARY_FIRST
 
 ---
 
-### 🟥 [STEP 04 — Define Contract Interfaces](./Steps/Step-04/)
+### 🟥 [STEP 04 — Define Contract Interfaces](./Steps/Step-04/README.md)
 **Tagline:** Externalize interactions
 
 **Actions**
@@ -143,7 +143,7 @@ CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_CONTRACT_SEMANTIC_CARRIER
 
 ---
 
-### 🟥 [STEP 05 — Map Constraints to Interactions](./Steps/Step-05/)
+### 🟥 [STEP 05 — Map Constraints to Interactions](./Steps/Step-05/README.md)
 **Tagline:** Bind behavior to boundaries
 
 **Actions**
@@ -159,7 +159,7 @@ CDD_CONTRACT_DEPENDENCY_EXPLICITNESS
 
 ---
 
-### 🟥 [STEP 06 — Encode Edge and Failure Behavior](./Steps/Step-06/)
+### 🟥 [STEP 06 — Encode Edge and Failure Behavior](./Steps/Step-06/README.md)
 **Tagline:** Define boundary conditions
 
 **Actions**
@@ -175,7 +175,7 @@ CDD_CONTRACT_BOUNDARY_CONDITIONS
 
 ---
 
-### 🟥 [STEP 07 — Eliminate Side Channels](./Steps/Step-07/)
+### 🟥 [STEP 07 — Eliminate Side Channels](./Steps/Step-07/README.md)
 **Tagline:** Seal hidden behavior
 
 **Actions**
@@ -191,7 +191,7 @@ CDD_CONTRACT_NO_SIDE_CHANNELS
 
 ---
 
-### 🟦 [STEP 08 — Review Gate](./Steps/Step-08/)
+### 🟦 [STEP 08 — Review Gate](./Steps/Step-08/README.md)
 **Tagline:** Enforce boundary integrity
 
 **Actions**
@@ -207,7 +207,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟦 [STEP 09 — Publish Contract Set](./Steps/Step-09/)
+### 🟦 [STEP 09 — Publish Contract Set](./Steps/Step-09/README.md)
 **Tagline:** Establish semantic membranes
 
 **Actions**
@@ -236,7 +236,3 @@ CDD_CONTRACT_STABILITY, CDD_CONTRACT_CHANGE_PROPAGATION
 ## Final Compression
 
 This phase defines the system's semantic boundaries, ensuring all behavior flows through explicit, governed interaction surfaces.
-
-
-
-

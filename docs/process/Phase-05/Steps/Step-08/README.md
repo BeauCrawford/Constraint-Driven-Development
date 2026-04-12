@@ -1,4 +1,4 @@
-﻿# Step 08 - Review Gate
+# Step 08 - Review Gate
 
 ---
 

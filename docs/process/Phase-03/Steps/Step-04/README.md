@@ -1,4 +1,4 @@
-﻿# Step 04 - Measure Coverage
+# Step 04 - Measure Coverage
 
 ---
 

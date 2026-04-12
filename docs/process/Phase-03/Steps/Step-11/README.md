@@ -1,4 +1,4 @@
-﻿# Step 11 - Publish Closure Report
+# Step 11 - Publish Closure Report
 
 ---
 

@@ -69,22 +69,22 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Load Requirement IDs](./Steps/Step-01/) | Load source intent identifiers |
-| 🟥 | 2 | [Load Invariant Mappings](./Steps/Step-02/) | Load requirement-to-invariant mappings |
-| 🟥 | 3 | [Load Constraint Mappings](./Steps/Step-03/) | Load invariant-to-constraint mappings |
-| 🟥 | 4 | [Load Test Mappings](./Steps/Step-04/) | Load constraint-to-test mappings |
-| 🟥 | 5 | [Load Code Mappings](./Steps/Step-05/) | Load test-to-code mappings |
-| 🟥 | 6 | [Validate Forward Lineage](./Steps/Step-06/) | Confirm each layer maps downstream |
-| 🟥 | 7 | [Validate Reverse Navigation](./Steps/Step-07/) | Confirm failures can trace upstream |
-| 🟥 | 8 | [Detect Orphan Artifacts](./Steps/Step-08/) | Identify artifacts without lineage |
-| 🟥 | 9 | [Build Impact Paths](./Steps/Step-09/) | Expose change propagation routes |
-| 🟦 | 10 | [Publish Traceability Report](./Steps/Step-10/) | Produce traceability evidence |
+| 🟥 | 1 | [Load Requirement IDs](./Steps/Step-01/README.md) | Load source intent identifiers |
+| 🟥 | 2 | [Load Invariant Mappings](./Steps/Step-02/README.md) | Load requirement-to-invariant mappings |
+| 🟥 | 3 | [Load Constraint Mappings](./Steps/Step-03/README.md) | Load invariant-to-constraint mappings |
+| 🟥 | 4 | [Load Test Mappings](./Steps/Step-04/README.md) | Load constraint-to-test mappings |
+| 🟥 | 5 | [Load Code Mappings](./Steps/Step-05/README.md) | Load test-to-code mappings |
+| 🟥 | 6 | [Validate Forward Lineage](./Steps/Step-06/README.md) | Confirm each layer maps downstream |
+| 🟥 | 7 | [Validate Reverse Navigation](./Steps/Step-07/README.md) | Confirm failures can trace upstream |
+| 🟥 | 8 | [Detect Orphan Artifacts](./Steps/Step-08/README.md) | Identify artifacts without lineage |
+| 🟥 | 9 | [Build Impact Paths](./Steps/Step-09/README.md) | Expose change propagation routes |
+| 🟦 | 10 | [Publish Traceability Report](./Steps/Step-10/README.md) | Produce traceability evidence |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Requirement IDs](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Requirement IDs](./Steps/Step-01/README.md)
 **Tagline:** Establish source anchors
 
 **Actions**
@@ -100,7 +100,7 @@ CDD_REQUIREMENT_ADDRESSABILITY, CDD_TRACEABILITY_STABLE_IDS
 
 ---
 
-### 🟥 [STEP 02 — Load Invariant Mappings](./Steps/Step-02/)
+### 🟥 [STEP 02 — Load Invariant Mappings](./Steps/Step-02/README.md)
 **Tagline:** Trace intent into truth
 
 **Actions**
@@ -116,7 +116,7 @@ CDD_TRACEABILITY_REQUIREMENT_TO_INVARIANT
 
 ---
 
-### 🟥 [STEP 03 — Load Constraint Mappings](./Steps/Step-03/)
+### 🟥 [STEP 03 — Load Constraint Mappings](./Steps/Step-03/README.md)
 **Tagline:** Trace truth into rules
 
 **Actions**
@@ -132,7 +132,7 @@ CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 
 ---
 
-### 🟥 [STEP 04 — Load Test Mappings](./Steps/Step-04/)
+### 🟥 [STEP 04 — Load Test Mappings](./Steps/Step-04/README.md)
 **Tagline:** Trace rules into proof
 
 **Actions**
@@ -148,7 +148,7 @@ CDD_TRACEABILITY_CONSTRAINT_TO_TEST, CDD_TEST_CONSTRAINT_MAPPING
 
 ---
 
-### 🟥 [STEP 05 — Load Code Mappings](./Steps/Step-05/)
+### 🟥 [STEP 05 — Load Code Mappings](./Steps/Step-05/README.md)
 **Tagline:** Trace proof into code
 
 **Actions**
@@ -164,7 +164,7 @@ CDD_TRACEABILITY_TEST_TO_CODE
 
 ---
 
-### 🟥 [STEP 06 — Validate Forward Lineage](./Steps/Step-06/)
+### 🟥 [STEP 06 — Validate Forward Lineage](./Steps/Step-06/README.md)
 **Tagline:** Prove downstream continuity
 
 **Actions**
@@ -180,7 +180,7 @@ CDD_TRACEABILITY_END_TO_END
 
 ---
 
-### 🟥 [STEP 07 — Validate Reverse Navigation](./Steps/Step-07/)
+### 🟥 [STEP 07 — Validate Reverse Navigation](./Steps/Step-07/README.md)
 **Tagline:** Make failures explainable
 
 **Actions**
@@ -196,7 +196,7 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### 🟥 [STEP 08 — Detect Orphan Artifacts](./Steps/Step-08/)
+### 🟥 [STEP 08 — Detect Orphan Artifacts](./Steps/Step-08/README.md)
 **Tagline:** Reject ungoverned work
 
 **Actions**
@@ -212,7 +212,7 @@ CDD_TRACEABILITY_NO_ORPHANS, CDD_CONSTRAINT_NON_ORPHAN, CDD_TEST_NO_ORPHANS
 
 ---
 
-### 🟥 [STEP 09 — Build Impact Paths](./Steps/Step-09/)
+### 🟥 [STEP 09 — Build Impact Paths](./Steps/Step-09/README.md)
 **Tagline:** Expose change routes
 
 **Actions**
@@ -228,7 +228,7 @@ CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 
 ---
 
-### 🟦 [STEP 10 — Publish Traceability Report](./Steps/Step-10/)
+### 🟦 [STEP 10 — Publish Traceability Report](./Steps/Step-10/README.md)
 **Tagline:** Record lineage integrity
 
 **Actions**

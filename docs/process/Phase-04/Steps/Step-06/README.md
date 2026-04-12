@@ -1,4 +1,4 @@
-﻿# Step 06 - Encode Failure Semantics
+# Step 06 - Encode Failure Semantics
 
 ---
 

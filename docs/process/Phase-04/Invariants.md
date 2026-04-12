@@ -1,4 +1,4 @@
-﻿# Phase 04 - Constraint Derivation Invariants
+# Phase 04 - Constraint Derivation Invariants
 
 ## Overview
 
@@ -9,7 +9,7 @@ No test generation may begin until this invariant set is satisfied or an explici
 
 ---
 
-## [Step 01 - Load Validated Invariants](./Steps/Step-01/)
+## [Step 01 - Load Validated Invariants](./Steps/Step-01/README.md)
 
 **CDD_P04_VALIDATED_INVARIANT_SOURCE_REQUIRED**
 Phase 04 must load only closure-validated invariants as its semantic source.
@@ -31,7 +31,7 @@ Missing closure evidence, missing lineage, or unresolved invariant defects must 
 
 ---
 
-## [Step 02 - Resolve Terminology](./Steps/Step-02/)
+## [Step 02 - Resolve Terminology](./Steps/Step-02/README.md)
 
 **CDD_P04_GLOSSARY_ALIGNMENT_REQUIRED**
 Constraint language must align with canonical glossary terms used by the validated invariants.
@@ -53,7 +53,7 @@ Any term meaning shift between invariants and constraints must be recorded as dr
 
 ---
 
-## [Step 03 - Partition Invariants](./Steps/Step-03/)
+## [Step 03 - Partition Invariants](./Steps/Step-03/README.md)
 
 **CDD_P04_RULE_UNIT_PARTITION_REQUIRED**
 Validated invariants must be partitioned into enforceable rule units before constraint derivation.
@@ -78,7 +78,7 @@ Invariant meaning that cannot be partitioned cleanly must be recorded as a deriv
 
 ---
 
-## [Step 04 - Derive Constraint Candidates](./Steps/Step-04/)
+## [Step 04 - Derive Constraint Candidates](./Steps/Step-04/README.md)
 
 **CDD_P04_CONSTRAINT_DERIVATION_REQUIRED**
 Each rule unit must be evaluated for constraint derivation.
@@ -106,7 +106,7 @@ Constraint candidates must be inspectable before publication.
 
 ---
 
-## [Step 05 - Define Positive / Negative / Boundary Cases](./Steps/Step-05/)
+## [Step 05 - Define Positive / Negative / Boundary Cases](./Steps/Step-05/README.md)
 
 **CDD_P04_PNB_CASES_REQUIRED**
 Constraints must define positive, negative, and boundary behavior when semantically applicable.
@@ -131,7 +131,7 @@ Positive, negative, and boundary cases must be precise enough to support later p
 
 ---
 
-## [Step 06 - Encode Failure Semantics](./Steps/Step-06/)
+## [Step 06 - Encode Failure Semantics](./Steps/Step-06/README.md)
 
 **CDD_P04_FAILURE_SEMANTICS_REQUIRED**
 Each constraint must define how violation is recognized or represented.
@@ -153,7 +153,7 @@ Failure semantics must remain traceable to the constraints and invariants that a
 
 ---
 
-## [Step 07 - Assign CONSTRAINT_IDs](./Steps/Step-07/)
+## [Step 07 - Assign CONSTRAINT_IDs](./Steps/Step-07/README.md)
 
 **CDD_P04_CONSTRAINT_ID_REQUIRED**
 Every published constraint must have a stable CONSTRAINT_ID.
@@ -175,7 +175,7 @@ Each constraint must be directly referable by ID in tests, coverage reports, rev
 
 ---
 
-## [Step 08 - Check Non-Contradiction & Satisfiability](./Steps/Step-08/)
+## [Step 08 - Check Non-Contradiction & Satisfiability](./Steps/Step-08/README.md)
 
 **CDD_P04_CONSISTENCY_CHECK_REQUIRED**
 The constraint set must be checked for contradiction before publication.
@@ -200,7 +200,7 @@ Unresolved constraint contradictions block publication.
 
 ---
 
-## [Step 09 - Ensure Completeness vs Invariants](./Steps/Step-09/)
+## [Step 09 - Ensure Completeness vs Invariants](./Steps/Step-09/README.md)
 
 **CDD_P04_COMPLETENESS_CHECK_REQUIRED**
 The constraint set must be checked for complete enforcement of validated invariants.
@@ -225,7 +225,7 @@ Blocking completeness gaps must prevent review approval and publication.
 
 ---
 
-## [Step 10 - Review Gate](./Steps/Step-10/)
+## [Step 10 - Review Gate](./Steps/Step-10/README.md)
 
 **CDD_P04_REVIEW_GATE_REQUIRED**
 The constraint set must pass a review gate before publication.
@@ -253,7 +253,7 @@ Review approval without evidence does not grant downstream authority.
 
 ---
 
-## [Step 11 - Publish Constraint Set](./Steps/Step-11/)
+## [Step 11 - Publish Constraint Set](./Steps/Step-11/README.md)
 
 **CDD_P04_PUBLICATION_REQUIRED**
 The authoritative constraint set must be published before test generation begins.
@@ -309,4 +309,3 @@ No downstream artifact may claim authority from Phase 04 unless the Phase 04 gat
 ## Final Compression
 
 Phase 04 requires that closure-validated invariants become precise, addressable, non-contradictory, satisfiable, traceable constraints with explicit positive, negative, boundary, and failure semantics before executable proof is generated.
-

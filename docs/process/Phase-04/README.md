@@ -69,23 +69,23 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | [Load invariants](./Steps/Step-01/) | Use closure-validated invariants as the source of truth |
-| 🟥 | 2 | [Resolve terminology](./Steps/Step-02/) | Ensure constraint language matches glossary |
-| 🟥 | 3 | [Partition invariants](./Steps/Step-03/) | Break invariants into enforceable rule units |
-| 🟥 | 4 | [Derive constraints](./Steps/Step-04/) | Convert units into executable rules |
-| 🟥 | 5 | [Define P/N/B cases](./Steps/Step-05/) | Specify allowed, forbidden, and boundary behavior |
-| 🟥 | 6 | [Encode failures](./Steps/Step-06/) | Define explicit failure conditions and responses |
-| 🟥 | 7 | [Assign IDs](./Steps/Step-07/) | Give each constraint a stable CONSTRAINT_ID |
-| 🟥 | 8 | [Check consistency](./Steps/Step-08/) | Ensure no contradictions; solution space exists |
-| 🟥 | 9 | [Ensure completeness](./Steps/Step-09/) | Every invariant is enforced by >=1 constraint |
-| 🟦 | 10 | [Review gate](./Steps/Step-10/) | Validate precision, coverage, and traceability |
-| 🟦 | 11 | [Publish constraints](./Steps/Step-11/) | Produce authoritative constraint set |
+| 🟥 | 1 | [Load invariants](./Steps/Step-01/README.md) | Use closure-validated invariants as the source of truth |
+| 🟥 | 2 | [Resolve terminology](./Steps/Step-02/README.md) | Ensure constraint language matches glossary |
+| 🟥 | 3 | [Partition invariants](./Steps/Step-03/README.md) | Break invariants into enforceable rule units |
+| 🟥 | 4 | [Derive constraints](./Steps/Step-04/README.md) | Convert units into executable rules |
+| 🟥 | 5 | [Define P/N/B cases](./Steps/Step-05/README.md) | Specify allowed, forbidden, and boundary behavior |
+| 🟥 | 6 | [Encode failures](./Steps/Step-06/README.md) | Define explicit failure conditions and responses |
+| 🟥 | 7 | [Assign IDs](./Steps/Step-07/README.md) | Give each constraint a stable CONSTRAINT_ID |
+| 🟥 | 8 | [Check consistency](./Steps/Step-08/README.md) | Ensure no contradictions; solution space exists |
+| 🟥 | 9 | [Ensure completeness](./Steps/Step-09/README.md) | Every invariant is enforced by >=1 constraint |
+| 🟦 | 10 | [Review gate](./Steps/Step-10/README.md) | Validate precision, coverage, and traceability |
+| 🟦 | 11 | [Publish constraints](./Steps/Step-11/README.md) | Produce authoritative constraint set |
 
 ---
 
 ## Step Sequence
 
-### 🟥 [STEP 01 — Load Validated Invariants](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Validated Invariants](./Steps/Step-01/README.md)
 **Tagline:** Establish authoritative semantic source
 
 **Actions**
@@ -101,7 +101,7 @@ CDD_INVARIANT_PARENT_FIDELITY, CDD_CLOSURE_BEFORE_AUTHORITY
 
 ---
 
-### 🟥 [STEP 02 — Resolve Terminology](./Steps/Step-02/)
+### 🟥 [STEP 02 — Resolve Terminology](./Steps/Step-02/README.md)
 **Tagline:** Maintain semantic consistency
 
 **Actions**
@@ -117,7 +117,7 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### 🟥 [STEP 03 — Partition Invariants](./Steps/Step-03/)
+### 🟥 [STEP 03 — Partition Invariants](./Steps/Step-03/README.md)
 **Tagline:** Create enforceable units
 
 **Actions**
@@ -133,7 +133,7 @@ CDD_INVARIANT_MINIMALITY, CDD_INVARIANT_NECESSITY
 
 ---
 
-### 🟥 [STEP 04 — Derive Constraint Candidates](./Steps/Step-04/)
+### 🟥 [STEP 04 — Derive Constraint Candidates](./Steps/Step-04/README.md)
 **Tagline:** Translate truth into rules
 
 **Actions**
@@ -149,7 +149,7 @@ CDD_CONSTRAINT_DERIVED_FROM_INVARIANTS, CDD_CONSTRAINT_EXECUTABLE_PRECISION
 
 ---
 
-### 🟥 [STEP 05 — Define Positive / Negative / Boundary Cases](./Steps/Step-05/)
+### 🟥 [STEP 05 — Define Positive / Negative / Boundary Cases](./Steps/Step-05/README.md)
 **Tagline:** Bound behavior
 
 **Actions**
@@ -165,7 +165,7 @@ CDD_CONSTRAINT_POS_NEG_BOUNDARY
 
 ---
 
-### 🟥 [STEP 06 — Encode Failure Semantics](./Steps/Step-06/)
+### 🟥 [STEP 06 — Encode Failure Semantics](./Steps/Step-06/README.md)
 **Tagline:** Make failure explicit
 
 **Actions**
@@ -181,7 +181,7 @@ CDD_CONSTRAINT_FAILURE_SEMANTICS
 
 ---
 
-### 🟥 [STEP 07 — Assign CONSTRAINT_IDs](./Steps/Step-07/)
+### 🟥 [STEP 07 — Assign CONSTRAINT_IDs](./Steps/Step-07/README.md)
 **Tagline:** Make rules addressable
 
 **Actions**
@@ -197,7 +197,7 @@ CDD_CONSTRAINT_UNIQUE_IDENTITY, CDD_CONSTRAINT_ADDRESSABILITY, CDD_TRACEABILITY_
 
 ---
 
-### 🟥 [STEP 08 — Check Non-Contradiction & Satisfiability](./Steps/Step-08/)
+### 🟥 [STEP 08 — Check Non-Contradiction & Satisfiability](./Steps/Step-08/README.md)
 **Tagline:** Ensure a valid solution space
 
 **Actions**
@@ -213,7 +213,7 @@ CDD_CONSTRAINT_NON_CONTRADICTION
 
 ---
 
-### 🟥 [STEP 09 — Ensure Completeness vs Invariants](./Steps/Step-09/)
+### 🟥 [STEP 09 — Ensure Completeness vs Invariants](./Steps/Step-09/README.md)
 **Tagline:** Enforce all truths
 
 **Actions**
@@ -229,7 +229,7 @@ CDD_CONSTRAINT_COMPLETENESS
 
 ---
 
-### 🟦 [STEP 10 — Review Gate](./Steps/Step-10/)
+### 🟦 [STEP 10 — Review Gate](./Steps/Step-10/README.md)
 **Tagline:** Enforce precision and coverage
 
 **Actions**
@@ -245,7 +245,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES, CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 
 ---
 
-### 🟦 [STEP 11 — Publish Constraint Set](./Steps/Step-11/)
+### 🟦 [STEP 11 — Publish Constraint Set](./Steps/Step-11/README.md)
 **Tagline:** Establish executable authority
 
 **Actions**
@@ -276,7 +276,3 @@ CDD_CONSTRAINT_NON_ORPHAN, CDD_FOUNDATION_CONSTRAINT_PRIMACY
 
 This phase converts semantic truth into enforceable, addressable rules,
 establishing the first executable authority in the system.
-
-
-
-

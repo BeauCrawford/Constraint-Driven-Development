@@ -70,24 +70,24 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | [Provide Contract-Bound Tests](./Steps/Step-01/) | Use constraint-mapped tests as proof drivers |
-| 🟦 | 2 | [Provide Contracts](./Steps/Step-02/) | Supply boundary definitions for doubles |
-| 🟥 | 3 | [Generate Test Doubles](./Steps/Step-03/) | Create deterministic mocks/stubs/fakes |
-| 🟥 | 4 | [Register Doubles](./Steps/Step-04/) | Bind doubles into execution environment |
-| 🟥 | 5 | [Execute Test Suite](./Steps/Step-05/) | Run full suite against simulated boundaries |
-| 🟥 | 6 | [Evaluate Positive Behavior](./Steps/Step-06/) | Confirm allowed behavior succeeds |
-| 🟥 | 7 | [Evaluate Negative Behavior](./Steps/Step-07/) | Confirm forbidden behavior is rejected |
-| 🟥 | 8 | [Evaluate Boundary Conditions](./Steps/Step-08/) | Validate edge conditions |
-| 🟥 | 9 | [Evaluate Failure Semantics](./Steps/Step-09/) | Validate failure semantics |
-| 🟥 | 10 | [Record Results & Coverage](./Steps/Step-10/) | Capture outcomes and coverage |
-| 🟦 | 11 | [Review Gate](./Steps/Step-11/) | Validate isolation and determinism |
-| 🟦 | 12 | [Publish Validation Report](./Steps/Step-12/) | Produce authoritative validation evidence |
+| 🟦 | 1 | [Provide Contract-Bound Tests](./Steps/Step-01/README.md) | Use constraint-mapped tests as proof drivers |
+| 🟦 | 2 | [Provide Contracts](./Steps/Step-02/README.md) | Supply boundary definitions for doubles |
+| 🟥 | 3 | [Generate Test Doubles](./Steps/Step-03/README.md) | Create deterministic mocks/stubs/fakes |
+| 🟥 | 4 | [Register Doubles](./Steps/Step-04/README.md) | Bind doubles into execution environment |
+| 🟥 | 5 | [Execute Test Suite](./Steps/Step-05/README.md) | Run full suite against simulated boundaries |
+| 🟥 | 6 | [Evaluate Positive Behavior](./Steps/Step-06/README.md) | Confirm allowed behavior succeeds |
+| 🟥 | 7 | [Evaluate Negative Behavior](./Steps/Step-07/README.md) | Confirm forbidden behavior is rejected |
+| 🟥 | 8 | [Evaluate Boundary Conditions](./Steps/Step-08/README.md) | Validate edge conditions |
+| 🟥 | 9 | [Evaluate Failure Semantics](./Steps/Step-09/README.md) | Validate failure semantics |
+| 🟥 | 10 | [Record Results & Coverage](./Steps/Step-10/README.md) | Capture outcomes and coverage |
+| 🟦 | 11 | [Review Gate](./Steps/Step-11/README.md) | Validate isolation and determinism |
+| 🟦 | 12 | [Publish Validation Report](./Steps/Step-12/README.md) | Produce authoritative validation evidence |
 
 ---
 
 ## Step Sequence
 
-### 🟦 [STEP 01 — Provide Contract-Bound Tests](./Steps/Step-01/)
+### 🟦 [STEP 01 — Provide Contract-Bound Tests](./Steps/Step-01/README.md)
 **Tagline:** Drive proof from constraints
 
 **Actions**
@@ -103,7 +103,7 @@ CDD_TEST_DERIVED_FROM_CONSTRAINTS, CDD_TEST_CONSTRAINT_MAPPING
 
 ---
 
-### 🟦 [STEP 02 — Provide Contracts](./Steps/Step-02/)
+### 🟦 [STEP 02 — Provide Contracts](./Steps/Step-02/README.md)
 **Tagline:** Define boundary surfaces
 
 **Actions**
@@ -119,7 +119,7 @@ CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_CONTRACT_SEMANTIC_CARRIER
 
 ---
 
-### 🟥 [STEP 03 — Generate Test Doubles](./Steps/Step-03/)
+### 🟥 [STEP 03 — Generate Test Doubles](./Steps/Step-03/README.md)
 **Tagline:** Simulate reality
 
 **Actions**
@@ -135,7 +135,7 @@ CDD_DOUBLE_CONTRACT_BOUND, CDD_DOUBLE_NO_SEMANTIC_INVENTION
 
 ---
 
-### 🟥 [STEP 04 — Register Doubles](./Steps/Step-04/)
+### 🟥 [STEP 04 — Register Doubles](./Steps/Step-04/README.md)
 **Tagline:** Establish execution environment
 
 **Actions**
@@ -151,7 +151,7 @@ CDD_DOUBLE_BOUNDARY_ISOLATION
 
 ---
 
-### 🟥 [STEP 05 — Execute Test Suite](./Steps/Step-05/)
+### 🟥 [STEP 05 — Execute Test Suite](./Steps/Step-05/README.md)
 **Tagline:** Run proof against simulation
 
 **Actions**
@@ -167,7 +167,7 @@ CDD_TEST_DETERMINISTIC_EXECUTION
 
 ---
 
-### 🟥 [STEP 06 — Evaluate Positive Behavior](./Steps/Step-06/)
+### 🟥 [STEP 06 — Evaluate Positive Behavior](./Steps/Step-06/README.md)
 **Tagline:** Confirm allowed outcomes
 
 **Actions**
@@ -183,7 +183,7 @@ CDD_TEST_POSITIVE_PROOF
 
 ---
 
-### 🟥 [STEP 07 — Evaluate Negative Behavior](./Steps/Step-07/)
+### 🟥 [STEP 07 — Evaluate Negative Behavior](./Steps/Step-07/README.md)
 **Tagline:** Reject invalid outcomes
 
 **Actions**
@@ -199,7 +199,7 @@ CDD_TEST_NEGATIVE_PROOF
 
 ---
 
-### 🟥 [STEP 08 — Evaluate Boundary Conditions](./Steps/Step-08/)
+### 🟥 [STEP 08 — Evaluate Boundary Conditions](./Steps/Step-08/README.md)
 **Tagline:** Validate edges
 
 **Actions**
@@ -215,7 +215,7 @@ CDD_TEST_BOUNDARY_PROOF
 
 ---
 
-### 🟥 [STEP 09 — Evaluate Failure Semantics](./Steps/Step-09/)
+### 🟥 [STEP 09 — Evaluate Failure Semantics](./Steps/Step-09/README.md)
 **Tagline:** Prove failure handling
 
 **Actions**
@@ -231,7 +231,7 @@ CDD_TEST_FAILURE_PROOF
 
 ---
 
-### 🟥 [STEP 10 — Record Results & Coverage](./Steps/Step-10/)
+### 🟥 [STEP 10 — Record Results & Coverage](./Steps/Step-10/README.md)
 **Tagline:** Capture proof evidence
 
 **Actions**
@@ -247,7 +247,7 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE, CDD_COVERAGE_ID_LINKED
 
 ---
 
-### 🟦 [STEP 11 — Review Gate](./Steps/Step-11/)
+### 🟦 [STEP 11 — Review Gate](./Steps/Step-11/README.md)
 **Tagline:** Enforce isolation and determinism
 
 **Actions**
@@ -263,7 +263,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES, CDD_DETERMINISM_REPEATABILITY
 
 ---
 
-### 🟦 [STEP 12 — Publish Validation Report](./Steps/Step-12/)
+### 🟦 [STEP 12 — Publish Validation Report](./Steps/Step-12/README.md)
 **Tagline:** Establish boundary proof
 
 **Actions**

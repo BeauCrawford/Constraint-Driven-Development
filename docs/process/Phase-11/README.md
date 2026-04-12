@@ -66,21 +66,21 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | [Submit Change Request](./Steps/Step-01/) | Capture requested evolution |
-| 🟥 | 2 | [Classify Impact](./Steps/Step-02/) | Identify upstream source and affected paths |
-| 🟥 | 3 | [Update Upstream Source](./Steps/Step-03/) | Change requirements or invariants first |
-| 🟥 | 4 | [Re-Lower Affected Artifacts](./Steps/Step-04/) | Propagate through the CDD pipeline |
-| 🟥 | 5 | [Regenerate Constraints, Tests, and Code](./Steps/Step-05/) | Recreate constraints, tests, and code |
-| 🟦 | 6 | [Submit Regenerated Artifacts](./Steps/Step-06/) | Move regenerated outputs to review |
-| 🟥 | 7 | [Revalidate Closure and Coverage](./Steps/Step-07/) | Confirm closure and coverage |
-| 🟥 | 8 | [Detect Stale Artifacts and Drift](./Steps/Step-08/) | Remove drift and obsolete outputs |
-| 🟦 | 9 | [Publish Change Report](./Steps/Step-09/) | Record change integrity |
+| 🟦 | 1 | [Submit Change Request](./Steps/Step-01/README.md) | Capture requested evolution |
+| 🟥 | 2 | [Classify Impact](./Steps/Step-02/README.md) | Identify upstream source and affected paths |
+| 🟥 | 3 | [Update Upstream Source](./Steps/Step-03/README.md) | Change requirements or invariants first |
+| 🟥 | 4 | [Re-Lower Affected Artifacts](./Steps/Step-04/README.md) | Propagate through the CDD pipeline |
+| 🟥 | 5 | [Regenerate Constraints, Tests, and Code](./Steps/Step-05/README.md) | Recreate constraints, tests, and code |
+| 🟦 | 6 | [Submit Regenerated Artifacts](./Steps/Step-06/README.md) | Move regenerated outputs to review |
+| 🟥 | 7 | [Revalidate Closure and Coverage](./Steps/Step-07/README.md) | Confirm closure and coverage |
+| 🟥 | 8 | [Detect Stale Artifacts and Drift](./Steps/Step-08/README.md) | Remove drift and obsolete outputs |
+| 🟦 | 9 | [Publish Change Report](./Steps/Step-09/README.md) | Record change integrity |
 
 ---
 
 ## Step Sequence
 
-### 🟦 [STEP 01 — Submit Change Request](./Steps/Step-01/)
+### 🟦 [STEP 01 — Submit Change Request](./Steps/Step-01/README.md)
 **Tagline:** Capture evolution
 
 **Actions**
@@ -96,7 +96,7 @@ CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### 🟥 [STEP 02 — Classify Impact](./Steps/Step-02/)
+### 🟥 [STEP 02 — Classify Impact](./Steps/Step-02/README.md)
 **Tagline:** Find the source layer
 
 **Actions**
@@ -112,7 +112,7 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### 🟥 [STEP 03 — Update Upstream Source](./Steps/Step-03/)
+### 🟥 [STEP 03 — Update Upstream Source](./Steps/Step-03/README.md)
 **Tagline:** Change authority first
 
 **Actions**
@@ -128,7 +128,7 @@ CDD_FOUNDATION_INTENT_PRECEDENCE, CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### 🟥 [STEP 04 — Re-Lower Affected Artifacts](./Steps/Step-04/)
+### 🟥 [STEP 04 — Re-Lower Affected Artifacts](./Steps/Step-04/README.md)
 **Tagline:** Propagate meaning
 
 **Actions**
@@ -144,7 +144,7 @@ CDD_LOWERING_RECOMPILATION_OVER_PATCHING, CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 
 ---
 
-### 🟥 [STEP 05 — Regenerate Constraints, Tests, and Code](./Steps/Step-05/)
+### 🟥 [STEP 05 — Regenerate Constraints, Tests, and Code](./Steps/Step-05/README.md)
 **Tagline:** Refresh proof chain
 
 **Actions**
@@ -160,7 +160,7 @@ CDD_TEST_REGENERABILITY, CDD_CHANGE_TEST_REGENERATION
 
 ---
 
-### 🟦 [STEP 06 — Submit Regenerated Artifacts](./Steps/Step-06/)
+### 🟦 [STEP 06 — Submit Regenerated Artifacts](./Steps/Step-06/README.md)
 **Tagline:** Re-enter governance
 
 **Actions**
@@ -176,7 +176,7 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟥 [STEP 07 — Revalidate Closure and Coverage](./Steps/Step-07/)
+### 🟥 [STEP 07 — Revalidate Closure and Coverage](./Steps/Step-07/README.md)
 **Tagline:** Confirm containment
 
 **Actions**
@@ -192,7 +192,7 @@ CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_COVERAGE_REVALIDATION
 
 ---
 
-### 🟥 [STEP 08 — Detect Stale Artifacts and Drift](./Steps/Step-08/)
+### 🟥 [STEP 08 — Detect Stale Artifacts and Drift](./Steps/Step-08/README.md)
 **Tagline:** Remove divergence
 
 **Actions**
@@ -208,7 +208,7 @@ CDD_CHANGE_NO_SILENT_DIVERGENCE, CDD_CHANGE_DRIFT_DETECTION
 
 ---
 
-### 🟦 [STEP 09 — Publish Change Report](./Steps/Step-09/)
+### 🟦 [STEP 09 — Publish Change Report](./Steps/Step-09/README.md)
 **Tagline:** Record evolution
 
 **Actions**

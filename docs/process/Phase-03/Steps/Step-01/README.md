@@ -1,4 +1,4 @@
-﻿# Step 01 - Load Requirements
+# Step 01 - Load Requirements
 
 ---
 

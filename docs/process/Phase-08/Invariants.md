@@ -9,7 +9,7 @@ No implementation artifact may claim execution authority until this invariant se
 
 ---
 
-## [Step 01 - Provide Proof Suite](./Steps/Step-01/)
+## [Step 01 - Provide Proof Suite](./Steps/Step-01/README.md)
 **CDD_P08_PROOF_SUITE_SOURCE_REQUIRED**
 Phase 08 must load the published Phase 06 proof suite as the implementation target.
 
@@ -30,7 +30,7 @@ Missing proof mappings, nondeterministic tests, or failed simulation evidence mu
 
 ---
 
-## [Step 02 - Provide Contracts](./Steps/Step-02/)
+## [Step 02 - Provide Contracts](./Steps/Step-02/README.md)
 **CDD_P08_CONTRACT_SOURCE_REQUIRED**
 Phase 08 must load the published Phase 05 contract set as the boundary authority.
 
@@ -51,7 +51,7 @@ Missing, contradictory, or incomplete contract semantics must be escalated upstr
 
 ---
 
-## [Step 03 - Generate or Implement Minimal Code](./Steps/Step-03/)
+## [Step 03 - Generate or Implement Minimal Code](./Steps/Step-03/README.md)
 **CDD_P08_CODE_GENERATION_AUTHORITY**
 Code may be generated or implemented only to satisfy published constraints, contracts, and proof.
 
@@ -75,7 +75,7 @@ Any behavior needed to pass proof but not authorized upstream must be recorded a
 
 ---
 
-## [Step 04 - Bind Implementation to Contracts](./Steps/Step-04/)
+## [Step 04 - Bind Implementation to Contracts](./Steps/Step-04/README.md)
 **CDD_P08_IMPLEMENTATION_CONTRACT_BINDING_REQUIRED**
 All governed implementation interactions must bind through published contracts.
 
@@ -96,7 +96,7 @@ Each contract binding must trace to contract definitions and governing constrain
 
 ---
 
-## [Step 05 - Run Tests Against Real Implementation](./Steps/Step-05/)
+## [Step 05 - Run Tests Against Real Implementation](./Steps/Step-05/README.md)
 **CDD_P08_REAL_PROOF_EXECUTION_REQUIRED**
 The deterministic proof suite must execute against the real implementation.
 
@@ -117,7 +117,7 @@ Failures, skips, flakes, and environmental defects must be visible.
 
 ---
 
-## [Step 06 - Evaluate Defined Behavior](./Steps/Step-06/)
+## [Step 06 - Evaluate Defined Behavior](./Steps/Step-06/README.md)
 **CDD_P08_DEFINED_BEHAVIOR_EVALUATION_REQUIRED**
 Allowed, forbidden, boundary, and failure behavior must be evaluated against the real implementation.
 
@@ -138,7 +138,7 @@ Evaluation evidence must trace to tests, constraints, contracts, and code artifa
 
 ---
 
-## [Step 07 - Report Failures](./Steps/Step-07/)
+## [Step 07 - Report Failures](./Steps/Step-07/README.md)
 **CDD_P08_FAILURE_REPORTING_REQUIRED**
 Any mismatch between implementation and proof must be reported.
 
@@ -156,7 +156,7 @@ Unresolved proof failures block implementation publication.
 
 ---
 
-## [Step 08 - Reconform Implementation](./Steps/Step-08/)
+## [Step 08 - Reconform Implementation](./Steps/Step-08/README.md)
 **CDD_P08_RECONFORMANCE_REQUIRED**
 Implementation must be adjusted until it conforms to proof, contracts, and constraints.
 
@@ -177,7 +177,7 @@ Reconformance history must preserve mappings from failure to correction.
 
 ---
 
-## [Step 09 - Review Gate](./Steps/Step-09/)
+## [Step 09 - Review Gate](./Steps/Step-09/README.md)
 **CDD_P08_REVIEW_GATE_REQUIRED**
 Implementation must pass a review gate before publication.
 
@@ -201,7 +201,7 @@ Review approval without proof evidence does not grant execution authority.
 
 ---
 
-## [Step 10 - Publish Implementation Artifact](./Steps/Step-10/)
+## [Step 10 - Publish Implementation Artifact](./Steps/Step-10/README.md)
 **CDD_P08_PUBLICATION_REQUIRED**
 The implementation artifact must be published as a governed output before downstream traceability verification.
 
