@@ -49,7 +49,7 @@ Convert intent into irreducible truths.
 
 ---
 
-## Phase 3 — Semantic Closure Validation
+## [Phase 3 — Semantic Closure Validation](Phase-03.md)
 
 ### Objective
 Ensure invariants fully cover requirement intent.
@@ -66,7 +66,7 @@ Ensure invariants fully cover requirement intent.
 
 ---
 
-## Phase 4 — Constraint Derivation
+## [Phase 4 — Constraint Derivation](Phase-04.md)
 
 ### Objective
 Translate invariants into executable rules.
