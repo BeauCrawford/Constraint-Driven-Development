@@ -1,4 +1,4 @@
-# Phase 05 - Contract & Boundary Definition Invariants
+﻿# Phase 05 - Contract & Boundary Definition Invariants
 
 ## Overview
 
@@ -9,7 +9,7 @@ No test generation or simulation work may treat an interaction as authoritative 
 
 ---
 
-## Step 01 - Load Constraints
+## [Step 01 - Load Constraints](./Steps/Step-01/)
 
 **CDD_P05_CONSTRAINT_SOURCE_REQUIRED**
 Phase 05 must load the published Phase 04 constraint set as the interaction authority.
@@ -31,7 +31,7 @@ Missing IDs, missing mappings, contradiction, or incomplete failure semantics mu
 
 ---
 
-## Step 02 - Align Terminology
+## [Step 02 - Align Terminology](./Steps/Step-02/)
 
 **CDD_P05_GLOSSARY_ALIGNMENT_REQUIRED**
 Contract language must align with canonical glossary terms used by the governing constraints.
@@ -53,7 +53,7 @@ Any term meaning shift between constraints and contracts must be recorded as dri
 
 ---
 
-## Step 03 - Identify Boundaries
+## [Step 03 - Identify Boundaries](./Steps/Step-03/)
 
 **CDD_P05_BOUNDARY_IDENTIFICATION_REQUIRED**
 All system interaction points implied by the constraint set must be identified.
@@ -78,7 +78,7 @@ Potential interactions that cannot be classified must be recorded as boundary ga
 
 ---
 
-## Step 04 - Define Contract Interfaces
+## [Step 04 - Define Contract Interfaces](./Steps/Step-04/)
 
 **CDD_P05_CONTRACT_DEFINITION_REQUIRED**
 Each governed boundary must have an explicit contract definition.
@@ -103,7 +103,7 @@ Contract definitions must not introduce behavior beyond constraint authority.
 
 ---
 
-## Step 05 - Map Constraints to Interactions
+## [Step 05 - Map Constraints to Interactions](./Steps/Step-05/)
 
 **CDD_P05_CONSTRAINT_INTERACTION_MAPPING_REQUIRED**
 Each boundary interaction must map to the constraints that govern it.
@@ -125,7 +125,7 @@ Unmapped constraints and ungoverned interactions must be recorded as gaps.
 
 ---
 
-## Step 06 - Encode Edge and Failure Behavior
+## [Step 06 - Encode Edge and Failure Behavior](./Steps/Step-06/)
 
 **CDD_P05_EDGE_FAILURE_REQUIRED**
 Contracts must encode relevant edge and failure behavior.
@@ -147,7 +147,7 @@ Edge and failure behavior must be precise enough for later deterministic test do
 
 ---
 
-## Step 07 - Eliminate Side Channels
+## [Step 07 - Eliminate Side Channels](./Steps/Step-07/)
 
 **CDD_P05_SIDE_CHANNEL_DETECTION_REQUIRED**
 Phase 05 must check for interactions that bypass explicit contracts.
@@ -169,7 +169,7 @@ Any permitted exception must be visible, justified, owned, and reconciliation-bo
 
 ---
 
-## Step 08 - Review Gate
+## [Step 08 - Review Gate](./Steps/Step-08/)
 
 **CDD_P05_REVIEW_GATE_REQUIRED**
 The contract set must pass a review gate before publication.
@@ -194,7 +194,7 @@ Review approval without evidence does not grant downstream authority.
 
 ---
 
-## Step 09 - Publish Contract Set
+## [Step 09 - Publish Contract Set](./Steps/Step-09/)
 
 **CDD_P05_PUBLICATION_REQUIRED**
 The authoritative contract set must be published before test generation and simulation validation rely on it.
@@ -244,3 +244,4 @@ No downstream artifact may claim authority from Phase 05 unless the Phase 05 gat
 ## Final Compression
 
 Phase 05 requires that every governed interaction become an explicit, constraint-aligned, glossary-grounded, side-channel-free, replaceable contract with visible edge and failure semantics before proof construction or simulation begins.
+

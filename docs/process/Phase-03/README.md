@@ -1,4 +1,4 @@
-# Phase 03 — Semantic Closure Validation
+﻿# Phase 03 â€” Semantic Closure Validation
 
 ## Overview
 
@@ -69,29 +69,29 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | Provide requirements | Requirements are loaded as the semantic source of truth |
-| 🟥 | 2 | Provide invariants | Invariants are loaded as candidate representations |
-| 🟥 | 3 | Align terminology | Glossary ensures consistent semantic comparison |
-| 🟥 | 4 | Compare coverage | Evaluate how well invariants represent requirements |
-| 🟥 | 5 | Detect gaps | Identify missing intent not captured in invariants |
-| 🟥 | 6 | Detect additions | Identify invented semantics not in requirements |
-| 🟥 | 7 | Detect drift | Identify misaligned or distorted meaning |
-| 🟥 | 8 | Score closure | Quantify semantic containment |
-| 🟦 | 9 | Review gate | Validate closure thresholds |
-| 🟥 | 10 | Refine invariants | Iterate until closure is acceptable |
-| 🟦 | 11 | Publish report | Output closure validation results |
+| ðŸŸ¥ | 1 | [Provide requirements](./Steps/Step-01/) | Requirements are loaded as the semantic source of truth |
+| ðŸŸ¥ | 2 | [Provide invariants](./Steps/Step-02/) | Invariants are loaded as candidate representations |
+| ðŸŸ¥ | 3 | [Align terminology](./Steps/Step-03/) | Glossary ensures consistent semantic comparison |
+| ðŸŸ¥ | 4 | [Compare coverage](./Steps/Step-04/) | Evaluate how well invariants represent requirements |
+| ðŸŸ¥ | 5 | [Detect gaps](./Steps/Step-05/) | Identify missing intent not captured in invariants |
+| ðŸŸ¥ | 6 | [Detect additions](./Steps/Step-06/) | Identify invented semantics not in requirements |
+| ðŸŸ¥ | 7 | [Detect drift](./Steps/Step-07/) | Identify misaligned or distorted meaning |
+| ðŸŸ¥ | 8 | [Score closure](./Steps/Step-08/) | Quantify semantic containment |
+| ðŸŸ¦ | 9 | [Review gate](./Steps/Step-09/) | Validate closure thresholds |
+| ðŸŸ¥ | 10 | [Refine invariants](./Steps/Step-10/) | Iterate until closure is acceptable |
+| ðŸŸ¦ | 11 | [Publish report](./Steps/Step-11/) | Output closure validation results |
 
 ---
 
 ## Step Sequence
 
-### 🟥 STEP 01 — Load Requirements  
+### ðŸŸ¥ [STEP 01 — Load Requirements](./Steps/Step-01/)
 **Tagline:** Establish source truth  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Load Requirements, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Load Requirements outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Load Requirements, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Load Requirements outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use requirements as the authoritative semantic reference.
@@ -101,13 +101,13 @@ CDD_REQUIREMENT_SOURCE_AUTHORITY
 
 ---
 
-### 🟥 STEP 02 — Load Invariants  
+### ðŸŸ¥ [STEP 02 — Load Invariants](./Steps/Step-02/)
 **Tagline:** Establish candidate truth  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Load Invariants, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Load Invariants outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Load Invariants, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Load Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use invariants as the representation under validation.
@@ -117,13 +117,13 @@ CDD_INVARIANT_PARENT_FIDELITY
 
 ---
 
-### 🟥 STEP 03 — Align Terminology  
+### ðŸŸ¥ [STEP 03 — Align Terminology](./Steps/Step-03/)
 **Tagline:** Normalize comparison space  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Align Terminology, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Align Terminology outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Align Terminology, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Align Terminology outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure both layers use consistent glossary terms.
@@ -133,13 +133,13 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### 🟥 STEP 04 — Measure Coverage  
+### ðŸŸ¥ [STEP 04 — Measure Coverage](./Steps/Step-04/)
 **Tagline:** Check containment  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Measure Coverage, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Measure Coverage outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Measure Coverage, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Measure Coverage outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Determine if invariants fully cover requirement meaning.
@@ -149,13 +149,13 @@ CDD_CLOSURE_PARENT_CHILD_COVERAGE
 
 ---
 
-### 🟥 STEP 05 — Detect Gaps  
+### ðŸŸ¥ [STEP 05 — Detect Gaps](./Steps/Step-05/)
 **Tagline:** Find missing meaning  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Detect Gaps, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Detect Gaps outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Detect Gaps, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Detect Gaps outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Identify requirement semantics not represented.
@@ -165,13 +165,13 @@ CDD_CLOSURE_NO_SILENT_LOSS
 
 ---
 
-### 🟥 STEP 06 — Detect Unauthorized Additions  
+### ðŸŸ¥ [STEP 06 — Detect Unauthorized Additions](./Steps/Step-06/)
 **Tagline:** Prevent invention  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Detect Unauthorized Additions, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Detect Unauthorized Additions outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Detect Unauthorized Additions, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Detect Unauthorized Additions outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Identify invariant semantics not present in requirements.
@@ -181,13 +181,13 @@ CDD_CLOSURE_NO_UNAUTHORIZED_ADDITION
 
 ---
 
-### 🟥 STEP 07 — Detect Drift  
+### ðŸŸ¥ [STEP 07 — Detect Drift](./Steps/Step-07/)
 **Tagline:** Identify distortion  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Detect Drift, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Detect Drift outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Detect Drift, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Detect Drift outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Find mismatched or altered meaning.
@@ -197,13 +197,13 @@ CDD_CLOSURE_DRIFT_DEFINITION
 
 ---
 
-### 🟥 STEP 08 — Score Closure  
+### ðŸŸ¥ [STEP 08 — Score Closure](./Steps/Step-08/)
 **Tagline:** Quantify containment  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Score Closure, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Score Closure outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Score Closure, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Score Closure outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Assign measurable closure score.
@@ -213,13 +213,13 @@ CDD_CLOSURE_PRIMARY_METRIC
 
 ---
 
-### 🟦 STEP 09 — Review Gate  
+### ðŸŸ¦ [STEP 09 — Review Gate](./Steps/Step-09/)
 **Tagline:** Enforce thresholds  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Validate closure meets required level.
@@ -229,13 +229,13 @@ CDD_CLOSURE_THRESHOLD_ENFORCEMENT
 
 ---
 
-### 🟥 STEP 10 — Refine Invariants  
+### ðŸŸ¥ [STEP 10 — Refine Invariants](./Steps/Step-10/)
 **Tagline:** Repair gaps  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Refine Invariants, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Refine Invariants outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Refine Invariants, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Refine Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Update invariants to improve closure.
@@ -245,13 +245,13 @@ CDD_CLOSURE_REVALIDATION_REQUIRED
 
 ---
 
-### 🟦 STEP 11 — Publish Closure Report  
+### ðŸŸ¦ [STEP 11 — Publish Closure Report](./Steps/Step-11/)
 **Tagline:** Record semantic integrity  
 
 **Actions**
 
-* **🟥 AI Actions:** Analyze supporting artifacts for Publish Closure Report, update structured outputs, and surface gaps.
-* **🟦 Human Actions:** Review Publish Closure Report outputs, resolve domain decisions, and approve the outcome.
+* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Publish Closure Report, update structured outputs, and surface gaps.
+* **ðŸŸ¦ Human Actions:** Review Publish Closure Report outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Produce final closure assessment.
@@ -273,7 +273,8 @@ CDD_CLOSURE_GAP_VISIBILITY
 
 ## Final Compression
 
-This phase ensures that invariants are not just derived from requirements—but are a complete, lossless, and faithful semantic representation of them.
+This phase ensures that invariants are not just derived from requirementsâ€”but are a complete, lossless, and faithful semantic representation of them.
+
 
 
 
