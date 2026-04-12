@@ -60,24 +60,29 @@ sequenceDiagram
 
 ## Step Summary Table
 
-| # | Step | What is happening |
-|---:|---|---|
-| 1 | Submit change | Capture requested evolution |
-| 2 | Classify impact | Identify upstream source and affected paths |
-| 3 | Update upstream | Change requirements or invariants first |
-| 4 | Re-lower artifacts | Propagate through the CDD pipeline |
-| 5 | Regenerate downstream | Recreate constraints, tests, and code |
-| 6 | Submit artifacts | Move regenerated outputs to review |
-| 7 | Revalidate | Confirm closure and coverage |
-| 8 | Detect stale artifacts | Remove drift and obsolete outputs |
-| 9 | Publish report | Record change integrity |
+| Owner | # | Step | What is happening |
+|:---:|---:|---|---|
+| 🟦 | 1 | Submit change | Capture requested evolution |
+| 🟥 | 2 | Classify impact | Identify upstream source and affected paths |
+| 🟥 | 3 | Update upstream | Change requirements or invariants first |
+| 🟥 | 4 | Re-lower artifacts | Propagate through the CDD pipeline |
+| 🟥 | 5 | Regenerate downstream | Recreate constraints, tests, and code |
+| 🟦 | 6 | Submit artifacts | Move regenerated outputs to review |
+| 🟥 | 7 | Revalidate | Confirm closure and coverage |
+| 🟥 | 8 | Detect stale artifacts | Remove drift and obsolete outputs |
+| 🟦 | 9 | Publish report | Record change integrity |
 
 ---
 
 ## Step Sequence
 
-### STEP 01 — Submit Change Request
+### 🟦 STEP 01 — Submit Change Request
 **Tagline:** Capture evolution
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Submit Change Request, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Submit Change Request outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Record the desired change before altering downstream artifacts.
@@ -87,8 +92,13 @@ CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### STEP 02 — Classify Impact
+### 🟥 STEP 02 — Classify Impact
 **Tagline:** Find the source layer
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Classify Impact, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Classify Impact outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Determine whether the change belongs in requirements, invariants, glossary, or another upstream artifact.
@@ -98,8 +108,13 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### STEP 03 — Update Upstream Source
+### 🟥 STEP 03 — Update Upstream Source
 **Tagline:** Change authority first
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Update Upstream Source, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Update Upstream Source outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Apply the change at the governing semantic layer.
@@ -109,8 +124,13 @@ CDD_FOUNDATION_INTENT_PRECEDENCE, CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### STEP 04 — Re-Lower Affected Artifacts
+### 🟥 STEP 04 — Re-Lower Affected Artifacts
 **Tagline:** Propagate meaning
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Re-Lower Affected Artifacts, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Re-Lower Affected Artifacts outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Derive downstream artifacts again instead of patching them manually.
@@ -120,8 +140,13 @@ CDD_LOWERING_RECOMPILATION_OVER_PATCHING, CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 
 ---
 
-### STEP 05 — Regenerate Constraints, Tests, and Code
+### 🟥 STEP 05 — Regenerate Constraints, Tests, and Code
 **Tagline:** Refresh proof chain
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Regenerate Constraints, Tests, and Code, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Regenerate Constraints, Tests, and Code outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Regenerate affected executable rules, proofs, and implementation.
@@ -131,8 +156,13 @@ CDD_TEST_REGENERABILITY, CDD_CHANGE_TEST_REGENERATION
 
 ---
 
-### STEP 06 — Submit Regenerated Artifacts
+### 🟦 STEP 06 — Submit Regenerated Artifacts
 **Tagline:** Re-enter governance
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Submit Regenerated Artifacts, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Submit Regenerated Artifacts outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Move regenerated outputs through review gates.
@@ -142,8 +172,13 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### STEP 07 — Revalidate Closure and Coverage
+### 🟥 STEP 07 — Revalidate Closure and Coverage
 **Tagline:** Confirm containment
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Revalidate Closure and Coverage, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Revalidate Closure and Coverage outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure the updated system remains semantically closed and fully covered.
@@ -153,8 +188,13 @@ CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_COVERAGE_REVALIDATION
 
 ---
 
-### STEP 08 — Detect Stale Artifacts and Drift
+### 🟥 STEP 08 — Detect Stale Artifacts and Drift
 **Tagline:** Remove divergence
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Detect Stale Artifacts and Drift, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Detect Stale Artifacts and Drift outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Identify obsolete artifacts or semantic drift introduced by the change.
@@ -164,8 +204,13 @@ CDD_CHANGE_NO_SILENT_DIVERGENCE, CDD_CHANGE_DRIFT_DETECTION
 
 ---
 
-### STEP 09 — Publish Change Report
+### 🟦 STEP 09 — Publish Change Report
 **Tagline:** Record evolution
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Publish Change Report, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Publish Change Report outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Document what changed, what was regenerated, and what evidence proves integrity.
@@ -189,3 +234,6 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 This phase keeps evolution inside the constraint system,
 ensuring change flows through authority instead of bypassing it.
+
+
+

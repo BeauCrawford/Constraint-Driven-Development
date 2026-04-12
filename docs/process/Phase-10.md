@@ -63,25 +63,30 @@ sequenceDiagram
 
 ## Step Summary Table
 
-| # | Step | What is happening |
-|---:|---|---|
-| 1 | Provide traceability | Use lineage to scope validation |
-| 2 | Provide test results | Use proof outcomes as evidence |
-| 3 | Provide constraints | Measure coverage against rules |
-| 4 | Provide invariants | Revalidate truth preservation |
-| 5 | Provide requirements | Revalidate source intent coverage |
-| 6 | Measure coverage | Confirm constraints are proven |
-| 7 | Revalidate closure | Confirm layers still contain parent meaning |
-| 8 | Detect gaps | Identify uncovered semantics |
-| 9 | Detect drift | Identify containment loss |
-| 10 | Publish report | Record coverage and closure status |
+| Owner | # | Step | What is happening |
+|:---:|---:|---|---|
+| 🟥 | 1 | Provide traceability | Use lineage to scope validation |
+| 🟥 | 2 | Provide test results | Use proof outcomes as evidence |
+| 🟥 | 3 | Provide constraints | Measure coverage against rules |
+| 🟥 | 4 | Provide invariants | Revalidate truth preservation |
+| 🟥 | 5 | Provide requirements | Revalidate source intent coverage |
+| 🟥 | 6 | Measure coverage | Confirm constraints are proven |
+| 🟥 | 7 | Revalidate closure | Confirm layers still contain parent meaning |
+| 🟥 | 8 | Detect gaps | Identify uncovered semantics |
+| 🟥 | 9 | Detect drift | Identify containment loss |
+| 🟦 | 10 | Publish report | Record coverage and closure status |
 
 ---
 
 ## Step Sequence
 
-### STEP 01 — Load Traceability Matrix
+### 🟥 STEP 01 — Load Traceability Matrix
 **Tagline:** Establish validation map
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Traceability Matrix, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Traceability Matrix outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use traceability to identify what must be covered and revalidated.
@@ -91,8 +96,13 @@ CDD_TRACEABILITY_END_TO_END
 
 ---
 
-### STEP 02 — Load Test Results
+### 🟥 STEP 02 — Load Test Results
 **Tagline:** Gather proof evidence
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Test Results, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Test Results outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use implementation test results as coverage evidence.
@@ -102,8 +112,13 @@ CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 ---
 
-### STEP 03 — Load Constraints
+### 🟥 STEP 03 — Load Constraints
 **Tagline:** Establish coverage target
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Constraints, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Constraints outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use constraints as the primary coverage surface.
@@ -113,8 +128,13 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE
 
 ---
 
-### STEP 04 — Load Invariants
+### 🟥 STEP 04 — Load Invariants
 **Tagline:** Establish semantic target
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Invariants, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use invariants as the semantic truth layer for revalidation.
@@ -124,8 +144,13 @@ CDD_INVARIANT_PARENT_FIDELITY
 
 ---
 
-### STEP 05 — Load Requirements
+### 🟥 STEP 05 — Load Requirements
 **Tagline:** Preserve source intent
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Requirements, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Requirements outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use requirements as the upstream source of meaning.
@@ -135,8 +160,13 @@ CDD_REQUIREMENT_SOURCE_AUTHORITY
 
 ---
 
-### STEP 06 — Measure Constraint Coverage
+### 🟥 STEP 06 — Measure Constraint Coverage
 **Tagline:** Prove all rules
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Measure Constraint Coverage, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Measure Constraint Coverage outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Confirm every constraint is covered by one or more deterministic tests.
@@ -146,8 +176,13 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE, CDD_COVERAGE_ID_LINKED
 
 ---
 
-### STEP 07 — Revalidate Semantic Closure
+### 🟥 STEP 07 — Revalidate Semantic Closure
 **Tagline:** Confirm containment
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Revalidate Semantic Closure, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Revalidate Semantic Closure outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Validate that each layer still preserves parent meaning.
@@ -157,8 +192,13 @@ CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_CLOSURE_PARENT_CHILD_COVERAGE
 
 ---
 
-### STEP 08 — Detect Coverage Gaps
+### 🟥 STEP 08 — Detect Coverage Gaps
 **Tagline:** Expose missing proof
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Detect Coverage Gaps, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Detect Coverage Gaps outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Identify any semantics or constraints lacking proof.
@@ -168,8 +208,13 @@ CDD_COVERAGE_GAP_VISIBILITY
 
 ---
 
-### STEP 09 — Detect Drift
+### 🟥 STEP 09 — Detect Drift
 **Tagline:** Expose containment loss
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Detect Drift, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Detect Drift outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Identify any loss of alignment across layers.
@@ -179,8 +224,13 @@ CDD_CLOSURE_DRIFT_DEFINITION, CDD_CHANGE_DRIFT_DETECTION
 
 ---
 
-### STEP 10 — Publish Revalidation Report
+### 🟦 STEP 10 — Publish Revalidation Report
 **Tagline:** Record system integrity
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Publish Revalidation Report, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Publish Revalidation Report outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Produce the authoritative report for coverage, closure, gaps, and drift.
@@ -204,3 +254,6 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 This phase proves the system is still closed after implementation,
 turning coverage from a code metric into semantic evidence.
+
+
+

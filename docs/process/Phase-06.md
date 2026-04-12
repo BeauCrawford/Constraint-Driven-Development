@@ -65,27 +65,32 @@ sequenceDiagram
 
 ## Step Summary Table
 
-| # | Step | What is happening |
-|---:|---|---|
-| 1 | Load constraints | Use constraints as the source of truth for test generation |
-| 2 | Align terminology | Ensure tests use canonical glossary terms |
-| 3 | Bind to contracts | Anchor tests to explicit boundaries/interfaces |
-| 4 | Generate positive tests | Prove required behavior is satisfied |
-| 5 | Generate negative tests | Prove forbidden behavior is rejected |
-| 6 | Generate boundary tests | Prove edge conditions behave correctly |
-| 7 | Generate failure tests | Prove explicit failure semantics |
-| 8 | Map tests to IDs | Ensure each test links to CONSTRAINT_ID(s) |
-| 9 | Enforce determinism | Remove non-determinism and runtime interpretation |
-| 10 | Compute coverage | Measure semantic coverage over constraints |
-| 11 | Review gate | Validate completeness and integrity |
-| 12 | Publish suite | Produce authoritative proof artifacts |
+| Owner | # | Step | What is happening |
+|:---:|---:|---|---|
+| 🟥 | 1 | Load constraints | Use constraints as the source of truth for test generation |
+| 🟥 | 2 | Align terminology | Ensure tests use canonical glossary terms |
+| 🟥 | 3 | Bind to contracts | Anchor tests to explicit boundaries/interfaces |
+| 🟥 | 4 | Generate positive tests | Prove required behavior is satisfied |
+| 🟥 | 5 | Generate negative tests | Prove forbidden behavior is rejected |
+| 🟥 | 6 | Generate boundary tests | Prove edge conditions behave correctly |
+| 🟥 | 7 | Generate failure tests | Prove explicit failure semantics |
+| 🟥 | 8 | Map tests to IDs | Ensure each test links to CONSTRAINT_ID(s) |
+| 🟥 | 9 | Enforce determinism | Remove non-determinism and runtime interpretation |
+| 🟥 | 10 | Compute coverage | Measure semantic coverage over constraints |
+| 🟦 | 11 | Review gate | Validate completeness and integrity |
+| 🟦 | 12 | Publish suite | Produce authoritative proof artifacts |
 
 ---
 
 ## Step Sequence
 
-### STEP 01 — Load Constraints
+### 🟥 STEP 01 — Load Constraints
 **Tagline:** Establish proof authority
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Constraints, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Constraints outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use the constraint set (with IDs) as the sole source for test generation.
@@ -95,8 +100,13 @@ CDD_CONSTRAINT_UNIQUE_IDENTITY, CDD_CONSTRAINT_ADDRESSABILITY
 
 ---
 
-### STEP 02 — Align Terminology
+### 🟥 STEP 02 — Align Terminology
 **Tagline:** Maintain semantic consistency
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Align Terminology, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Align Terminology outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure all generated tests use glossary-aligned terms.
@@ -106,8 +116,13 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### STEP 03 — Bind to Contracts
+### 🟥 STEP 03 — Bind to Contracts
 **Tagline:** Anchor tests at boundaries
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Bind to Contracts, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Bind to Contracts outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Attach tests to contract interfaces to validate interaction semantics.
@@ -117,8 +132,13 @@ CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_ARCH_BOUNDARY_FIRST
 
 ---
 
-### STEP 04 — Generate Positive Tests
+### 🟥 STEP 04 — Generate Positive Tests
 **Tagline:** Prove allowed behavior
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Generate Positive Tests, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Generate Positive Tests outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Create tests that assert required outcomes for valid inputs and states.
@@ -128,8 +148,13 @@ CDD_TEST_POSITIVE_PROOF
 
 ---
 
-### STEP 05 — Generate Negative Tests
+### 🟥 STEP 05 — Generate Negative Tests
 **Tagline:** Forbid invalid behavior
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Generate Negative Tests, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Generate Negative Tests outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Create tests that assert rejection of invalid states and inputs.
@@ -139,8 +164,13 @@ CDD_TEST_NEGATIVE_PROOF
 
 ---
 
-### STEP 06 — Generate Boundary Tests
+### 🟥 STEP 06 — Generate Boundary Tests
 **Tagline:** Validate edge conditions
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Generate Boundary Tests, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Generate Boundary Tests outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Create tests around limits, thresholds, and transitions.
@@ -150,8 +180,13 @@ CDD_TEST_BOUNDARY_PROOF
 
 ---
 
-### STEP 07 — Generate Failure-Path Tests
+### 🟥 STEP 07 — Generate Failure-Path Tests
 **Tagline:** Prove failure semantics
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Generate Failure-Path Tests, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Generate Failure-Path Tests outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Create tests that assert defined failure modes and responses.
@@ -161,8 +196,13 @@ CDD_TEST_FAILURE_PROOF
 
 ---
 
-### STEP 08 — Map Tests to CONSTRAINT_IDs
+### 🟥 STEP 08 — Map Tests to CONSTRAINT_IDs
 **Tagline:** Ensure traceability
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Map Tests to CONSTRAINT_IDs, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Map Tests to CONSTRAINT_IDs outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Link each test to one or more CONSTRAINT_IDs.
@@ -172,8 +212,13 @@ CDD_TEST_CONSTRAINT_MAPPING, CDD_TRACEABILITY_CONSTRAINT_TO_TEST
 
 ---
 
-### STEP 09 — Enforce Determinism
+### 🟥 STEP 09 — Enforce Determinism
 **Tagline:** Eliminate runtime interpretation
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Enforce Determinism, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Enforce Determinism outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure tests are stable, reproducible, and free of non-deterministic inputs.
@@ -183,8 +228,13 @@ CDD_TEST_RUNTIME_DETERMINISM, CDD_DETERMINISM_REPEATABILITY
 
 ---
 
-### STEP 10 — Compute Coverage
+### 🟥 STEP 10 — Compute Coverage
 **Tagline:** Measure semantic completeness
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Compute Coverage, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Compute Coverage outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Verify all constraints are covered by at least one test.
@@ -194,8 +244,13 @@ CDD_COVERAGE_CONSTRAINT_COMPLETE, CDD_COVERAGE_ID_LINKED
 
 ---
 
-### STEP 11 — Review Gate
+### 🟦 STEP 11 — Review Gate
 **Tagline:** Enforce proof integrity
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Validate mapping, coverage, determinism, and boundary anchoring.
@@ -205,8 +260,13 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### STEP 12 — Publish Test Suite
+### 🟦 STEP 12 — Publish Test Suite
 **Tagline:** Establish executable proof
+
+**Actions**
+
+* **🟥 AI Actions:** Analyze supporting artifacts for Publish Test Suite, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Publish Test Suite outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Release the authoritative, constraint-mapped test suite.
@@ -230,3 +290,6 @@ CDD_TEST_NO_ORPHANS, CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 This phase turns constraints into executable proof,
 making correctness mechanically enforceable before any implementation exists.
+
+
+
