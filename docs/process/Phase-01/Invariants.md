@@ -9,7 +9,7 @@ No downstream invariant extraction may begin until this invariant set is satisfi
 
 ---
 
-## Step 01 - Capture Intent Surface
+## [Step 01 - Capture Intent Surface](./Steps/Step-01/)
 
 **CDD_P01_INTENT_SOURCE_VISIBILITY**
 All raw stakeholder intent used by Phase 01 must be visible as an input artifact.
@@ -34,7 +34,7 @@ Missing stakeholder input, missing source documents, or incomplete context must 
 
 ---
 
-## Step 02 - Normalize Language
+## [Step 02 - Normalize Language](./Steps/Step-02/)
 
 **CDD_P01_REQUIREMENT_STATEMENT_STRUCTURE**
 Each normalized requirement must be expressed as a structured statement of intended system behavior.
@@ -68,7 +68,7 @@ Each normalized requirement must remain traceable to the raw intent it came from
 
 ---
 
-## Step 03 - Apply Glossary Grounding
+## [Step 03 - Apply Glossary Grounding](./Steps/Step-03/)
 
 **CDD_P01_GLOSSARY_TERM_RESOLUTION**
 Every governed domain term in a requirement must resolve to the canonical glossary.
@@ -93,7 +93,7 @@ Missing glossary entries, ambiguous definitions, and competing term meanings mus
 
 ---
 
-## Step 04 - Assign Requirement IDs
+## [Step 04 - Assign Requirement IDs](./Steps/Step-04/)
 
 **CDD_P01_REQUIREMENT_ID_REQUIRED**
 Every normalized requirement must have a stable requirement ID before publication.
@@ -115,7 +115,7 @@ Each requirement must be directly referable by ID in downstream artifacts, revie
 
 ---
 
-## Step 05 - Declare Scope Boundaries
+## [Step 05 - Declare Scope Boundaries](./Steps/Step-05/)
 
 **CDD_P01_SCOPE_INCLUSION_EXPLICITNESS**
 In-scope behavior must be explicitly identified.
@@ -140,7 +140,7 @@ External systems, actors, data sources, and organizational boundaries must be vi
 
 ---
 
-## Step 06 - Surface Assumptions
+## [Step 06 - Surface Assumptions](./Steps/Step-06/)
 
 **CDD_P01_ASSUMPTION_EXPLICITNESS**
 Any meaning required to understand a requirement but absent from raw intent must be recorded as an assumption.
@@ -165,7 +165,7 @@ When an assumption is replaced by confirmed intent, the decision must remain tra
 
 ---
 
-## Step 07 - Detect Conflicts
+## [Step 07 - Detect Conflicts](./Steps/Step-07/)
 
 **CDD_P01_CONFLICT_DETECTION_REQUIRED**
 The requirement set must be checked for contradictions before publication.
@@ -190,7 +190,7 @@ Rejected alternatives and superseded wording must remain traceable to the confli
 
 ---
 
-## Step 08 - Validate Completeness
+## [Step 08 - Validate Completeness](./Steps/Step-08/)
 
 **CDD_P01_COMPLETENESS_CHECK_REQUIRED**
 The requirement set must be checked for missing or underdefined intent before governance review.
@@ -218,7 +218,7 @@ Each gap must be classified as blocking, non-blocking, or governed exception.
 
 ---
 
-## Step 09 - Governance Review
+## [Step 09 - Governance Review](./Steps/Step-09/)
 
 **CDD_P01_GOVERNANCE_REVIEW_REQUIRED**
 The requirement set must pass a governance review before downstream lowering.
@@ -240,7 +240,7 @@ Review findings must link to affected requirement IDs, gaps, assumptions, confli
 
 ---
 
-## Step 10 - Stabilize Requirements
+## [Step 10 - Stabilize Requirements](./Steps/Step-10/)
 
 **CDD_P01_STABILITY_GATE_REQUIRED**
 Requirements must pass a stability gate before they can serve as input to invariant extraction.
@@ -262,7 +262,7 @@ Each stabilized requirement must be fit for invariant extraction without requiri
 
 ---
 
-## Step 11 - Publish Requirements
+## [Step 11 - Publish Requirements](./Steps/Step-11/)
 
 **CDD_P01_PUBLICATION_REQUIRED**
 The authoritative requirement set must be published before Phase 02 begins.
