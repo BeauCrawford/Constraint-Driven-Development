@@ -29,6 +29,10 @@ Transform normalized requirements into minimal, non-redundant, implementation-in
 - Conflict resolution artifacts
 - Negative-space definitions
 
+## Phase Artifacts
+
+- [Phase 2 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

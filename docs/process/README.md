@@ -11,7 +11,7 @@ Requirements → Invariants → Constraints → Tests → Code
 
 ---
 
-## [Phase 1 — Requirement Formation](./Phase-01.md)
+## [Phase 1 — Requirement Formation](./Phase-01/)
 
 ### Objective
 Establish explicit, grounded intent.
@@ -30,7 +30,7 @@ Establish explicit, grounded intent.
 
 ---
 
-## [Phase 2 — Invariant Extraction](Phase-02.md)
+## [Phase 2 — Invariant Extraction](./Phase-02/)
 
 ### Objective
 Convert intent into irreducible truths.
@@ -49,7 +49,7 @@ Convert intent into irreducible truths.
 
 ---
 
-## [Phase 3 — Semantic Closure Validation](Phase-03.md)
+## [Phase 3 — Semantic Closure Validation](./Phase-03/)
 
 ### Objective
 Ensure invariants fully cover requirement intent.
@@ -66,7 +66,7 @@ Ensure invariants fully cover requirement intent.
 
 ---
 
-## [Phase 4 — Constraint Derivation](Phase-04.md)
+## [Phase 4 — Constraint Derivation](./Phase-04/)
 
 ### Objective
 Translate invariants into executable rules.
@@ -85,7 +85,7 @@ Translate invariants into executable rules.
 
 ---
 
-## [Phase 5 — Contract & Boundary Definition](Phase-05.md)
+## [Phase 5 — Contract & Boundary Definition](./Phase-05/)
 
 ### Objective
 Externalize interaction semantics.
@@ -103,7 +103,7 @@ Externalize interaction semantics.
 
 ---
 
-## [Phase 6 — Test Generation (Proof Construction)](Phase-06.md)
+## [Phase 6 — Test Generation (Proof Construction)](./Phase-06/)
 
 ### Objective
 Compile constraints into executable proof.
@@ -121,7 +121,7 @@ Compile constraints into executable proof.
 
 ---
 
-## [Phase 7 — Simulation & Boundary Validation](Phase-07.md)
+## [Phase 7 — Simulation & Boundary Validation](./Phase-07/)
 
 ### Objective
 Prove behavior in isolation.
@@ -138,7 +138,7 @@ Prove behavior in isolation.
 
 ---
 
-## [Phase 8 — Code Generation / Implementation](Phase-08.md)
+## [Phase 8 — Code Generation / Implementation](./Phase-08/)
 
 ### Objective
 Realize behavior as code.
@@ -154,7 +154,7 @@ Realize behavior as code.
 
 ---
 
-## [Phase 9 — Traceability Verification](Phase-09.md)
+## [Phase 9 — Traceability Verification](./Phase-09/)
 
 ### Objective
 Ensure full lineage integrity.
@@ -172,7 +172,7 @@ Ensure full lineage integrity.
 
 ---
 
-## [Phase 10 — Coverage & Closure Revalidation](Phase-10.md)
+## [Phase 10 — Coverage & Closure Revalidation](./Phase-10/)
 
 ### Objective
 Confirm completeness and integrity.
@@ -189,7 +189,7 @@ Confirm completeness and integrity.
 
 ---
 
-## [Phase 11 — Change & Recompilation](Phase-11.md)
+## [Phase 11 — Change & Recompilation](./Phase-11/)
 
 ### Objective
 Maintain integrity under evolution.
@@ -207,7 +207,7 @@ Maintain integrity under evolution.
 
 ---
 
-## [Phase 12 — Governance & Enforcement](Phase-12.md)
+## [Phase 12 — Governance & Enforcement](./Phase-12/)
 
 ### Objective
 Ensure process integrity.

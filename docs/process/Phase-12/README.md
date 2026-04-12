@@ -31,6 +31,10 @@ Ensure every layer, transition, exception, and release decision is governed by e
 - Evidence index
 - Release or rejection decision
 
+## Phase Artifacts
+
+- [Phase 12 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

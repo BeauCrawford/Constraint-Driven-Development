@@ -31,6 +31,10 @@ Translate invariants into precise, addressable, executable constraints that defi
 - Failure semantics
 - Consistency report
 
+## Phase Artifacts
+
+- [Phase 4 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

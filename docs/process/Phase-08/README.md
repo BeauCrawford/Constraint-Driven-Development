@@ -31,6 +31,10 @@ Generate or implement code that satisfies the proven test suite, binds to explic
 - Passing test results against real implementation
 - Implementation-to-test mappings
 
+## Phase Artifacts
+
+- [Phase 8 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

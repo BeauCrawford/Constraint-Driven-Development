@@ -31,6 +31,10 @@ Apply change through requirements or invariants, regenerate downstream artifacts
 - Drift resolution report
 - Revalidation evidence
 
+## Phase Artifacts
+
+- [Phase 11 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

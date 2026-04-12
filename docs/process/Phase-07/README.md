@@ -31,6 +31,10 @@ Validate that all contract-bound interactions, edge conditions, and failure mode
 - Interaction coverage evidence
 - Failure-mode verification artifacts
 
+## Phase Artifacts
+
+- [Phase 7 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

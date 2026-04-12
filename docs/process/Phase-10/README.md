@@ -32,6 +32,10 @@ Measure constraint-level coverage, revalidate closure across all layers, and exp
 - Gap and drift register
 - Revalidation decision
 
+## Phase Artifacts
+
+- [Phase 10 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

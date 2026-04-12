@@ -32,6 +32,10 @@ Transform raw intent into structured, explicit, glossary-grounded, and addressab
 - Declared scope boundaries
 - Conflict resolution artifacts
 
+## Phase Artifacts
+
+- [Phase 1 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

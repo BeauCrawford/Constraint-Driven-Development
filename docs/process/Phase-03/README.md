@@ -30,6 +30,10 @@ Measure and enforce semantic closure between requirements and invariants such th
 - Closure score / threshold validation
 - Gap resolution artifacts
 
+## Phase Artifacts
+
+- [Phase 3 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

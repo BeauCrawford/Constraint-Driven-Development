@@ -30,6 +30,10 @@ Generate a complete, deterministic, and traceable test suite from constraints th
 - Deterministic execution configuration
 - Coverage report (constraint-level)
 
+## Phase Artifacts
+
+- [Phase 6 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

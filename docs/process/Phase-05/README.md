@@ -29,6 +29,10 @@ Define all system boundaries as explicit, constraint-aligned contracts that full
 - Failure and edge interaction rules
 - Contract-to-constraint mappings
 
+## Phase Artifacts
+
+- [Phase 5 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram

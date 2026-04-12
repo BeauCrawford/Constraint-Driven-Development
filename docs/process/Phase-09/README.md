@@ -32,6 +32,10 @@ Ensure each requirement, invariant, constraint, test, and code artifact can be t
 - Reverse navigation map
 - Impact analysis paths
 
+## Phase Artifacts
+
+- [Phase 9 Invariants](./Invariants.md)
+
 ---
 
 ## Mermaid Sequence Diagram
