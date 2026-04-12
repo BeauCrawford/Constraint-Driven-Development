@@ -66,21 +66,21 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | Submit change | Capture requested evolution |
-| 🟥 | 2 | Classify impact | Identify upstream source and affected paths |
-| 🟥 | 3 | Update upstream | Change requirements or invariants first |
-| 🟥 | 4 | Re-lower artifacts | Propagate through the CDD pipeline |
-| 🟥 | 5 | Regenerate downstream | Recreate constraints, tests, and code |
-| 🟦 | 6 | Submit artifacts | Move regenerated outputs to review |
-| 🟥 | 7 | Revalidate | Confirm closure and coverage |
-| 🟥 | 8 | Detect stale artifacts | Remove drift and obsolete outputs |
-| 🟦 | 9 | Publish report | Record change integrity |
+| 🟦 | 1 | [Submit Change Request](./Steps/Step-01/) | Capture requested evolution |
+| 🟥 | 2 | [Classify Impact](./Steps/Step-02/) | Identify upstream source and affected paths |
+| 🟥 | 3 | [Update Upstream Source](./Steps/Step-03/) | Change requirements or invariants first |
+| 🟥 | 4 | [Re-Lower Affected Artifacts](./Steps/Step-04/) | Propagate through the CDD pipeline |
+| 🟥 | 5 | [Regenerate Constraints, Tests, and Code](./Steps/Step-05/) | Recreate constraints, tests, and code |
+| 🟦 | 6 | [Submit Regenerated Artifacts](./Steps/Step-06/) | Move regenerated outputs to review |
+| 🟥 | 7 | [Revalidate Closure and Coverage](./Steps/Step-07/) | Confirm closure and coverage |
+| 🟥 | 8 | [Detect Stale Artifacts and Drift](./Steps/Step-08/) | Remove drift and obsolete outputs |
+| 🟦 | 9 | [Publish Change Report](./Steps/Step-09/) | Record change integrity |
 
 ---
 
 ## Step Sequence
 
-### 🟦 STEP 01 — Submit Change Request
+### 🟦 [STEP 01 — Submit Change Request](./Steps/Step-01/)
 **Tagline:** Capture evolution
 
 **Actions**
@@ -88,15 +88,15 @@ sequenceDiagram
 * **🟥 AI Actions:** Analyze supporting artifacts for Submit Change Request, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Submit Change Request outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Record the desired change before altering downstream artifacts.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### 🟥 STEP 02 — Classify Impact
+### 🟥 [STEP 02 — Classify Impact](./Steps/Step-02/)
 **Tagline:** Find the source layer
 
 **Actions**
@@ -104,15 +104,15 @@ CDD_CHANGE_UPSTREAM_INITIATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Classify Impact, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Classify Impact outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Determine whether the change belongs in requirements, invariants, glossary, or another upstream artifact.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### 🟥 STEP 03 — Update Upstream Source
+### 🟥 [STEP 03 — Update Upstream Source](./Steps/Step-03/)
 **Tagline:** Change authority first
 
 **Actions**
@@ -120,15 +120,15 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Update Upstream Source, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Update Upstream Source outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Apply the change at the governing semantic layer.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_FOUNDATION_INTENT_PRECEDENCE, CDD_CHANGE_UPSTREAM_INITIATION
 
 ---
 
-### 🟥 STEP 04 — Re-Lower Affected Artifacts
+### 🟥 [STEP 04 — Re-Lower Affected Artifacts](./Steps/Step-04/)
 **Tagline:** Propagate meaning
 
 **Actions**
@@ -136,15 +136,15 @@ CDD_FOUNDATION_INTENT_PRECEDENCE, CDD_CHANGE_UPSTREAM_INITIATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Re-Lower Affected Artifacts, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Re-Lower Affected Artifacts outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Derive downstream artifacts again instead of patching them manually.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_LOWERING_RECOMPILATION_OVER_PATCHING, CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 
 ---
 
-### 🟥 STEP 05 — Regenerate Constraints, Tests, and Code
+### 🟥 [STEP 05 — Regenerate Constraints, Tests, and Code](./Steps/Step-05/)
 **Tagline:** Refresh proof chain
 
 **Actions**
@@ -152,15 +152,15 @@ CDD_LOWERING_RECOMPILATION_OVER_PATCHING, CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Regenerate Constraints, Tests, and Code, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Regenerate Constraints, Tests, and Code outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Regenerate affected executable rules, proofs, and implementation.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TEST_REGENERABILITY, CDD_CHANGE_TEST_REGENERATION
 
 ---
 
-### 🟦 STEP 06 — Submit Regenerated Artifacts
+### 🟦 [STEP 06 — Submit Regenerated Artifacts](./Steps/Step-06/)
 **Tagline:** Re-enter governance
 
 **Actions**
@@ -168,15 +168,15 @@ CDD_TEST_REGENERABILITY, CDD_CHANGE_TEST_REGENERATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Submit Regenerated Artifacts, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Submit Regenerated Artifacts outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Move regenerated outputs through review gates.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟥 STEP 07 — Revalidate Closure and Coverage
+### 🟥 [STEP 07 — Revalidate Closure and Coverage](./Steps/Step-07/)
 **Tagline:** Confirm containment
 
 **Actions**
@@ -184,15 +184,15 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 * **🟥 AI Actions:** Analyze supporting artifacts for Revalidate Closure and Coverage, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Revalidate Closure and Coverage outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Ensure the updated system remains semantically closed and fully covered.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_COVERAGE_REVALIDATION
 
 ---
 
-### 🟥 STEP 08 — Detect Stale Artifacts and Drift
+### 🟥 [STEP 08 — Detect Stale Artifacts and Drift](./Steps/Step-08/)
 **Tagline:** Remove divergence
 
 **Actions**
@@ -200,15 +200,15 @@ CDD_CLOSURE_REVALIDATION_REQUIRED, CDD_COVERAGE_REVALIDATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Detect Stale Artifacts and Drift, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Detect Stale Artifacts and Drift outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Identify obsolete artifacts or semantic drift introduced by the change.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_CHANGE_NO_SILENT_DIVERGENCE, CDD_CHANGE_DRIFT_DETECTION
 
 ---
 
-### 🟦 STEP 09 — Publish Change Report
+### 🟦 [STEP 09 — Publish Change Report](./Steps/Step-09/)
 **Tagline:** Record evolution
 
 **Actions**
@@ -216,21 +216,21 @@ CDD_CHANGE_NO_SILENT_DIVERGENCE, CDD_CHANGE_DRIFT_DETECTION
 * **🟥 AI Actions:** Analyze supporting artifacts for Publish Change Report, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Publish Change Report outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Document what changed, what was regenerated, and what evidence proves integrity.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 ---
 
 ## Exit Criteria
 
-- Change originates upstream  
-- Downstream artifacts are regenerated, not patched  
-- Closure and coverage are revalidated  
-- No stale artifacts remain  
-- Drift is eliminated  
+- Change originates upstream
+- Downstream artifacts are regenerated, not patched
+- Closure and coverage are revalidated
+- No stale artifacts remain
+- Drift is eliminated
 
 ---
 
@@ -238,6 +238,3 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 This phase keeps evolution inside the constraint system,
 ensuring change flows through authority instead of bypassing it.
-
-
-

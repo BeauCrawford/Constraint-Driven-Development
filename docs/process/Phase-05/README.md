@@ -1,4 +1,4 @@
-﻿# Phase 05 â€” Contract & Boundary Definition
+# Phase 05 — Contract & Boundary Definition
 
 ## Overview
 
@@ -65,27 +65,27 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| ðŸŸ¥ | 1 | [Load constraints](./Steps/Step-01/) | Use constraints as the interaction authority |
-| ðŸŸ¥ | 2 | [Align terminology](./Steps/Step-02/) | Ensure contract language matches glossary |
-| ðŸŸ¥ | 3 | [Identify boundaries](./Steps/Step-03/) | Determine all system interaction points |
-| ðŸŸ¥ | 4 | [Define interfaces](./Steps/Step-04/) | Create explicit contract definitions |
-| ðŸŸ¥ | 5 | [Map constraints](./Steps/Step-05/) | Ensure interactions enforce constraints |
-| ðŸŸ¥ | 6 | [Encode edge/failure](./Steps/Step-06/) | Define boundary edge and failure behavior |
-| ðŸŸ¥ | 7 | [Eliminate side channels](./Steps/Step-07/) | Remove hidden or implicit interactions |
-| ðŸŸ¦ | 8 | [Review gate](./Steps/Step-08/) | Validate correctness and completeness |
-| ðŸŸ¦ | 9 | [Publish contracts](./Steps/Step-09/) | Produce authoritative boundary definitions |
+| 🟥 | 1 | [Load constraints](./Steps/Step-01/) | Use constraints as the interaction authority |
+| 🟥 | 2 | [Align terminology](./Steps/Step-02/) | Ensure contract language matches glossary |
+| 🟥 | 3 | [Identify boundaries](./Steps/Step-03/) | Determine all system interaction points |
+| 🟥 | 4 | [Define interfaces](./Steps/Step-04/) | Create explicit contract definitions |
+| 🟥 | 5 | [Map constraints](./Steps/Step-05/) | Ensure interactions enforce constraints |
+| 🟥 | 6 | [Encode edge/failure](./Steps/Step-06/) | Define boundary edge and failure behavior |
+| 🟥 | 7 | [Eliminate side channels](./Steps/Step-07/) | Remove hidden or implicit interactions |
+| 🟦 | 8 | [Review gate](./Steps/Step-08/) | Validate correctness and completeness |
+| 🟦 | 9 | [Publish contracts](./Steps/Step-09/) | Produce authoritative boundary definitions |
 
 ---
 
 ## Step Sequence
 
-### ðŸŸ¥ [STEP 01 — Load Constraints](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Constraints](./Steps/Step-01/)
 **Tagline:** Establish interaction authority
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Load Constraints, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Load Constraints outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Constraints, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Constraints outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use constraints as the governing rules for all interactions.
@@ -95,13 +95,13 @@ CDD_CONSTRAINT_DERIVED_FROM_INVARIANTS, CDD_FOUNDATION_CONSTRAINT_PRIMACY
 
 ---
 
-### ðŸŸ¥ [STEP 02 — Align Terminology](./Steps/Step-02/)
+### 🟥 [STEP 02 — Align Terminology](./Steps/Step-02/)
 **Tagline:** Maintain semantic consistency
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Align Terminology, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Align Terminology outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Align Terminology, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Align Terminology outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure all contract definitions align with glossary terms.
@@ -111,13 +111,13 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### ðŸŸ¥ [STEP 03 — Identify Boundaries](./Steps/Step-03/)
+### 🟥 [STEP 03 — Identify Boundaries](./Steps/Step-03/)
 **Tagline:** Locate interaction surfaces
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Identify Boundaries, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Identify Boundaries outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Identify Boundaries, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Identify Boundaries outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Determine all points where components interact.
@@ -127,13 +127,13 @@ CDD_ARCH_BOUNDARY_FIRST
 
 ---
 
-### ðŸŸ¥ [STEP 04 — Define Contract Interfaces](./Steps/Step-04/)
+### 🟥 [STEP 04 — Define Contract Interfaces](./Steps/Step-04/)
 **Tagline:** Externalize interactions
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Define Contract Interfaces, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Define Contract Interfaces outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Define Contract Interfaces, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Define Contract Interfaces outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Create explicit interface definitions for each boundary.
@@ -143,13 +143,13 @@ CDD_CONTRACT_BOUNDARY_EXTERNALIZATION, CDD_CONTRACT_SEMANTIC_CARRIER
 
 ---
 
-### ðŸŸ¥ [STEP 05 — Map Constraints to Interactions](./Steps/Step-05/)
+### 🟥 [STEP 05 — Map Constraints to Interactions](./Steps/Step-05/)
 **Tagline:** Bind behavior to boundaries
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Map Constraints to Interactions, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Map Constraints to Interactions outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Map Constraints to Interactions, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Map Constraints to Interactions outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure all interactions enforce constraints.
@@ -159,13 +159,13 @@ CDD_CONTRACT_DEPENDENCY_EXPLICITNESS
 
 ---
 
-### ðŸŸ¥ [STEP 06 — Encode Edge and Failure Behavior](./Steps/Step-06/)
+### 🟥 [STEP 06 — Encode Edge and Failure Behavior](./Steps/Step-06/)
 **Tagline:** Define boundary conditions
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Encode Edge and Failure Behavior, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Encode Edge and Failure Behavior outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Encode Edge and Failure Behavior, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Encode Edge and Failure Behavior outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Specify how interactions behave at edges and failure.
@@ -175,13 +175,13 @@ CDD_CONTRACT_BOUNDARY_CONDITIONS
 
 ---
 
-### ðŸŸ¥ [STEP 07 — Eliminate Side Channels](./Steps/Step-07/)
+### 🟥 [STEP 07 — Eliminate Side Channels](./Steps/Step-07/)
 **Tagline:** Seal hidden behavior
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Eliminate Side Channels, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Eliminate Side Channels outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Eliminate Side Channels, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Eliminate Side Channels outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Ensure no interaction bypasses contracts.
@@ -191,13 +191,13 @@ CDD_CONTRACT_NO_SIDE_CHANNELS
 
 ---
 
-### ðŸŸ¦ [STEP 08 — Review Gate](./Steps/Step-08/)
+### 🟦 [STEP 08 — Review Gate](./Steps/Step-08/)
 **Tagline:** Enforce boundary integrity
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Validate completeness, isolation, and traceability.
@@ -207,13 +207,13 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### ðŸŸ¦ [STEP 09 — Publish Contract Set](./Steps/Step-09/)
+### 🟦 [STEP 09 — Publish Contract Set](./Steps/Step-09/)
 **Tagline:** Establish semantic membranes
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Publish Contract Set, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Publish Contract Set outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Publish Contract Set, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Publish Contract Set outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Produce authoritative contracts for testing and implementation.
@@ -235,7 +235,7 @@ CDD_CONTRACT_STABILITY, CDD_CONTRACT_CHANGE_PROPAGATION
 
 ## Final Compression
 
-This phase defines the systemâ€™s semantic boundaries, ensuring all behavior flows through explicit, governed interaction surfaces.
+This phase defines the system's semantic boundaries, ensuring all behavior flows through explicit, governed interaction surfaces.
 
 
 

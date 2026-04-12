@@ -9,8 +9,7 @@ No coverage revalidation may proceed as complete while lineage gaps or orphan ar
 
 ---
 
-## Step 01 - Load Requirement IDs
-
+## [Step 01 - Load Requirement IDs](./Steps/Step-01/)
 **CDD_P09_REQUIREMENT_IDS_REQUIRED**
 Stable requirement IDs must be loaded as source traceability anchors.
 
@@ -25,8 +24,7 @@ No governed requirement may lack source and governance status.
 
 ---
 
-## Step 02 - Load Invariant Mappings
-
+## [Step 02 - Load Invariant Mappings](./Steps/Step-02/)
 **CDD_P09_REQUIREMENT_TO_INVARIANT_MAPPING_REQUIRED**
 Requirement-to-invariant mappings must be loaded.
 
@@ -41,8 +39,7 @@ Requirements without invariant representation must be recorded as gaps.
 
 ---
 
-## Step 03 - Load Constraint Mappings
-
+## [Step 03 - Load Constraint Mappings](./Steps/Step-03/)
 **CDD_P09_INVARIANT_TO_CONSTRAINT_MAPPING_REQUIRED**
 Invariant-to-constraint mappings must be loaded.
 
@@ -57,8 +54,7 @@ Invariants without constraint enforcement must be recorded as gaps.
 
 ---
 
-## Step 04 - Load Test Mappings
-
+## [Step 04 - Load Test Mappings](./Steps/Step-04/)
 **CDD_P09_CONSTRAINT_TO_TEST_MAPPING_REQUIRED**
 Constraint-to-test mappings must be loaded.
 
@@ -73,8 +69,7 @@ Constraints without mapped tests must be recorded as gaps.
 
 ---
 
-## Step 05 - Load Code Mappings
-
+## [Step 05 - Load Code Mappings](./Steps/Step-05/)
 **CDD_P09_TEST_TO_CODE_MAPPING_REQUIRED**
 Test-to-code or proof-to-implementation mappings must be loaded.
 
@@ -89,8 +84,7 @@ Code without proof lineage must be recorded as an orphan candidate.
 
 ---
 
-## Step 06 - Validate Forward Lineage
-
+## [Step 06 - Validate Forward Lineage](./Steps/Step-06/)
 **CDD_P09_FORWARD_LINEAGE_REQUIRED**
 Forward lineage from requirement to implementation must be validated.
 
@@ -105,8 +99,7 @@ Forward lineage validation must produce reviewable evidence.
 
 ---
 
-## Step 07 - Validate Reverse Navigation
-
+## [Step 07 - Validate Reverse Navigation](./Steps/Step-07/)
 **CDD_P09_REVERSE_NAVIGATION_REQUIRED**
 Reverse navigation from failures or code artifacts to upstream intent must be validated.
 
@@ -121,8 +114,7 @@ Reverse navigation validation must produce reviewable evidence.
 
 ---
 
-## Step 08 - Detect Orphan Artifacts
-
+## [Step 08 - Detect Orphan Artifacts](./Steps/Step-08/)
 **CDD_P09_ORPHAN_DETECTION_REQUIRED**
 Phase 09 must detect artifacts without valid lineage.
 
@@ -146,8 +138,7 @@ Unresolved orphan artifacts block traceability approval.
 
 ---
 
-## Step 09 - Build Impact Paths
-
+## [Step 09 - Build Impact Paths](./Steps/Step-09/)
 **CDD_P09_IMPACT_PATHS_REQUIRED**
 Impact paths must be built across requirement, invariant, constraint, test, and code layers.
 
@@ -162,8 +153,7 @@ Missing impact links must be recorded as traceability gaps.
 
 ---
 
-## Step 10 - Publish Traceability Report
-
+## [Step 10 - Publish Traceability Report](./Steps/Step-10/)
 **CDD_P09_PUBLICATION_REQUIRED**
 An authoritative traceability report must be published.
 

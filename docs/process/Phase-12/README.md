@@ -66,21 +66,21 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟦 | 1 | Submit artifacts | Gather outputs from all phases |
-| 🟦 | 2 | Submit evidence | Gather proof and validation records |
-| 🟦 | 3 | Submit exceptions | Make deviations visible |
-| 🟦 | 4 | Confirm ownership | Identify responsible parties |
-| 🟥 | 5 | Validate gates | Check entry and exit criteria |
-| 🟥 | 6 | Validate evidence | Confirm proof exists |
-| 🟥 | 7 | Review exceptions | Govern unresolved risks |
-| 🟦 | 8 | Enforce decision | Approve, reject, or require rework |
-| 🟦 | 9 | Publish record | Preserve governance outcome |
+| 🟦 | 1 | [Submit Process Artifacts](./Steps/Step-01/) | Gather outputs from all phases |
+| 🟦 | 2 | [Submit Proof Evidence](./Steps/Step-02/) | Gather proof and validation records |
+| 🟦 | 3 | [Submit Exceptions](./Steps/Step-03/) | Make deviations visible |
+| 🟦 | 4 | [Confirm Ownership](./Steps/Step-04/) | Identify responsible parties |
+| 🟥 | 5 | [Validate Entry and Exit Gates](./Steps/Step-05/) | Check entry and exit criteria |
+| 🟥 | 6 | [Validate Evidence Completeness](./Steps/Step-06/) | Confirm proof exists |
+| 🟥 | 7 | [Review Exceptions](./Steps/Step-07/) | Govern unresolved risks |
+| 🟦 | 8 | [Enforce Release Decision](./Steps/Step-08/) | Approve, reject, or require rework |
+| 🟦 | 9 | [Publish Governance Record](./Steps/Step-09/) | Preserve governance outcome |
 
 ---
 
 ## Step Sequence
 
-### 🟦 STEP 01 — Submit Process Artifacts
+### 🟦 [STEP 01 — Submit Process Artifacts](./Steps/Step-01/)
 **Tagline:** Gather governed outputs
 
 **Actions**
@@ -88,15 +88,15 @@ sequenceDiagram
 * **🟥 AI Actions:** Analyze supporting artifacts for Submit Process Artifacts, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Submit Process Artifacts outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Collect the artifacts produced by each CDD phase.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_PROCESS_AUTHORITY
 
 ---
 
-### 🟦 STEP 02 — Submit Proof Evidence
+### 🟦 [STEP 02 — Submit Proof Evidence](./Steps/Step-02/)
 **Tagline:** Require evidence
 
 **Actions**
@@ -104,15 +104,15 @@ CDD_GOVERNANCE_PROCESS_AUTHORITY
 * **🟥 AI Actions:** Analyze supporting artifacts for Submit Proof Evidence, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Submit Proof Evidence outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Collect closure, coverage, traceability, test, and change evidence.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 ---
 
-### 🟦 STEP 03 — Submit Exceptions
+### 🟦 [STEP 03 — Submit Exceptions](./Steps/Step-03/)
 **Tagline:** Make deviation visible
 
 **Actions**
@@ -120,15 +120,15 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 * **🟥 AI Actions:** Analyze supporting artifacts for Submit Exceptions, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Submit Exceptions outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Record any exception, bypass, or unresolved concern.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 
 ---
 
-### 🟦 STEP 04 — Confirm Ownership
+### 🟦 [STEP 04 — Confirm Ownership](./Steps/Step-04/)
 **Tagline:** Assign responsibility
 
 **Actions**
@@ -136,15 +136,15 @@ CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 * **🟥 AI Actions:** Analyze supporting artifacts for Confirm Ownership, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Confirm Ownership outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Ensure each layer and artifact has clear ownership.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_OWNERSHIP_CLARITY
 
 ---
 
-### 🟥 STEP 05 — Validate Entry and Exit Gates
+### 🟥 [STEP 05 — Validate Entry and Exit Gates](./Steps/Step-05/)
 **Tagline:** Enforce progression
 
 **Actions**
@@ -152,15 +152,15 @@ CDD_GOVERNANCE_OWNERSHIP_CLARITY
 * **🟥 AI Actions:** Analyze supporting artifacts for Validate Entry and Exit Gates, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Validate Entry and Exit Gates outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Confirm each phase met its required entry and exit criteria.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_ENTRY_EXIT_GATES
 
 ---
 
-### 🟥 STEP 06 — Validate Evidence Completeness
+### 🟥 [STEP 06 — Validate Evidence Completeness](./Steps/Step-06/)
 **Tagline:** Reject unsupported claims
 
 **Actions**
@@ -168,15 +168,15 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES
 * **🟥 AI Actions:** Analyze supporting artifacts for Validate Evidence Completeness, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Validate Evidence Completeness outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Confirm all correctness claims are supported by proof artifacts.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 
 ---
 
-### 🟥 STEP 07 — Review Exceptions
+### 🟥 [STEP 07 — Review Exceptions](./Steps/Step-07/)
 **Tagline:** Govern risk
 
 **Actions**
@@ -184,15 +184,15 @@ CDD_FOUNDATION_PROOF_BOUND_AUTHORITY
 * **🟥 AI Actions:** Analyze supporting artifacts for Review Exceptions, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Review Exceptions outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Decide whether exceptions are resolved, accepted, or blocking.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 
 ---
 
-### 🟦 STEP 08 — Enforce Release Decision
+### 🟦 [STEP 08 — Enforce Release Decision](./Steps/Step-08/)
 **Tagline:** Grant or deny authority
 
 **Actions**
@@ -200,15 +200,15 @@ CDD_GOVERNANCE_EXCEPTION_VISIBILITY
 * **🟥 AI Actions:** Analyze supporting artifacts for Enforce Release Decision, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Enforce Release Decision outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Approve, reject, or send artifacts back through the required phase.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_FOUNDATION_EXECUTION_AUTHORITY_EMERGENCE, CDD_GOVERNANCE_NO_RITUALIZATION
 
 ---
 
-### 🟦 STEP 09 — Publish Governance Record
+### 🟦 [STEP 09 — Publish Governance Record](./Steps/Step-09/)
 **Tagline:** Preserve accountability
 
 **Actions**
@@ -216,21 +216,21 @@ CDD_FOUNDATION_EXECUTION_AUTHORITY_EMERGENCE, CDD_GOVERNANCE_NO_RITUALIZATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Publish Governance Record, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Publish Governance Record outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Record the final governance decision and supporting evidence.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_INCENTIVE_ALIGNMENT
 
 ---
 
 ## Exit Criteria
 
-- Entry and exit gates are satisfied  
-- Proof evidence is complete  
-- Exceptions are visible and governed  
-- Ownership is clear  
-- Release or rejection decision is recorded  
+- Entry and exit gates are satisfied
+- Proof evidence is complete
+- Exceptions are visible and governed
+- Ownership is clear
+- Release or rejection decision is recorded
 
 ---
 
@@ -238,6 +238,3 @@ CDD_GOVERNANCE_INCENTIVE_ALIGNMENT
 
 This phase ensures CDD remains enforceable rather than ceremonial,
 granting authority only where evidence, ownership, and gates agree.
-
-
-

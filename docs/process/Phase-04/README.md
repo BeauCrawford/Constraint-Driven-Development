@@ -1,4 +1,4 @@
-﻿# Phase 04 â€” Constraint Derivation
+# Phase 04 — Constraint Derivation
 
 ## Overview
 
@@ -26,7 +26,7 @@ Translate invariants into precise, addressable, executable constraints that defi
 ## Outputs
 
 - Constraint set with unique CONSTRAINT_IDs
-- Invariantâ†’Constraint mappings
+- Invariant->Constraint mappings
 - Positive / Negative / Boundary definitions
 - Failure semantics
 - Consistency report
@@ -69,29 +69,29 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| ðŸŸ¥ | 1 | [Load invariants](./Steps/Step-01/) | Use closure-validated invariants as the source of truth |
-| ðŸŸ¥ | 2 | [Resolve terminology](./Steps/Step-02/) | Ensure constraint language matches glossary |
-| ðŸŸ¥ | 3 | [Partition invariants](./Steps/Step-03/) | Break invariants into enforceable rule units |
-| ðŸŸ¥ | 4 | [Derive constraints](./Steps/Step-04/) | Convert units into executable rules |
-| ðŸŸ¥ | 5 | [Define P/N/B cases](./Steps/Step-05/) | Specify allowed, forbidden, and boundary behavior |
-| ðŸŸ¥ | 6 | [Encode failures](./Steps/Step-06/) | Define explicit failure conditions and responses |
-| ðŸŸ¥ | 7 | [Assign IDs](./Steps/Step-07/) | Give each constraint a stable CONSTRAINT_ID |
-| ðŸŸ¥ | 8 | [Check consistency](./Steps/Step-08/) | Ensure no contradictions; solution space exists |
-| ðŸŸ¥ | 9 | [Ensure completeness](./Steps/Step-09/) | Every invariant is enforced by â‰¥1 constraint |
-| ðŸŸ¦ | 10 | [Review gate](./Steps/Step-10/) | Validate precision, coverage, and traceability |
-| ðŸŸ¦ | 11 | [Publish constraints](./Steps/Step-11/) | Produce authoritative constraint set |
+| 🟥 | 1 | [Load invariants](./Steps/Step-01/) | Use closure-validated invariants as the source of truth |
+| 🟥 | 2 | [Resolve terminology](./Steps/Step-02/) | Ensure constraint language matches glossary |
+| 🟥 | 3 | [Partition invariants](./Steps/Step-03/) | Break invariants into enforceable rule units |
+| 🟥 | 4 | [Derive constraints](./Steps/Step-04/) | Convert units into executable rules |
+| 🟥 | 5 | [Define P/N/B cases](./Steps/Step-05/) | Specify allowed, forbidden, and boundary behavior |
+| 🟥 | 6 | [Encode failures](./Steps/Step-06/) | Define explicit failure conditions and responses |
+| 🟥 | 7 | [Assign IDs](./Steps/Step-07/) | Give each constraint a stable CONSTRAINT_ID |
+| 🟥 | 8 | [Check consistency](./Steps/Step-08/) | Ensure no contradictions; solution space exists |
+| 🟥 | 9 | [Ensure completeness](./Steps/Step-09/) | Every invariant is enforced by >=1 constraint |
+| 🟦 | 10 | [Review gate](./Steps/Step-10/) | Validate precision, coverage, and traceability |
+| 🟦 | 11 | [Publish constraints](./Steps/Step-11/) | Produce authoritative constraint set |
 
 ---
 
 ## Step Sequence
 
-### ðŸŸ¥ [STEP 01 — Load Validated Invariants](./Steps/Step-01/)
+### 🟥 [STEP 01 — Load Validated Invariants](./Steps/Step-01/)
 **Tagline:** Establish authoritative semantic source
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Load Validated Invariants, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Load Validated Invariants outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Load Validated Invariants, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Load Validated Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Use only closure-approved invariants as inputs.
@@ -101,13 +101,13 @@ CDD_INVARIANT_PARENT_FIDELITY, CDD_CLOSURE_BEFORE_AUTHORITY
 
 ---
 
-### ðŸŸ¥ [STEP 02 — Resolve Terminology](./Steps/Step-02/)
+### 🟥 [STEP 02 — Resolve Terminology](./Steps/Step-02/)
 **Tagline:** Maintain semantic consistency
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Resolve Terminology, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Resolve Terminology outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Resolve Terminology, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Resolve Terminology outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Align all constraint language with the glossary.
@@ -117,13 +117,13 @@ CDD_GLOSSARY_SHARED_REFERENCE_FRAME
 
 ---
 
-### ðŸŸ¥ [STEP 03 — Partition Invariants](./Steps/Step-03/)
+### 🟥 [STEP 03 — Partition Invariants](./Steps/Step-03/)
 **Tagline:** Create enforceable units
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Partition Invariants, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Partition Invariants outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Partition Invariants, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Partition Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Decompose invariants into atomic rule units suitable for execution.
@@ -133,13 +133,13 @@ CDD_INVARIANT_MINIMALITY, CDD_INVARIANT_NECESSITY
 
 ---
 
-### ðŸŸ¥ [STEP 04 — Derive Constraint Candidates](./Steps/Step-04/)
+### 🟥 [STEP 04 — Derive Constraint Candidates](./Steps/Step-04/)
 **Tagline:** Translate truth into rules
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Derive Constraint Candidates, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Derive Constraint Candidates outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Derive Constraint Candidates, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Derive Constraint Candidates outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Form candidate constraints that operationalize invariant meaning.
@@ -149,13 +149,13 @@ CDD_CONSTRAINT_DERIVED_FROM_INVARIANTS, CDD_CONSTRAINT_EXECUTABLE_PRECISION
 
 ---
 
-### ðŸŸ¥ [STEP 05 — Define Positive / Negative / Boundary Cases](./Steps/Step-05/)
+### 🟥 [STEP 05 — Define Positive / Negative / Boundary Cases](./Steps/Step-05/)
 **Tagline:** Bound behavior
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Define Positive / Negative / Boundary Cases, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Define Positive / Negative / Boundary Cases outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Define Positive / Negative / Boundary Cases, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Define Positive / Negative / Boundary Cases outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Specify allowed (positive), forbidden (negative), and edge (boundary) behaviors.
@@ -165,13 +165,13 @@ CDD_CONSTRAINT_POS_NEG_BOUNDARY
 
 ---
 
-### ðŸŸ¥ [STEP 06 — Encode Failure Semantics](./Steps/Step-06/)
+### 🟥 [STEP 06 — Encode Failure Semantics](./Steps/Step-06/)
 **Tagline:** Make failure explicit
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Encode Failure Semantics, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Encode Failure Semantics outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Encode Failure Semantics, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Encode Failure Semantics outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Define how violations manifest and are detected.
@@ -181,13 +181,13 @@ CDD_CONSTRAINT_FAILURE_SEMANTICS
 
 ---
 
-### ðŸŸ¥ [STEP 07 — Assign CONSTRAINT_IDs](./Steps/Step-07/)
+### 🟥 [STEP 07 — Assign CONSTRAINT_IDs](./Steps/Step-07/)
 **Tagline:** Make rules addressable
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Assign CONSTRAINT_IDs, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Assign CONSTRAINT_IDs outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Assign CONSTRAINT_IDs, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Assign CONSTRAINT_IDs outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Assign stable, unique identifiers to each constraint.
@@ -197,13 +197,13 @@ CDD_CONSTRAINT_UNIQUE_IDENTITY, CDD_CONSTRAINT_ADDRESSABILITY, CDD_TRACEABILITY_
 
 ---
 
-### ðŸŸ¥ [STEP 08 — Check Non-Contradiction & Satisfiability](./Steps/Step-08/)
+### 🟥 [STEP 08 — Check Non-Contradiction & Satisfiability](./Steps/Step-08/)
 **Tagline:** Ensure a valid solution space
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Check Non-Contradiction & Satisfiability, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Check Non-Contradiction & Satisfiability outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Check Non-Contradiction & Satisfiability, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Check Non-Contradiction & Satisfiability outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Verify constraints do not conflict and admit at least one valid implementation.
@@ -213,13 +213,13 @@ CDD_CONSTRAINT_NON_CONTRADICTION
 
 ---
 
-### ðŸŸ¥ [STEP 09 — Ensure Completeness vs Invariants](./Steps/Step-09/)
+### 🟥 [STEP 09 — Ensure Completeness vs Invariants](./Steps/Step-09/)
 **Tagline:** Enforce all truths
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Ensure Completeness vs Invariants, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Ensure Completeness vs Invariants outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Ensure Completeness vs Invariants, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Ensure Completeness vs Invariants outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Confirm every invariant is enforced by one or more constraints.
@@ -229,13 +229,13 @@ CDD_CONSTRAINT_COMPLETENESS
 
 ---
 
-### ðŸŸ¦ [STEP 10 — Review Gate](./Steps/Step-10/)
+### 🟦 [STEP 10 — Review Gate](./Steps/Step-10/)
 **Tagline:** Enforce precision and coverage
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Review Gate, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Review Gate outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Validate constraints for precision, coverage, IDs, and traceability.
@@ -245,13 +245,13 @@ CDD_GOVERNANCE_ENTRY_EXIT_GATES, CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 
 ---
 
-### ðŸŸ¦ [STEP 11 — Publish Constraint Set](./Steps/Step-11/)
+### 🟦 [STEP 11 — Publish Constraint Set](./Steps/Step-11/)
 **Tagline:** Establish executable authority
 
 **Actions**
 
-* **ðŸŸ¥ AI Actions:** Analyze supporting artifacts for Publish Constraint Set, update structured outputs, and surface gaps.
-* **ðŸŸ¦ Human Actions:** Review Publish Constraint Set outputs, resolve domain decisions, and approve the outcome.
+* **🟥 AI Actions:** Analyze supporting artifacts for Publish Constraint Set, update structured outputs, and surface gaps.
+* **🟦 Human Actions:** Review Publish Constraint Set outputs, resolve domain decisions, and approve the outcome.
 
 **Description:**  
 Release the authoritative constraint set for test generation.

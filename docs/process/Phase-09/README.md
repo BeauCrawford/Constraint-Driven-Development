@@ -69,22 +69,22 @@ sequenceDiagram
 
 | Owner | # | Step | What is happening |
 |:---:|---:|---|---|
-| 🟥 | 1 | Provide requirements | Load source intent identifiers |
-| 🟥 | 2 | Provide invariants | Load requirement-to-invariant mappings |
-| 🟥 | 3 | Provide constraints | Load invariant-to-constraint mappings |
-| 🟥 | 4 | Provide tests | Load constraint-to-test mappings |
-| 🟥 | 5 | Provide code | Load test-to-code mappings |
-| 🟥 | 6 | Validate forward lineage | Confirm each layer maps downstream |
-| 🟥 | 7 | Validate reverse navigation | Confirm failures can trace upstream |
-| 🟥 | 8 | Detect orphans | Identify artifacts without lineage |
-| 🟥 | 9 | Build impact paths | Expose change propagation routes |
-| 🟦 | 10 | Publish report | Produce traceability evidence |
+| 🟥 | 1 | [Load Requirement IDs](./Steps/Step-01/) | Load source intent identifiers |
+| 🟥 | 2 | [Load Invariant Mappings](./Steps/Step-02/) | Load requirement-to-invariant mappings |
+| 🟥 | 3 | [Load Constraint Mappings](./Steps/Step-03/) | Load invariant-to-constraint mappings |
+| 🟥 | 4 | [Load Test Mappings](./Steps/Step-04/) | Load constraint-to-test mappings |
+| 🟥 | 5 | [Load Code Mappings](./Steps/Step-05/) | Load test-to-code mappings |
+| 🟥 | 6 | [Validate Forward Lineage](./Steps/Step-06/) | Confirm each layer maps downstream |
+| 🟥 | 7 | [Validate Reverse Navigation](./Steps/Step-07/) | Confirm failures can trace upstream |
+| 🟥 | 8 | [Detect Orphan Artifacts](./Steps/Step-08/) | Identify artifacts without lineage |
+| 🟥 | 9 | [Build Impact Paths](./Steps/Step-09/) | Expose change propagation routes |
+| 🟦 | 10 | [Publish Traceability Report](./Steps/Step-10/) | Produce traceability evidence |
 
 ---
 
 ## Step Sequence
 
-### 🟥 STEP 01 — Load Requirement IDs
+### 🟥 [STEP 01 — Load Requirement IDs](./Steps/Step-01/)
 **Tagline:** Establish source anchors
 
 **Actions**
@@ -92,15 +92,15 @@ sequenceDiagram
 * **🟥 AI Actions:** Analyze supporting artifacts for Load Requirement IDs, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Load Requirement IDs outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Load stable requirement identifiers as the origin of traceability.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_REQUIREMENT_ADDRESSABILITY, CDD_TRACEABILITY_STABLE_IDS
 
 ---
 
-### 🟥 STEP 02 — Load Invariant Mappings
+### 🟥 [STEP 02 — Load Invariant Mappings](./Steps/Step-02/)
 **Tagline:** Trace intent into truth
 
 **Actions**
@@ -108,15 +108,15 @@ CDD_REQUIREMENT_ADDRESSABILITY, CDD_TRACEABILITY_STABLE_IDS
 * **🟥 AI Actions:** Analyze supporting artifacts for Load Invariant Mappings, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Load Invariant Mappings outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Verify each requirement maps to one or more invariants.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_REQUIREMENT_TO_INVARIANT
 
 ---
 
-### 🟥 STEP 03 — Load Constraint Mappings
+### 🟥 [STEP 03 — Load Constraint Mappings](./Steps/Step-03/)
 **Tagline:** Trace truth into rules
 
 **Actions**
@@ -124,15 +124,15 @@ CDD_TRACEABILITY_REQUIREMENT_TO_INVARIANT
 * **🟥 AI Actions:** Analyze supporting artifacts for Load Constraint Mappings, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Load Constraint Mappings outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Verify each invariant maps to one or more constraints.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 
 ---
 
-### 🟥 STEP 04 — Load Test Mappings
+### 🟥 [STEP 04 — Load Test Mappings](./Steps/Step-04/)
 **Tagline:** Trace rules into proof
 
 **Actions**
@@ -140,15 +140,15 @@ CDD_TRACEABILITY_INVARIANT_TO_CONSTRAINT
 * **🟥 AI Actions:** Analyze supporting artifacts for Load Test Mappings, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Load Test Mappings outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Verify each constraint maps to deterministic tests.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_CONSTRAINT_TO_TEST, CDD_TEST_CONSTRAINT_MAPPING
 
 ---
 
-### 🟥 STEP 05 — Load Code Mappings
+### 🟥 [STEP 05 — Load Code Mappings](./Steps/Step-05/)
 **Tagline:** Trace proof into code
 
 **Actions**
@@ -156,15 +156,15 @@ CDD_TRACEABILITY_CONSTRAINT_TO_TEST, CDD_TEST_CONSTRAINT_MAPPING
 * **🟥 AI Actions:** Analyze supporting artifacts for Load Code Mappings, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Load Code Mappings outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Verify implementation artifacts map back to tests.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_TEST_TO_CODE
 
 ---
 
-### 🟥 STEP 06 — Validate Forward Lineage
+### 🟥 [STEP 06 — Validate Forward Lineage](./Steps/Step-06/)
 **Tagline:** Prove downstream continuity
 
 **Actions**
@@ -172,15 +172,15 @@ CDD_TRACEABILITY_TEST_TO_CODE
 * **🟥 AI Actions:** Analyze supporting artifacts for Validate Forward Lineage, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Validate Forward Lineage outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Confirm every upstream artifact is represented downstream.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_END_TO_END
 
 ---
 
-### 🟥 STEP 07 — Validate Reverse Navigation
+### 🟥 [STEP 07 — Validate Reverse Navigation](./Steps/Step-07/)
 **Tagline:** Make failures explainable
 
 **Actions**
@@ -188,15 +188,15 @@ CDD_TRACEABILITY_END_TO_END
 * **🟥 AI Actions:** Analyze supporting artifacts for Validate Reverse Navigation, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Validate Reverse Navigation outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Confirm any failure can be traced back to source intent.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_REVERSE_NAVIGATION
 
 ---
 
-### 🟥 STEP 08 — Detect Orphan Artifacts
+### 🟥 [STEP 08 — Detect Orphan Artifacts](./Steps/Step-08/)
 **Tagline:** Reject ungoverned work
 
 **Actions**
@@ -204,15 +204,15 @@ CDD_TRACEABILITY_REVERSE_NAVIGATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Detect Orphan Artifacts, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Detect Orphan Artifacts outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Identify requirements, invariants, constraints, tests, or code without lineage.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_TRACEABILITY_NO_ORPHANS, CDD_CONSTRAINT_NON_ORPHAN, CDD_TEST_NO_ORPHANS
 
 ---
 
-### 🟥 STEP 09 — Build Impact Paths
+### 🟥 [STEP 09 — Build Impact Paths](./Steps/Step-09/)
 **Tagline:** Expose change routes
 
 **Actions**
@@ -220,15 +220,15 @@ CDD_TRACEABILITY_NO_ORPHANS, CDD_CONSTRAINT_NON_ORPHAN, CDD_TEST_NO_ORPHANS
 * **🟥 AI Actions:** Analyze supporting artifacts for Build Impact Paths, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Build Impact Paths outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Create navigation paths showing what must be revalidated when upstream meaning changes.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 
 ---
 
-### 🟦 STEP 10 — Publish Traceability Report
+### 🟦 [STEP 10 — Publish Traceability Report](./Steps/Step-10/)
 **Tagline:** Record lineage integrity
 
 **Actions**
@@ -236,21 +236,21 @@ CDD_CHANGE_DOWNSTREAM_RECOMPILATION
 * **🟥 AI Actions:** Analyze supporting artifacts for Publish Traceability Report, update structured outputs, and surface gaps.
 * **🟦 Human Actions:** Review Publish Traceability Report outputs, resolve domain decisions, and approve the outcome.
 
-**Description:**  
+**Description:**
 Produce the authoritative traceability evidence for governance.
 
-**Associated Invariants:**  
+**Associated Invariants:**
 CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 ---
 
 ## Exit Criteria
 
-- Full requirement-to-code traceability exists  
-- No orphan artifacts remain  
-- Stable IDs are present and navigable  
-- Reverse navigation works from failure to intent  
-- Ready for coverage and closure revalidation  
+- Full requirement-to-code traceability exists
+- No orphan artifacts remain
+- Stable IDs are present and navigable
+- Reverse navigation works from failure to intent
+- Ready for coverage and closure revalidation
 
 ---
 
@@ -258,6 +258,3 @@ CDD_GOVERNANCE_EVIDENCE_REQUIRED
 
 This phase proves that every behavior-bearing artifact has lineage,
 so failures, changes, and proofs can always be traced back to intent.
-
-
-

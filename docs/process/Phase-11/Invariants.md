@@ -9,8 +9,7 @@ No changed system state may be treated as valid until downstream artifacts are r
 
 ---
 
-## Step 01 - Submit Change Request
-
+## [Step 01 - Submit Change Request](./Steps/Step-01/)
 **CDD_P11_CHANGE_REQUEST_REQUIRED**
 Change must be captured as a governed change request before downstream artifacts are altered.
 
@@ -25,8 +24,7 @@ Unrecorded edits to downstream artifacts must not grant change authority.
 
 ---
 
-## Step 02 - Classify Impact
-
+## [Step 02 - Classify Impact](./Steps/Step-02/)
 **CDD_P11_IMPACT_CLASSIFICATION_REQUIRED**
 Each change must be classified by the upstream layer it affects.
 
@@ -44,8 +42,7 @@ Ambiguous impact must block downstream patching until clarified.
 
 ---
 
-## Step 03 - Update Upstream Source
-
+## [Step 03 - Update Upstream Source](./Steps/Step-03/)
 **CDD_P11_UPSTREAM_UPDATE_REQUIRED**
 Behavioral change must originate in requirements, invariants, glossary, or another governing upstream artifact.
 
@@ -63,8 +60,7 @@ Conflicts introduced by upstream change must be detected and governed.
 
 ---
 
-## Step 04 - Re-Lower Affected Artifacts
-
+## [Step 04 - Re-Lower Affected Artifacts](./Steps/Step-04/)
 **CDD_P11_RELOWERING_REQUIRED**
 Affected artifacts must be re-lowered through the CDD pipeline.
 
@@ -82,8 +78,7 @@ Artifacts that cannot be re-lowered cleanly must be recorded as gaps.
 
 ---
 
-## Step 05 - Regenerate Constraints, Tests, and Code
-
+## [Step 05 - Regenerate Constraints, Tests, and Code](./Steps/Step-05/)
 **CDD_P11_REGENERATION_REQUIRED**
 Affected constraints, contracts, tests, doubles, and code must be regenerated or reconformed from updated upstream authority.
 
@@ -104,8 +99,7 @@ Regeneration must produce evidence of affected artifacts and unchanged artifacts
 
 ---
 
-## Step 06 - Submit Regenerated Artifacts
-
+## [Step 06 - Submit Regenerated Artifacts](./Steps/Step-06/)
 **CDD_P11_REGENERATED_ARTIFACT_REVIEW_REQUIRED**
 Regenerated artifacts must re-enter the appropriate governance gates.
 
@@ -120,8 +114,7 @@ Any artifact not regenerated despite impact must be recorded as an exception.
 
 ---
 
-## Step 07 - Revalidate Closure and Coverage
-
+## [Step 07 - Revalidate Closure and Coverage](./Steps/Step-07/)
 **CDD_P11_CLOSURE_REVALIDATION_REQUIRED**
 Closure must be revalidated after upstream change and re-lowering.
 
@@ -139,8 +132,7 @@ Revalidation gaps, failures, and exceptions must be visible.
 
 ---
 
-## Step 08 - Detect Stale Artifacts and Drift
-
+## [Step 08 - Detect Stale Artifacts and Drift](./Steps/Step-08/)
 **CDD_P11_STALE_ARTIFACT_DETECTION_REQUIRED**
 Phase 11 must detect artifacts whose upstream authority changed without regeneration.
 
@@ -158,8 +150,7 @@ Retired or superseded artifacts must be marked and traceable.
 
 ---
 
-## Step 09 - Publish Change Report
-
+## [Step 09 - Publish Change Report](./Steps/Step-09/)
 **CDD_P11_PUBLICATION_REQUIRED**
 An authoritative change report must be published.
 
