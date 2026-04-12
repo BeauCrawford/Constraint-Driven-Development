@@ -85,7 +85,7 @@ Translate invariants into executable rules.
 
 ---
 
-## Phase 5 — Contract & Boundary Definition
+## [Phase 5 — Contract & Boundary Definition](Phase-05.md)
 
 ### Objective
 Externalize interaction semantics.
@@ -103,7 +103,7 @@ Externalize interaction semantics.
 
 ---
 
-## Phase 6 — Test Generation (Proof Construction)
+## [Phase 6 — Test Generation (Proof Construction)](Phase-06.md)
 
 ### Objective
 Compile constraints into executable proof.
@@ -121,7 +121,7 @@ Compile constraints into executable proof.
 
 ---
 
-## Phase 7 — Simulation & Boundary Validation
+## [Phase 7 — Simulation & Boundary Validation](Phase-07.md)
 
 ### Objective
 Prove behavior in isolation.
