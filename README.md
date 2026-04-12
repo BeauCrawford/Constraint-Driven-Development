@@ -107,36 +107,83 @@ They:
 
 ---
 
-## **The Process**
+## **[The Process](./docs/process/README.md)**
 
-### **1. Define Requirements**
-- Structured, explicit, glossary-grounded  
-- No narrative ambiguity  
+### **Intent Closure**
 
-### **2. Extract Invariants**
-- Minimal, non-redundant, exhaustive  
-- Independent of implementation  
+*Tagline: Make meaning explicit before anything becomes executable.*
 
-### **3. Measure Semantic Closure**
+#### **1. [Requirement Formation](./docs/process/Phase-01.md)**
+- Define glossary-grounded requirements  
+- Assign unique IDs  
+- Declare scope, assumptions, and conflicts  
+
+#### **2. [Invariant Extraction](./docs/process/Phase-02.md)**
+- Convert intent into irreducible truths  
+- Remove redundancy and implementation bias  
+- Capture forbidden states  
+
+#### **3. [Semantic Closure Validation](./docs/process/Phase-03.md)**
 - Ensure invariants fully cover requirements  
-- Iterate until closure is high  
+- Detect gaps, overlap, drift, or unauthorized additions  
+- Record closure evidence  
 
-### **4. Derive Constraints**
-- Assign **unique IDs**  
-- Encode allowed / forbidden / edge behavior  
+### **Proof Construction**
 
-### **5. Generate Tests**
-- Positive, negative, boundary, failure  
-- Deterministic (no agents at runtime)  
-- Mapped to constraint IDs  
+*Tagline: Compile closed meaning into rules, contracts, and deterministic proof.*
 
-### **6. Prove Green in Isolation**
-- Use contract-driven test doubles  
-- Validate boundary behavior first  
+#### **4. [Constraint Derivation](./docs/process/Phase-04.md)**
+- Derive executable rules from invariants  
+- Assign **unique CONSTRAINT_IDs**  
+- Define positive, negative, boundary, and failure semantics  
 
-### **7. Generate Code**
-- Make tests pass  
-- No invention, only conformance  
+#### **5. [Contract & Boundary Definition](./docs/process/Phase-05.md)**
+- Define isolated interface and contract packages  
+- Align interaction rules with constraints  
+- Eliminate side-channel behavior  
+
+#### **6. [Test Generation (Proof Construction)](./docs/process/Phase-06.md)**
+- Generate deterministic tests from constraints  
+- Map tests to CONSTRAINT_IDs  
+- Cover positive, negative, boundary, and failure cases  
+
+### **Admitted Implementation**
+
+*Tagline: Prove the boundary first, then allow code to exist.*
+
+#### **7. [Simulation & Boundary Validation](./docs/process/Phase-07.md)**
+- Generate test doubles from contracts  
+- Prove boundary behavior in isolation  
+- Validate interactions and failure modes  
+
+#### **8. [Code Generation / Implementation](./docs/process/Phase-08.md)**
+- Generate or implement code to satisfy tests  
+- Bind implementation to contracts  
+- Avoid unproven behavior  
+
+### **Continuity Governance**
+
+*Tagline: Preserve lineage, closure, and authority as the system changes.*
+
+#### **9. [Traceability Verification](./docs/process/Phase-09.md)**
+- Validate Requirement → Invariant → Constraint → Test → Code lineage  
+- Ensure stable IDs  
+- Verify reverse navigation  
+
+#### **10. [Coverage & Closure Revalidation](./docs/process/Phase-10.md)**
+- Measure semantic coverage  
+- Revalidate closure across all layers  
+- Detect gaps and drift  
+
+#### **11. [Change & Recompilation](./docs/process/Phase-11.md)**
+- Apply changes at the requirement or invariant level  
+- Recompute downstream artifacts  
+- Regenerate constraints, tests, and code  
+
+#### **12. [Governance & Enforcement](./docs/process/Phase-12.md)**
+- Enforce entry and exit gates  
+- Require proof for authority  
+- Track and reconcile exceptions  
 
 ---
 
